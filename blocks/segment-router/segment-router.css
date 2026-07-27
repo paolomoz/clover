@@ -79,3 +79,37 @@
   line-height: 1.5;
   color: var(--back-office);
 }
+
+/* the router's section IS the captured deep-green pricing hero (#012906):
+   the block paints its own section, default-content hero copy included */
+main .section.segment-router-container {
+  background-color: var(--hero-deep);
+  color: var(--counter-white);
+  text-align: center;
+}
+
+main .section.segment-router-container .default-content-wrapper {
+  padding-top: var(--section-padding);
+}
+
+main .section.segment-router-container h1 {
+  max-width: 900px;
+  margin-inline: auto;
+  color: var(--counter-white);
+  text-wrap: balance;
+}
+
+main .section.segment-router-container h1 + p {
+  font-size: clamp(18px, 2vw, 25px);
+  font-weight: 500;
+  color: var(--counter-white);
+}
+
+main .section.segment-router-container .default-content-wrapper p {
+  color: var(--counter-white);
+}
+
+main .section.segment-router-container em {
+  font-size: var(--body-font-size-s);
+  color: rgb(255 255 255 / 85%);
+}
