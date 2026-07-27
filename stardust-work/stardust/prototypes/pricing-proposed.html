@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><!-- stardust:provenance
+  writtenBy:         stardust:prototype (re-render under re-direct 2026-07-26: per-page captured generation)
+  writtenAt:         2026-07-26T10:50:00Z
+  page:              pricing
+  pageUrl:           https://www.clover.com/pricing
+  againstDirection:  stardust/direction.md (Active 2026-07-26T09:00:00Z — per-page captured generation; F-002 user-overridden)
+  readArtifacts:
+    - stardust/prototypes/pricing-shape.md (+ re-direct addendum)
+    - DESIGN.md
+    - DESIGN.json
+    - stardust/current/pages/pricing.json
+    - stardust/current/_brand-extraction.json
+    - stardust/current/_pricing-faq.json
+    - stardust/current/_media-gapfill.json
+  divergenceVersion: v1.0 (stardust v2)
+  fontDeck:          brand-inherited (classic generation: Altform headings local woff2 + Graphik)
+  paletteSource:     inherited from _brand-extraction.json (captured pricing hero ground #012906 restored; router icons gap-filled 2026-07-26)
+  unsourcedContent:  []
+  fidelity:          quick
+  sequenceNote:      prior prototype's consultation-above-tools move (improvements #1 sequence exception) REVERTED under the 2026-07-26 re-direct — captured order restored (hero+router, tools, consultation, faq, device-band). Anchor prices (audit F-001 fix) KEPT.
+  anchorPriceScrape: 2026-07-23 live via Playwright (headless, 1440x900) — all 6 captured /pricing/* router targets sourced; zero placeholders shipped:
+    - { segment: restaurant,               source: "https://www.clover.com/pricing/restaurant",               scraped: "$179/mo for 36 months (Starter; or $1,799 + $89.95/mo)" }
+    - { segment: quick-service-restaurant, source: "https://www.clover.com/pricing/quick-service-restaurant", scraped: "$135/mo for 36 months (Starter; or $849 + $89.95/mo)" }
+    - { segment: retail,                   source: "https://www.clover.com/pricing/retail",                   scraped: "$16/mo for 36 months (Basic; or $349)" }
+    - { segment: professional-services,    source: "https://www.clover.com/pricing/professional-services",    scraped: "$0/mo (Starter software plan)" }
+    - { segment: personal-services,        source: "https://www.clover.com/pricing/personal-services",        scraped: "$16/mo for 36 months (Basic; or $349)" }
+    - { segment: home-field-services,      source: "https://www.clover.com/pricing/home-field-services",      scraped: "$29.95/mo (Starter: $0 hardware + $29.95/mo software)" }
+  designHookNotes:   font-size literals 13/15/18px are captured-classic values under the 2026-07-26 per-page-generation direction; hero ground #012906 is the CAPTURED pricing hero color (measured rgb(1,41,6)) — palette addition recorded in DESIGN.json colorMeta. 36px price numeral: the variant the user accepted in impeccable live session 837645b3 (variant 1, price-scale knob at 1) — pending chat confirmation before any persisted hook ignore; flagged by design-system-font-size until then.
+  liveIteration:     2026-07-27 session 837645b3 — segment-router cards replaced with the accepted "receipt tile" variant (price-first: 36px Altform price numeral over dashed hairline rule, 40px icon + 18px Altform label header row); params baked (dividers=dashed, price-scale=1); carbonized into page CSS, scaffolding removed.
+  stardustVersion:   0.10.0
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clover POS System Pricing and Cost</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta name="description" content="Explore Clover's POS system pricing options and find the perfect plan for your business needs. Make one-time or monthly payments. Learn more.">
+<meta property="og:title" content="Clover POS System Pricing and Cost">
+<meta property="og:description" content="Explore Clover's POS system pricing options and find the perfect plan for your business needs. Make one-time or monthly payments. Learn more.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.clover.com/pricing">
+<meta property="og:site_name" content="Clover">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "name": "Clover Network, LLC",
+   "url": "https://www.clover.com",
+   "logo": "https://cloverstatic.com/content/icons/web/favicons/android-chrome-192x192.png",
+   "sameAs": [
+    "https://www.facebook.com/CloverPOS",
+    "https://x.com/clover",
+    "https://www.instagram.com/clover",
+    "https://www.youtube.com/clover",
+    "https://www.linkedin.com/company/clover-network"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "name": "Clover",
+   "url": "https://www.clover.com/"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is a Clover Subscription?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A subscription is a simple way to obtain the point-of-sale system you need to run your business with no money down, and it includes a warranty and easy upgrade options. Payment processing fees are not included and will be priced separately.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I cancel my subscription?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Subscriptions are non-cancelable and ineligible for refunds. However, a subscription agreement can be broken during a buyout or upgrade situation. You have the option to upgrade to a different device or a newer version of the same device. Subscriptions can be paid off at any time."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "When do I get my first bill?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "You will have 30-60 days before your first payment is due. Any partial month that occurs before the first bill will be pro-rated to fit existing billing cycles."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What happens at the end of my subscription?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "At the end of your subscription term, you have the option to purchase or return your equipment. If you do not choose one of these options, your subscription term will be extended at the same monthly charge.If you don’t want to continue to rent the equipment on a month-to-month basis after your subscription ends, you’ll need to inform Clover at least 30 days before the end of the subscription term and state whether you’ll be returning or purchasing your equipment (price will be provided upon receipt of the notification)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is included with full warranty vs. a limited warranty or Clover Care?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A subscription comes with Equipment Protection Program, a full warranty covering a broad scope of defects and accidental damage.* Hardware and accessories are covered for theft or loss throughout the life of the subscription contract.If you purchase POS hardware without a subscription, it will come with a limited warranty covering manufacturer defects for one year. We recommend adding Clover Care for a low upfront cost to protect your hardware and have peace of mind against damages.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What is a Clover system?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "With Clover, there is no “one size fits all” system. You select the right combination of hardware and software solutions to help you run your business better. All of our devices come with built-in software to help you accept payments, offer customer rewards, manage employee schedules, and more. You’ll also have access to hundreds of business management software apps in the Clover App Market that integrate seamlessly with your devices. We’re here to support you every step of the way – 24/7."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are the monthly fees and credit card processing rates?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Clover merchants can expect to pay a monthly software fee plus processing rates per transaction. We offer Starter, Standard, and Advanced software/hardware plans. Fees vary depending on your business type. Click on the tile at the top of the page that best describes your business to view packages and pricing.Our credit card processing rates consist of a transaction fee, which is a percentage of the amount charged, and a flat fee per charge (for example: 1.0% + 10¢). Credit card processing rates also come in pairs, meaning there is an “in-person” fee where the card is presented at your POS card reader, and a slightly higher “typed-in” fee for transactions (for example: 2.0% + 10¢) where the card is not present, like an online sale or phone order."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why are you asking me to choose a business type above?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Clover understands that each business is unique. That’s why we help you select the right combination of hardware and software solutions tailored to your individual business needs. Whether you need to accept payments, manage employees, track inventory, book appointments, and much more, Clover can help you run your business the way you need to.Not fitting into one of our defined business types? No problem. Contact sales to help you learn more about the solutions that works best for you."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "I saw Clover for a different price. Can you match it?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Each one of our Clover partners strives to provide merchants with the best plans and pricing for their individual business needs. However, there are other entities, found on eBay and elsewhere, advertising Clover at low prices despite not being genuine Clover partners. Such offers should be approached with caution. While Clover POS devices may be purchased or leased from other entities, they cannot be used with other payment processors.Clover is sold by leading financial institutions such as Citi, PNC, and Wells Fargo. You can also find Clover hardware at trusted retailers including Restaurant Depot and Sam’s Club. More than 1,000 other financial institution partners also sell Clover solutions in the US."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are there any termination fees?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Contract terms and any termination fees can vary based on your service provider, whether Clover Direct or among our trusted partners including Citi, PNC and Wells Fargo, or from more than 3,000 other financial institution partners that also sell Clover solutions in the US."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How will Clover help my business grow?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No matter the type or size of your business, Clover offers solutions that can grow alongside you. Whether you start off in a food truck and expand to several brick-and-mortar locations, or you take your goods from in-store to online, or you go from no employees to 10 team members, we have the hardware, software, and staff to support you along your journey to success."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I still subscribe to Clover if I don’t have a device?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, the Clover Virtual Terminal gives you the convenience of processing payments – and refunds – by logging into your Clover Web Dashboard from a smartphone, tablet, or computer."
+     }
+    }
+   ]
+  }
+ ]
+}
+</script>
+<style>
+:root {
+  /* Classic-generation type deck (captured interior surface): Altform headings / Graphik workhorse */
+  --heading-font-family: altform, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --body-font-family: Graphik, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --heading-xl: 56px;
+  --heading-lg: 40px;
+  --heading-md: 24px;
+  --heading-sm: 20px;
+  --body: 16px;
+  --body-sm: 15px;
+  --line-height-heading: 1.1;
+  --line-height-body: 1.5;
+  --color-bg: #ffffff;
+  --color-fg: #000000;
+  --color-accent: #228800;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 96px;
+  --section-padding: 64px;
+  --max-width: 1158px;      /* captured classic container */
+  --radius: 8px;
+  --content-pad: max(24px, calc((100vw - 1158px) / 2)); /* aligns copy to the container while media bleeds to the window edge */
+  --color-forest: #004400;
+  --color-pine: #004422;
+  --color-green: #228800;
+  --color-alt: #f8f8f8;
+  --color-back-office: #333333;
+  --color-hairline: #dcdcdc;
+  --color-hero-deep: #012906; /* captured pricing hero ground (measured rgb(1,41,6)) */
+}
+
+/* Fonts — captured private cuts; Altform from the local mirror, Graphik from cloverstatic */
+@font-face { font-family: altform; font-weight: 400; font-style: normal; font-display: swap; src: url('../current/assets/fonts/Altform-Regular-8c191c.woff2') format('woff2'); }
+@font-face { font-family: altform; font-weight: 600; font-style: normal; font-display: swap; src: url('../current/assets/fonts/Altform-SemiBold-cf6aa2.woff2') format('woff2'); }
+@font-face { font-family: altform; font-weight: 700; font-style: normal; font-display: swap; src: url('../current/assets/fonts/Altform-Bold-1dce51.woff2') format('woff2'); }
+@font-face { font-family: 'Graphik'; font-weight: 400; font-style: normal; font-display: swap; src: url('https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2') format('woff2'); }
+@font-face { font-family: 'Graphik'; font-weight: 500; font-style: normal; font-display: swap; src: url('https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2') format('woff2'); }
+
+/* ============ Base ============ */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font-family: var(--body-font-family); font-size: var(--body); line-height: var(--line-height-body); color: var(--color-fg); background: var(--color-bg); }
+img, video { display: block; max-width: 100%; }
+img { height: auto; }
+a { color: inherit; }
+p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3 { margin: 0; }
+.container { max-width: var(--max-width); margin-inline: auto; padding-inline: var(--spacing-lg); }
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--color-bg); color: var(--color-fg); padding: var(--spacing-sm) var(--spacing-md); z-index: 100; }
+.skip-link:focus { left: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Classic heading roles */
+.h-display { font-family: var(--heading-font-family); font-weight: 400; font-size: clamp(40px, 5vw, var(--heading-xl)); line-height: var(--line-height-heading); }
+.h-section { font-family: var(--heading-font-family); font-weight: 400; font-size: clamp(32px, 4vw, var(--heading-lg)); line-height: var(--line-height-heading); color: var(--color-pine); }
+
+/* Classic buttons */
+.btn { display: inline-block; font-family: var(--body-font-family); font-size: var(--body); font-weight: 500; line-height: 1.2; text-decoration: none; border-radius: var(--radius); padding: 14px 28px; }
+.btn-primary { background: var(--color-green); color: #ffffff; }
+.btn-primary:hover { background: var(--color-forest); }
+.btn-secondary { background: #ffffff; color: var(--color-green); border: 1px solid var(--color-green); }
+.btn-secondary:hover { background: var(--color-alt); }
+.btn-compact { padding: 10px 18px; font-size: var(--body-sm); }
+.btn:focus-visible { outline: 2px solid var(--color-forest); outline-offset: 2px; }
+
+/* ============ Offer strip (captured; F-012 adjacency) ============ */
+.offer-strip { background: var(--color-green); color: #ffffff; }
+.offer-strip .container { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--spacing-xs) var(--spacing-lg); padding-block: var(--spacing-sm); }
+.offer-strip .offer { font-size: var(--body-sm); }
+.offer-strip .offer b { font-weight: 600; }
+.offer-strip .key-terms { font-size: 13px; color: #ffffff; }
+
+/* ============ Header — canon structure, classic commercial pair (F-008 kept) ============ */
+header[data-section="header"] { position: sticky; top: 0; z-index: 50; }
+.site-header { background: var(--color-bg); }
+.site-header .container { display: flex; align-items: center; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-lg); min-height: 72px; padding-block: var(--spacing-sm); }
+.site-header .logo-link { display: inline-flex; margin-right: var(--spacing-sm); }
+.nav-primary, .nav-utility { display: flex; align-items: center; flex-wrap: wrap; gap: var(--spacing-xs) var(--spacing-lg); }
+.nav-primary a, .nav-utility a:not(.btn) { font-size: var(--body-sm); font-weight: 500; text-decoration: none; color: var(--color-fg); padding-block: var(--spacing-xs); }
+.nav-primary a:hover, .nav-utility a:not(.btn):hover { color: var(--color-green); }
+.nav-utility { margin-left: auto; }
+.commercial-pair { display: flex; align-items: center; gap: var(--spacing-sm); }
+
+/* ============ Hero — captured deep-green ground with the 6-card segment router inside ============ */
+.hero { background: var(--color-hero-deep); color: #ffffff; }
+.hero .hero-copy { text-align: center; padding-block: var(--section-padding) var(--spacing-xl); }
+.hero h1 { max-width: 900px; text-wrap: balance; margin-inline: auto; }
+.hero .rate { font-size: clamp(18px, 2vw, 25px); font-weight: 500; margin-top: var(--spacing-lg); }
+.hero .fine { font-style: italic; font-size: var(--body-sm); color: rgba(255, 255, 255, 0.85); margin-top: var(--spacing-sm); }
+.hero .router-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-lg); padding-bottom: var(--section-padding); }
+/* Receipt-tile router cards — accepted in live session 837645b3 (params baked: dividers=dashed, price-scale=1) */
+.router-card { display: grid; gap: var(--spacing-md); align-content: start; background: #ffffff; color: var(--color-fg); border: 1px solid var(--color-hairline); border-radius: var(--radius); padding: var(--spacing-lg); text-decoration: none; }
+.router-card:hover, .router-card:focus-visible { outline: 2px solid var(--color-green); outline-offset: 2px; }
+.rc1-top { display: flex; align-items: center; gap: var(--spacing-md); }
+.rc1-top img { width: 40px; height: 40px; }
+.rc1-label { font-family: var(--heading-font-family); font-weight: 400; font-size: 18px; line-height: 1.2; color: var(--color-pine); }
+.rc1-price { display: block; border-top: 1px dashed var(--color-hairline); padding-top: var(--spacing-md); }
+.rc1-price b { display: block; font-family: var(--heading-font-family); font-weight: 400; font-size: 36px; line-height: 1.1; color: var(--color-forest); }
+.rc1-price small { display: block; margin-top: var(--spacing-xs); font-size: 13px; line-height: 1.5; color: var(--color-back-office); }
+
+/* ============ Built-in tools — captured 3 cards ============ */
+.card-section { padding-block: var(--section-padding); background: var(--color-bg); }
+.card-section h2 { max-width: 20ch; margin-bottom: var(--spacing-xl); }
+.card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--spacing-lg); }
+.card { display: grid; gap: var(--spacing-md); align-content: start; background: #ffffff; border: 1px solid var(--color-hairline); border-radius: var(--radius); overflow: hidden; }
+.card img { width: 100%; aspect-ratio: 850 / 500; object-fit: cover; }
+.card .card-body { padding: 0 var(--spacing-lg) var(--spacing-lg); display: grid; gap: var(--spacing-sm); }
+.card h3 { font-family: var(--heading-font-family); font-weight: 400; font-size: var(--heading-sm); line-height: 1.25; color: var(--color-pine); }
+.card p { font-size: var(--body-sm); color: var(--color-back-office); }
+.card .card-link { font-size: var(--body-sm); font-weight: 500; color: var(--color-green); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ============ Consultation — captured alt-ground split ============ */
+.consultation { padding-block: var(--section-padding); background: var(--color-alt); }
+.consultation .container { max-width: none; padding: 0; }
+.consultation .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(min(600px, 50%), 1fr); gap: var(--spacing-xl); align-items: center; }
+.consultation .consult-copy { padding-left: var(--content-pad); }
+.consultation h2 { max-width: 16ch; }
+.consultation .consult-copy { display: grid; gap: var(--spacing-lg); justify-items: start; }
+.consultation .consult-copy > p { color: var(--color-back-office); max-width: 52ch; }
+.consultation .always { font-weight: 500; color: var(--color-fg); }
+.consultation .call-now { display: grid; gap: var(--spacing-xs); }
+.consultation .call-now .call-label { font-size: var(--body); }
+.consultation .call-now a { font-family: var(--heading-font-family); font-weight: 400; font-size: clamp(32px, 4vw, 40px); line-height: 1.1; text-decoration: none; color: var(--color-green); }
+.consultation .call-now a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.consultation img { border-radius: var(--radius) 0 0 var(--radius); width: 100%; object-fit: cover; }
+
+/* ============ FAQ — classic accordion (green circled +/- left, borderless rows) ============ */
+.faq { padding-block: var(--section-padding); background: var(--color-bg); }
+.faq h2 { margin-bottom: var(--spacing-xl); }
+.faq details { margin-bottom: var(--spacing-md); }
+.faq summary { cursor: pointer; list-style: none; display: flex; align-items: baseline; gap: var(--spacing-md); padding-block: var(--spacing-sm); font-size: 18px; font-weight: 500; line-height: 1.3; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::before { content: "+"; flex: none; display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 26px; border: 1.5px solid var(--color-green); border-radius: 50%; color: var(--color-green); font-size: 18px; line-height: 1; align-self: center; }
+.faq details[open] summary::before { content: "\2212"; }
+.faq summary:hover { color: var(--color-green); }
+.faq .answer { max-width: 40em; color: var(--color-back-office); padding: var(--spacing-sm) 0 var(--spacing-md) 42px; }
+.faq .answer p { margin-bottom: var(--spacing-md); }
+.faq .answer p:last-child { margin-bottom: 0; }
+.faq .answer a { color: var(--color-green); }
+
+/* ============ Device band — captured alt ground ============ */
+.device-band { background: var(--color-alt); padding-block: var(--section-padding) 0; }
+.device-band .band-copy { text-align: center; display: grid; gap: var(--spacing-lg); justify-items: center; margin-bottom: var(--spacing-xl); }
+.device-band h2 { max-width: 18ch; }
+.device-band .band-copy p { color: var(--color-back-office); max-width: 52ch; }
+.device-band .band-media img { width: 100%; }
+
+/* ============ Footer — classic generation ============ */
+.site-footer { background: var(--color-bg); padding-block: var(--section-padding) var(--spacing-xl); }
+.site-footer .wordmark { margin-bottom: var(--spacing-xl); display: inline-flex; }
+.footer-columns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--spacing-xl) var(--spacing-lg); }
+.footer-columns h2 { font-family: var(--heading-font-family); font-weight: 400; font-size: var(--heading-md); line-height: 1.25; color: var(--color-green); margin-bottom: var(--spacing-md); }
+.footer-columns li { margin-bottom: var(--spacing-sm); }
+.footer-columns a { font-size: var(--body-sm); color: var(--color-back-office); text-decoration: none; }
+.footer-columns a:hover { color: var(--color-green); text-decoration: underline; }
+.footer-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--spacing-md) var(--spacing-lg); margin-top: var(--spacing-2xl); }
+.footer-meta .locale { font-size: var(--body-sm); color: var(--color-back-office); }
+.footer-social { display: flex; align-items: center; gap: var(--spacing-md); margin-left: auto; }
+.footer-legal { margin-top: var(--spacing-xl); }
+.footer-legal p { font-size: 13px; line-height: 1.6; max-width: 76em; color: var(--color-back-office); margin-bottom: var(--spacing-md); }
+.footer-legal .legal-links { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-lg); margin-top: var(--spacing-lg); }
+.footer-legal .legal-links a { font-size: 13px; color: var(--color-back-office); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ============ Cinematics — captured entrance reveals, CSS scroll-driven, progressive ============ */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .card-section h2,
+    .consultation h2,
+    .faq h2,
+    .device-band h2,
+    .card,
+    .router-card {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+    .card-grid .card:nth-child(2), .hero .router-grid .router-card:nth-child(2), .hero .router-grid .router-card:nth-child(5) { animation-range: entry 10% entry 70%; }
+    .card-grid .card:nth-child(3), .hero .router-grid .router-card:nth-child(3), .hero .router-grid .router-card:nth-child(6) { animation-range: entry 20% entry 80%; }
+    @keyframes rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  }
+}
+
+/* ============ Responsive ============ */
+@media (max-width: 1024px) {
+  .hero .router-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .consultation .split { grid-template-columns: 1fr; }
+  .consultation .consult-copy { padding-inline: var(--spacing-lg); }
+  .consultation img { border-radius: 0; }
+}
+@media (max-width: 640px) {
+  header[data-section="header"] { position: static; }
+  .hero .router-grid { grid-template-columns: 1fr; }
+  .card-grid { grid-template-columns: 1fr; }
+  .footer-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer-social { margin-left: 0; }
+}
+</style>
+</head>
+<body data-template="landing">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<section class="offer-strip" data-section="offer-strip" data-intent="cross-promo" data-layout="edge-to-edge">
+  <div class="container">
+    <p class="offer"><b>ONLINE ONLY OFFER:</b> Get $450 statement credit when you buy Station, Mini or Flex*</p>
+    <p class="key-terms">Key terms: subject to approval, including credit approval; requires a 3-year contract*</p>
+  </div>
+</section>
+
+<header data-section="header" data-intent="navigate + commercial pair" data-layout="full-width" data-canon>
+  <div class="site-header">
+    <div class="container">
+      <a class="logo-link" href="/" aria-label="Clover">
+        <img src="../current/assets/logo.svg" alt="Clover" width="164" height="40" style="height:32px;width:auto" loading="eager" fetchpriority="high">
+      </a>
+      <nav class="nav-primary" aria-label="Vertical markets">
+        <a href="#">Restaurants</a>
+        <a href="#">Services</a>
+        <a href="#">Retail</a>
+        <a href="#">Healthcare</a>
+        <a href="#">Products</a>
+        <a href="#">Resources</a>
+      </nav>
+      <nav class="nav-utility" aria-label="Utility">
+        <a href="/dashboard/login">Log In</a>
+        <a href="/en-US/help">Help Center</a>
+        <a href="/pricing">Pricing</a>
+        <span class="commercial-pair">
+          <a class="btn btn-secondary btn-compact" href="/shop">Shop systems</a>
+          <a class="btn btn-primary btn-compact" href="https://sales.clover.com/connect">Contact sales</a>
+        </span>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" data-section="hero" data-intent="value proposition + drive action + self-qualification" data-layout="edge-to-edge" data-items="6">
+    <div class="container">
+      <div class="hero-copy">
+        <h1 class="h-display">Find the right solution to power your business</h1>
+        <p class="rate">Pay as little as 2.3% + 10&cent; per transaction</p>
+        <p class="fine">Prices shown are only available on Clover.com.</p>
+      </div>
+        <div class="router-grid" data-section="segment-router" data-intent="drive action + self-qualification" data-layout="grid" data-items="6">
+          <a class="router-card rc1" href="/pricing/restaurant">
+            <span class="rc1-top"><img src="../current/assets/media/icon-full-service-dining.svg" alt="" width="40" height="40" loading="eager"><span class="rc1-label">Full service dining</span></span>
+            <span class="rc1-price"><b>$179/mo</b><small> for 36 months (Starter; or $1,799 + $89.95/mo)</small></span>
+          </a>
+          <a class="router-card rc1" href="/pricing/quick-service-restaurant">
+            <span class="rc1-top"><img src="../current/assets/media/icon-quick-service-dining.svg" alt="" width="40" height="40" loading="eager"><span class="rc1-label">Quick‑service restaurant</span></span>
+            <span class="rc1-price"><b>$135/mo</b><small> for 36 months (Starter; or $849 + $89.95/mo)</small></span>
+          </a>
+          <a class="router-card rc1" href="/pricing/retail">
+            <span class="rc1-top"><img src="../current/assets/media/icon-retail-shops.svg" alt="" width="40" height="40" loading="eager"><span class="rc1-label">Retail shops</span></span>
+            <span class="rc1-price"><b>$16/mo</b><small> for 36 months (Basic; or $349)</small></span>
+          </a>
+          <a class="router-card rc1" href="/pricing/professional-services">
+            <span class="rc1-top"><img src="../current/assets/media/icon-professional-office-services.svg" alt="" width="40" height="40" loading="eager"><span class="rc1-label">Professional services</span></span>
+            <span class="rc1-price"><b>$0/mo</b><small> (Starter software plan)</small></span>
+          </a>
+          <a class="router-card rc1" href="/pricing/personal-services">
+            <span class="rc1-top"><img src="../current/assets/media/icon-health-professional-services.svg" alt="" width="40" height="40" loading="eager"><span class="rc1-label">Personal services</span></span>
+            <span class="rc1-price"><b>$16/mo</b><small> for 36 months (Basic; or $349)</small></span>
+          </a>
+          <a class="router-card rc1" href="/pricing/home-field-services">
+            <span class="rc1-top"><img src="../current/assets/media/icon-home-services.svg" alt="" width="40" height="40" loading="eager"><span class="rc1-label">Home &amp; field services</span></span>
+            <span class="rc1-price"><b>$29.95/mo</b><small> (Starter: $0 hardware + $29.95/mo software)</small></span>
+          </a>
+        </div>
+    </div>
+  </section>
+
+  <section class="card-section" data-section="built-in-tools" data-intent="value proposition" data-layout="grid" data-items="3">
+    <div class="container">
+      <h2 class="h-section">Every Clover system has business built-in tools</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="../current/assets/media/Clover_Payments_01-66f3e2.jpg" alt="Merchant taking a card payment on a Clover device" width="850" height="500" loading="lazy">
+          <div class="card-body">
+            <h3>Get paid faster</h3>
+            <p>Ready to go and simple to use, start taking payments in person, over the phone, online–which ever way your customers want to pay.</p>
+            <a class="card-link" href="/pos-systems/accept-payments">Payments</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../current/assets/media/Clover_Payments_02-d1e340.jpg" alt="Business owner reviewing reports on the Clover dashboard" width="850" height="500" loading="lazy">
+          <div class="card-body">
+            <h3>Run your business</h3>
+            <p>Stay on top of your performance with analytics tools that deliver real-time reports, track key metrics, and provide insights.</p>
+            <a class="card-link" href="/pos-systems/business-tracking-reporting">Tracking &amp; reporting</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../current/assets/media/Clover_Payments_03-460713.jpg" alt="Customer joining a loyalty program on a Clover screen" width="850" height="500" loading="lazy">
+          <div class="card-body">
+            <h3>Engage your customers</h3>
+            <p>Bring customers back with more of what they love–inspiring rewards, valuable promotions, and open lines of communication.</p>
+            <a class="card-link" href="/pos-systems/customer-engagement">Customer loyalty</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="consultation" data-section="consultation" data-intent="assisted-sales reassurance" data-layout="split-media">
+    <div class="container">
+      <div class="split">
+        <div class="consult-copy">
+          <h2 class="h-section">Let&rsquo;s work together to find the right system for your business</h2>
+          <p>Our business consultants are available in person or by phone to help you find the right system. We’ll help you get up and running, and then we’re available 24/7/365 for troubleshooting and support.</p>
+          <p class="always">We’re here to help—always.</p>
+          <div class="call-now">
+            <span class="call-label">Call now</span>
+            <a href="tel:+18442911950">(844) 291-1950</a>
+          </div>
+          <a class="btn btn-primary" href="/contact/connect-to-sales">Schedule a call</a>
+        </div>
+        <img src="../current/assets/media/woman-on-phone-and-laptop-78a157.webp" alt="Woman at a counter on the phone with a laptop" width="1400" height="950" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" data-section="faq" data-intent="answer objections" data-layout="stack" data-items="12" data-interactive="accordion">
+    <div class="container">
+      <h2 class="h-section">Frequently Asked Questions</h2>
+      <details open>
+        <summary>What is a Clover Subscription?</summary>
+        <div class="answer">
+          <p>A subscription is a simple way to obtain the point-of-sale system you need to run your business with no money down, and it includes a warranty and easy upgrade options. Payment processing fees are not included and will be priced separately.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Can I cancel my subscription?</summary>
+        <div class="answer">
+          <p>Subscriptions are non-cancelable and ineligible for refunds. However, a subscription agreement can be broken during a buyout or upgrade situation. You have the option to upgrade to a different device or a newer version of the same device. Subscriptions can be paid off at any time.</p>
+        </div>
+      </details>
+      <details>
+        <summary>When do I get my first bill?</summary>
+        <div class="answer">
+          <p>You will have 30-60 days before your first payment is due. Any partial month that occurs before the first bill will be pro-rated to fit existing billing cycles.</p>
+        </div>
+      </details>
+      <details>
+        <summary>What happens at the end of my subscription?</summary>
+        <div class="answer">
+          <p>At the end of your subscription term, you have the option to purchase or return your equipment. If you do not choose one of these options, your subscription term will be extended at the same monthly charge.If you don’t want to continue to rent the equipment on a month-to-month basis after your subscription ends, you’ll need to inform Clover at least 30 days before the end of the subscription term and state whether you’ll be returning or purchasing your equipment (price will be provided upon receipt of the notification).</p>
+        </div>
+      </details>
+      <details>
+        <summary>What is included with full warranty vs. a limited warranty or Clover Care?</summary>
+        <div class="answer">
+          <p>A subscription comes with Equipment Protection Program, a full warranty covering a broad scope of defects and accidental damage.* Hardware and accessories are covered for theft or loss throughout the life of the subscription contract.If you purchase POS hardware without a subscription, it will come with a limited warranty covering manufacturer defects for one year. We recommend adding Clover Care for a low upfront cost to protect your hardware and have peace of mind against damages.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states.</p>
+        </div>
+      </details>
+      <details>
+        <summary>What is a Clover system?</summary>
+        <div class="answer">
+          <p>With Clover, there is no “one size fits all” system. You select the right combination of hardware and software solutions to help you run your business better. All of our devices come with built-in software to help you accept payments, offer customer rewards, manage employee schedules, and more. You’ll also have access to hundreds of business management software apps in the Clover App Market that integrate seamlessly with your devices. We’re here to support you every step of the way – 24/7.</p>
+        </div>
+      </details>
+      <details>
+        <summary>What are the monthly fees and credit card processing rates?</summary>
+        <div class="answer">
+          <p>Clover merchants can expect to pay a monthly software fee plus processing rates per transaction. We offer Starter, Standard, and Advanced software/hardware plans. Fees vary depending on your business type. Click on the tile at the top of the page that best describes your business to view packages and pricing.Our credit card processing rates consist of a transaction fee, which is a percentage of the amount charged, and a flat fee per charge (for example: 1.0% + 10¢). Credit card processing rates also come in pairs, meaning there is an “in-person” fee where the card is presented at your POS card reader, and a slightly higher “typed-in” fee for transactions (for example: 2.0% + 10¢) where the card is not present, like an online sale or phone order.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Why are you asking me to choose a business type above?</summary>
+        <div class="answer">
+          <p>Clover understands that each business is unique. That’s why we help you select the right combination of hardware and software solutions tailored to your individual business needs. Whether you need to accept payments, manage employees, track inventory, book appointments, and much more, Clover can help you run your business the way you need to.Not fitting into one of our defined business types? No problem. Contact sales to help you learn more about the solutions that works best for you.</p>
+        </div>
+      </details>
+      <details>
+        <summary>I saw Clover for a different price. Can you match it?</summary>
+        <div class="answer">
+          <p>Each one of our Clover partners strives to provide merchants with the best plans and pricing for their individual business needs. However, there are other entities, found on eBay and elsewhere, advertising Clover at low prices despite not being genuine Clover partners. Such offers should be approached with caution. While Clover POS devices may be purchased or leased from other entities, they cannot be used with other payment processors.Clover is sold by leading financial institutions such as Citi, PNC, and Wells Fargo. You can also find Clover hardware at trusted retailers including Restaurant Depot and Sam’s Club. More than 1,000 other financial institution partners also sell Clover solutions in the US.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Are there any termination fees?</summary>
+        <div class="answer">
+          <p>Contract terms and any termination fees can vary based on your service provider, whether Clover Direct or among our trusted partners including Citi, PNC and Wells Fargo, or from more than 3,000 other financial institution partners that also sell Clover solutions in the US.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How will Clover help my business grow?</summary>
+        <div class="answer">
+          <p>No matter the type or size of your business, Clover offers solutions that can grow alongside you. Whether you start off in a food truck and expand to several brick-and-mortar locations, or you take your goods from in-store to online, or you go from no employees to 10 team members, we have the hardware, software, and staff to support you along your journey to success.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Can I still subscribe to Clover if I don’t have a device?</summary>
+        <div class="answer">
+          <p>Yes, the Clover Virtual Terminal gives you the convenience of processing payments – and refunds – by logging into your Clover Web Dashboard from a smartphone, tablet, or computer.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <section class="device-band" data-section="device-band" data-intent="drive action" data-layout="split-media">
+    <div class="container">
+      <div class="band-copy">
+        <h2 class="h-section">Want to purchase a device with Clover?</h2>
+        <p>It&rsquo;s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you&rsquo;re ready.</p>
+        <a class="btn btn-primary" href="https://sales.clover.com/connect">Contact sales<span class="sr-only"> — Explore POS offerings for your business</span></a>
+      </div>
+      <div class="band-media">
+        <img src="../current/assets/media/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_-c33740.webp" alt="Solo, Mini and Flex devices displaying the order and sale details on the screens" width="1760" height="450" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer data-section="footer" data-intent="navigate" data-layout="mega" data-canon>
+  <div class="site-footer">
+    <div class="container">
+      <a class="wordmark" href="/" aria-label="Clover">
+        <!-- inlined stardust/current/assets/logo-dark-green.svg (dark-green wordmark) -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="115" height="28" viewBox="0 0 115 28" role="img" aria-label="Clover">
+          <g fill="#004400">
+            <path d="M47.3,18.9c-2.2,2.6-4.8,3.6-7.4,3.6-4.9,0-8.8-3.5-8.8-8.1s3.7-8.1,8.6-8.1,5.2,1,7.4,3.6l-3.3,2.3c-1.2-1.7-2.5-2.3-4.1-2.3-2.5,0-4.6,2-4.6,4.5s2.2,4.5,4.8,4.5,3-.7,4.2-2.2l3.2,2.2Z"/>
+            <path d="M49.1,0h4.1v22.2h-4.1V0Z"/>
+            <path d="M64,6.3c4.9,0,8.8,3.5,8.8,8.1s-3.9,8.1-8.8,8.1-8.9-3.5-8.9-8.1,3.9-8.1,8.9-8.1ZM64,19.1c2.6,0,4.9-2.1,4.9-4.7s-2.3-4.7-4.9-4.7-4.9,2.1-4.9,4.7,2.3,4.7,4.9,4.7Z"/>
+            <path d="M72.2,6.6h4.8l3.9,8.3,4.2-8.3h4.4l-8.6,16.5-8.7-16.5Z"/>
+            <path d="M103.7,20.4c-1.6,1.3-3.7,2.1-6,2.1-4.9,0-8.9-3.5-8.9-8.1s3.6-8.1,8.5-8.1,8.1,3.5,8.1,8.1v1.2h-12.5c.6,2.1,2.6,3.5,4.8,3.5s2.5-.4,3.6-1.5l2.4,2.9ZM101.2,12.3c-.6-1.4-2-2.5-3.8-2.5s-3.3,1-4.1,2.5h7.9Z"/>
+            <path d="M107.5,13.5c0-3.7,2.8-6.8,7.5-6.8v3.6c-2,0-3.4,1.2-3.4,3.7v8.2h-4.1v-8.7Z"/>
+            <path d="M12.7,7.3c0-3.5-2.8-6.3-6.3-6.3S0,3.8,0,7.3s2.8,6.3,6.3,6.3h6.3v-6.3Z"/>
+            <path d="M14.4,7.3c0-3.5,2.8-6.3,6.3-6.3s6.3,2.8,6.3,6.3-2.8,6.3-6.3,6.3h-6.3v-6.3Z"/>
+            <path d="M14.4,21.6c0,3.5,2.8,6.3,6.3,6.3s6.3-2.8,6.3-6.3-2.8-6.3-6.3-6.3h-6.3v6.3Z"/>
+            <path d="M12.7,21.6c0,3.5-2.8,6.3-6.3,6.3S0,25.1,0,21.6s2.8-6.3,6.3-6.3h6.3v6.3ZM6.3,26.2c2.5,0,4.6-2,4.6-4.5v-4.5h-4.6c-2.5,0-4.6,2-4.6,4.5s2,4.5,4.6,4.5Z"/>
+          </g>
+        </svg>
+      </a>
+      <div class="footer-columns">
+        <nav aria-labelledby="footer-take-payments">
+          <h2 id="footer-take-payments">Take payments</h2>
+          <ul>
+            <li><a href="/shop">Card readers and POS devices</a></li>
+            <li><a href="/pos-systems">Point of sale system</a></li>
+            <li><a href="/pos-systems/ecommerce">Online ordering and sales</a></li>
+            <li><a href="/pos-systems/accept-payments">Payment processing</a></li>
+            <li><a href="/pos-solutions/invoicing">Invoicing</a></li>
+            <li><a href="/pos-systems/virtual-terminal">Virtual Terminal</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-run-your-business">
+          <h2 id="footer-run-your-business">Run your business</h2>
+          <ul>
+            <li><a href="/pos-systems/business-tracking-reporting">Tracking and reporting</a></li>
+            <li><a href="/pos-systems/online-ordering-inventory">Inventory management</a></li>
+            <li><a href="/financial-solutions/clover-capital">Clover Capital</a></li>
+            <li><a href="/financial-solutions/rapid-deposit">Rapid Deposit</a></li>
+            <li><a href="/pos-systems/employees">Employee management</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-sell-more">
+          <h2 id="footer-sell-more">Sell more</h2>
+          <ul>
+            <li><a href="/pos-systems/customer-engagement">Customer engagement</a></li>
+            <li><a href="/pos-systems/gift-cards">Gift cards</a></li>
+            <li><a href="/pos-systems/apps">Apps and integrations</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-business-types">
+          <h2 id="footer-business-types">Business types</h2>
+          <ul>
+            <li><a href="/pos-solutions/food-beverage/m/full-service">Restaurants</a></li>
+            <li><a href="/pos-solutions/retail">Retail stores</a></li>
+            <li><a href="/pos-solutions/service-businesses">Service businesses</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-hardware-devices">
+          <h2 id="footer-hardware-devices">Hardware devices</h2>
+          <ul>
+            <li><a href="/go">Go</a></li>
+            <li><a href="/compact">Compact</a></li>
+            <li><a href="/flex-pocket">Flex Pocket</a></li>
+            <li><a href="/flex">Flex</a></li>
+            <li><a href="/mini">Mini</a></li>
+            <li><a href="/station-solo">Station Solo</a></li>
+            <li><a href="/station-duo">Station Duo</a></li>
+            <li><a href="/kiosk">Kiosk</a></li>
+            <li><a href="/kitchen-display-system">Kitchen Display System</a></li>
+            <li><a href="/pos/accessories">Accessories</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-help">
+          <h2 id="footer-help">Help</h2>
+          <ul>
+            <li><a href="/help">Help center</a></li>
+            <li><a href="/resources/faqs">FAQ</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/pos-systems/clover-care">Clover Care</a></li>
+            <li><a href="https://sales.clover.com/connect">Contact sales</a></li>
+            <li><a href="/small-business-resources">Small Business Resources</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-about">
+          <h2 id="footer-about">About</h2>
+          <ul>
+            <li><a href="https://blog.clover.com/">Blog</a></li>
+            <li><a href="/case-studies">Case studies</a></li>
+            <li><a href="https://careers.fiserv.com/">Careers</a></li>
+            <li><a href="/resources/intellectual-property">Intellectual property</a></li>
+            <li><a href="https://referrals.clover.com/refer-to-clover/">Referrals</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-integrations">
+          <h2 id="footer-integrations">Integrations</h2>
+          <ul>
+            <li><a href="/developers">Developers</a></li>
+            <li><a href="/appmarket">App market</a></li>
+            <li><a href="https://integrate.clover.com/">Clover Connect</a></li>
+            <li><a href="/pos/integration-services">Integration services</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-meta">
+        <span class="locale">United States (English)</span>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/clovercommerce"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/3su4eO3VkW4IRyy5kBLZuj/9adc96c4fa1ebfb63c869ce6137282c3/Vector__1_.svg" alt="Facebook green icon" width="21" height="21" loading="lazy"></a>
+          <a href="https://x.com/clovercommerce"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/j7RTGINxoqhE9qnFwzPN1/f0227859a2c8901345253c87b5f1a4a1/Vector__3_.svg" alt="X icon green" width="22" height="21" loading="lazy"></a>
+          <a href="https://www.instagram.com/clovercommerce/"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/4953Bl9xV483Rnn6e4MAdX/fcd48acdf8252602ef4c83f76d0bbe94/Vector.svg" alt="Instagram icon green" width="21" height="21" loading="lazy"></a>
+          <a href="https://www.youtube.com/c/clover/featured"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/6Tigq10tY4qhDBN2AZ4V1J/a83250d62e6863944764d2397dbd0d59/icon-youtube.svg" alt="youtube icon green" width="22" height="15" loading="lazy"></a>
+          <a href="https://www.linkedin.com/company/clovernetwork"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/p9QjeEJvsXEgD9d446pNn/0be807b59d96dabc94571b69ffb28297/Vector__5_.svg" alt="Linkedin icon green" width="22" height="21" loading="lazy"></a>
+          <a href="https://github.com/clover"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/1fnjDnnAWbN1awAbi2A053/a99c60cff770f4fccba48c5301a32cfd/Vector__4_.svg" alt="Github icon green" width="22" height="21" loading="lazy"></a>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <p>&copy; 2026 Clover Network, LLC</p>
+        <p>*Clover Hardware Promotion available for new Clover Business Solutions merchants who have not previously had a Clover account or processed with First Data Merchant Solutions LLC. Clover accounts are subject to approval, including credit approval. Selecting a Clover point-of-sale credit card processing device does not convey or guarantee approval. Offer is valid only for purchases that include at least one of the following devices: Flex, Flex Pocket, Mini, Station Solo, or Station Duo. Clover devices are only shipped after the application is approved. To be eligible, merchant must: (1) apply for the account through our the online Clover website shopping experience, (2) purchase a Clover Hardware or Software Subscription, (3) be credit approved no later than 1/31/27, (4) activate account by submitting a batch of $25 or more in sales within 30 calendar days from approval date, (5) Processing $10,000 or greater in card transactions within the first four billing cycles. Additional fees may apply to certain Clover apps, services or activated accounts. Promotional offer excludes Payeezy. Eligibility is determined at our sole discretion. Limit of one reward per business relationship, regardless of the number of business locations. Offer is not valid with any other offer and is subject to change without notice. Requires a 3-year contract. All other terms and conditions apply. Offer expires December 31, 2026.</p>
+        <p>&dagger;Clover Software Promotional offer valid from 3/5/2026 through 9/5/2026 for qualified merchants of selected business types. New accounts require standard credit approval and underwriting. Eligible merchants receive no SaaS subscription fees during the 90-day trial of the Clover Essentials or Services Growth plan. The trial runs for 90 consecutive calendar days and cannot be paused or extended. After the 90-day trial, standard Essentials or Services Growth plans monthly fees apply. If the trial ends mid&#8209;month, billing will be prorated, and any unused charges will be credited if the service is canceled before the trial ends. A merchant is eligible for only one free trial during their lifecycle. Limit one offer per business tax ID. Eligibility is determined solely by First Data Merchant Services LLC.</p>
+        <p>HIPAA compliance applies to Clover PracticePay&trade; powered by Rectangle Health.</p>
+        <p>The Clover name and logo are registered trademarks owned by Clover Network, LLC. All trademarks, service marks, and trade names referenced in this material are the property of their respective owners.</p>
+        <ul class="legal-links">
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/accessibility">Accessibility</a></li>
+          <li><a href="/">Do Not Sell My Information</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

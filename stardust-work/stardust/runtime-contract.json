@@ -1,0 +1,11 @@
+{
+  "runtime": "vanilla-eds",
+  "vintage": "current main (2026)",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "wrapTextNodes": true,
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "stockBlocks": ["cards", "columns", "footer", "fragment", "header", "hero", "widget"]
+}

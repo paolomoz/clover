@@ -1,0 +1,2439 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-07-23T06:21:55.290Z",
+    "readArtifacts": [
+      "https://www.clover.com/pricing"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-07-23T06:21:55.290Z",
+    "waitMode": "slow",
+    "waitMs": 8780,
+    "httpStatus": 200,
+    "contentType": "text/html",
+    "heroSource": "dom"
+  },
+  "slug": "pricing",
+  "url": "https://www.clover.com/pricing",
+  "finalUrl": "https://www.clover.com/pricing",
+  "title": "Clover POS System Pricing and Cost",
+  "metaDescription": "Explore Clover's POS system pricing options and find the perfect plan for your business needs. Make one-time or monthly payments. Learn more.",
+  "heroHeadline": "Find the right solution to power your business",
+  "heroLede": "Find the right solution to power your business",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null,
+    "siteName": null
+  },
+  "themeColor": {
+    "light": "#000000",
+    "dark": null
+  },
+  "language": "en-US",
+  "headings": [
+    {
+      "level": 1,
+      "text": "Find the right solution to power your business",
+      "id": "find-the-right-solution-to-power-your-business",
+      "domPath": "h1#find-the-right-solution-to-power-your-business",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "letterSpacing": "-0.456px",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 4,
+      "text": "Pay as little as 2.3% + 10¢ per transactionPrices shown are only available on Clover.com.",
+      "id": null,
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--DefaultTitle_solution-picker-module__hero__y2qgj > h4.mAZF70It--MarkdownWrapper_wrapper__g8p+g.mAZF70It--TextV2_h4__kXQHy",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Every Clover system has business built-in tools",
+      "id": "every-clover-system-has-business-built-in-tools",
+      "domPath": "h2#every-clover-system-has-business-built-in-tools",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "letterSpacing": "-1px",
+        "color": "rgb(0, 68, 0)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Get paid faster",
+      "id": "get-paid-faster",
+      "domPath": "h2#get-paid-faster",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Run your business",
+      "id": "run-your-business",
+      "domPath": "h2#run-your-business",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Engage your customers",
+      "id": "engage-your-customers",
+      "domPath": "h2#engage-your-customers",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "24px",
+        "lineHeight": "32px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Let’s work together to find the right system for your business",
+      "id": "let-s-work-together-to-find-the-right-system-for-your-business",
+      "domPath": "h2#let-s-work-together-to-find-the-right-system-for-your-business",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "letterSpacing": "-1px",
+        "color": "rgb(0, 68, 0)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Call now",
+      "id": null,
+      "domPath": "section.mAZF70It--SalesContactModule_sales-contact-module__gZIXa > div.MuiContainer-root.jss1 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--SalesContactModule_sales-contact-module__content-grid__LnHHO > div.mAZF70It--SalesContactModule_sales-contact-module__content__jS6E4 > h3.mAZF70It--MarkdownWrapper_wrapper__g8p+g.mAZF70It--TextV2_body__Xdl6h",
+      "style": {
+        "fontFamily": "graphik, sans-serif",
+        "fontWeight": 400,
+        "fontSize": "16px",
+        "lineHeight": "28px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Frequently Asked Questions",
+      "id": "frequently-asked-questions",
+      "domPath": "h2#frequently-asked-questions",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "letterSpacing": "-1px",
+        "color": "rgb(0, 68, 0)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "What is a Clover Subscription?",
+      "id": null,
+      "domPath": "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.0 > h3.mAZF70It--TextV2_h5__cCblM.mAZF70It--FaqModule_faq-module__question__wU+ui",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "32px",
+        "lineHeight": "40px",
+        "letterSpacing": "-1px",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "Can I cancel my subscription?",
+      "id": null,
+      "domPath": "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.1 > h3.mAZF70It--TextV2_h5__cCblM.mAZF70It--FaqModule_faq-module__question__wU+ui",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "32px",
+        "lineHeight": "40px",
+        "letterSpacing": "-1px",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "level": 3,
+      "text": "When do I get my first bill?",
+      "id": null,
+      "domPath": "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.2 > h3.mAZF70It--TextV2_h5__cCblM.mAZF70It--FaqModule_faq-module__question__wU+ui",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "32px",
+        "lineHeight": "40px",
+        "letterSpacing": "-1px",
+        "color": "rgb(0, 0, 0)"
+      }
+    },
+    {
+      "level": 2,
+      "text": "Want to purchase a device with Clover?",
+      "id": "want-to-purchase-a-device-with-clover",
+      "domPath": "h2#want-to-purchase-a-device-with-clover",
+      "style": {
+        "fontFamily": "altform, sans-serif",
+        "fontWeight": 300,
+        "fontSize": "56px",
+        "lineHeight": "64px",
+        "letterSpacing": "-1px",
+        "color": "rgb(0, 68, 0)"
+      }
+    }
+  ],
+  "landmarks": [
+    {
+      "tag": "header",
+      "role": "banner",
+      "id": null,
+      "classes": [
+        "mAZF70It--NavBar_nav-bar__3Kd0R"
+      ],
+      "innerText": "Restaurants Services Retail Healthcare Products Resources Log In Log in to your dashboard Help Center Connect with help center Pricing Learn more about device pricing Shop systems Contact sales Connect with a sales team professional",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "RestaurantsServicesRetailHealthcareProductsResourcesLog InLog in to your dashboardHelp CenterConnect with help centerPricingLearn more about device pricingShop systemsContact salesConnect with a sales team professionalCart",
+          "wordCount": 21,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [
+        "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA"
+      ],
+      "innerText": "Restaurants Services Retail Healthcare Products Resources",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--NavBar_nav-bar__logo__4EG0U"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "",
+          "wordCount": 0,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-items__BIY15",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "RestaurantsServicesRetailHealthcareProductsResources",
+          "wordCount": 1,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [
+        "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d"
+      ],
+      "innerText": "Log In Log in to your dashboard Help Center Connect with help center Pricing Learn more about device pricing Shop systems Contact sales Connect with a sales team professional",
+      "children": [
+        {
+          "tag": "a",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--TextV2_nav__uOg1I",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Log InLog in to your dashboard",
+          "wordCount": 6,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "a",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--TextV2_nav__uOg1I",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Help CenterConnect with help center",
+          "wordCount": 5,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "a",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--TextV2_nav__uOg1I",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "PricingLearn more about device pricing",
+          "wordCount": 5,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "a",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--TextV2_nav__uOg1I",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Shop systems",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "a",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--Button_with-button-theme__65PpL",
+            "mAZF70It--Button_light__WvRrx",
+            "mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Contact salesConnect with a sales team professional",
+          "wordCount": 7,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "a",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--CartLink_cart-link__4Mxc-"
+          ],
+          "purpose": "unknown",
+          "headlineRef": null,
+          "innerTextSummary": "Cart",
+          "wordCount": 1,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "main",
+      "role": "main",
+      "id": "main",
+      "classes": [
+        "mAZF70It--App_main__dwl8D",
+        "mAZF70It--App_has-header-top__QVr2+",
+        "mAZF70It--App_is-v2__Hshkt"
+      ],
+      "innerText": "Find the right solution to power your business Pay as little as 2.3% + 10¢ per transaction Prices shown are only available on Clover.com. Full service dining Compare pricing plan for full service dining Quick‑service restaurant Learn more about quick-service restaurants Retail shops Compare pricing plans for retail shops Professional services Compare pricing plans for professional service businesses Personal services Compare pricing plans for personal service businesses Home & field services Compare pricing plans for home and field service businesses Every Clover system has business built-in tools Learn more about accepting payments Get paid faster Ready to go and simple to use, start taking payments in person, over the phone, online–which ever way your customers want to pay. Payments Learn more about accepting payments Discover tracking and reporting tools Run your business Stay on top of your performance with analytics tools that deliver real-time reports, track key metrics, and provide insights. Tracking & reporting Discover tracking and reporting tools Explore customer loyalty for your business Engage your customers Bring customers back with more of what they love–inspiring rewards, valuable promotions, and open lines of communication. Customer loyalty Explore customer loyalty for your business Let’s work together to find the right system for your business Our business consultants are available in person or by phone to help you find the right system. We’ll help you get up and running, and then we’re available 24/7/365 for troubleshooting and support. We’re here to help—always. Call now (844) 291-1950 Connect with a sales team professional Schedule a call Connect with a sales team professional Frequently Asked Questions What is a Clover Subscription? Can I cancel my subscription? When do I get my first bill? What happens at the end of my subscription? What is included with full warranty vs. a limited warranty or Clover Care? What is a Clover system? What are the monthly fees and credit card processing rates? Why are you asking me to choose a business type above? I saw Clover for a different price. Can you match it? Are there any termination fees? How will Clover help my business grow? Can I still subscribe to Clover if I don’t have a device? Yes, the Clover Virtual Terminal gives you the convenience of processing payments – and refunds – by logging into your Clover Web Dashboard from a smartphone, tablet, or computer. View More FAQs Want to purchase a device with Clover? It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready. Contact sales Explore POS offerings for your business",
+      "children": [
+        {
+          "tag": "article",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--PageAssembly_page-assembly__aXcs6",
+            "mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep"
+          ],
+          "purpose": "hero",
+          "headlineRef": 0,
+          "innerTextSummary": "Find the right solution to power your businessPay as little as 2.3% + 10¢ per transactionPrices shown are only available on Clover.com.Full service diningCompare pricing plan for full service diningQuick‑service restaurantLearn more about q",
+          "wordCount": 1226,
+          "body": [
+            "Find the right solution to power your business",
+            "Pay as little as 2.3% + 10¢ per transaction",
+            "Prices shown are only available on Clover.com.",
+            "Full service dining",
+            "Quick‑service restaurant",
+            "Retail shops",
+            "Professional services",
+            "Personal services",
+            "Home & field services",
+            "Every Clover system has business built-in tools",
+            "Get paid faster",
+            "Ready to go and simple to use, start taking payments in person, over the phone, online–which ever way your customers want to pay.",
+            "Run your business",
+            "Stay on top of your performance with analytics tools that deliver real-time reports, track key metrics, and provide insights.",
+            "Engage your customers",
+            "Bring customers back with more of what they love–inspiring rewards, valuable promotions, and open lines of communication.",
+            "Let’s work together to find the right system for your business",
+            "Our business consultants are available in person or by phone to help you find the right system. We’ll help you get up and running, and then we’re available 24/7/365 for troubleshooting and support.",
+            "We’re here to help—always.",
+            "Call now",
+            "Frequently Asked Questions",
+            "Yes, the Clover Virtual Terminal gives you the convenience of processing payments – and refunds – by logging into your Clover Web Dashboard from a smartphone, tablet, or computer.",
+            "It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready."
+          ],
+          "lists": [],
+          "qa": [
+            {
+              "q": "What is a Clover Subscription?",
+              "a": "A subscription is a simple way to obtain the point-of-sale system you need to run your business with no money down, and it includes a warranty and easy upgrade options. Payment processing fees are not included and will be priced separately.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states."
+            },
+            {
+              "q": "Can I cancel my subscription?",
+              "a": "Subscriptions are non-cancelable and ineligible for refunds. However, a subscription agreement can be broken during a buyout or upgrade situation. You have the option to upgrade to a different device or a newer version of the same device. Subscriptions can be paid off at any time."
+            },
+            {
+              "q": "When do I get my first bill?",
+              "a": "You will have 30-60 days before your first payment is due. Any partial month that occurs before the first bill will be pro-rated to fit existing billing cycles."
+            },
+            {
+              "q": "What happens at the end of my subscription?",
+              "a": "At the end of your subscription term, you have the option to purchase or return your equipment. If you do not choose one of these options, your subscription term will be extended at the same monthly charge.If you don’t want to continue to rent the equipment on a month-to-month basis after your subscription ends, you’ll need to inform Clover at least 30 days before the end of the subscription term and state whether you’ll be returning or purchasing your equipment (price will be provided upon receipt of the notification)."
+            },
+            {
+              "q": "What is included with full warranty vs. a limited warranty or Clover Care?",
+              "a": "A subscription comes with Equipment Protection Program, a full warranty covering a broad scope of defects and accidental damage.* Hardware and accessories are covered for theft or loss throughout the life of the subscription contract.If you purchase POS hardware without a subscription, it will come with a limited warranty covering manufacturer defects for one year. We recommend adding Clover Care for a low upfront cost to protect your hardware and have peace of mind against damages.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states."
+            },
+            {
+              "q": "What is a Clover system?",
+              "a": "With Clover, there is no “one size fits all” system. You select the right combination of hardware and software solutions to help you run your business better. All of our devices come with built-in software to help you accept payments, offer customer rewards, manage employee schedules, and more. You’ll also have access to hundreds of business management software apps in the Clover App Market that integrate seamlessly with your devices. We’re here to support you every step of the way – 24/7."
+            },
+            {
+              "q": "What are the monthly fees and credit card processing rates?",
+              "a": "Clover merchants can expect to pay a monthly software fee plus processing rates per transaction. We offer Starter, Standard, and Advanced software/hardware plans. Fees vary depending on your business type. Click on the tile at the top of the page that best describes your business to view packages and pricing.Our credit card processing rates consist of a transaction fee, which is a percentage of the amount charged, and a flat fee per charge (for example: 1.0% + 10¢). Credit card processing rates also come in pairs, meaning there is an “in-person” fee where the card is presented at your POS card reader, and a slightly higher “typed-in” fee for transactions (for example: 2.0% + 10¢) where the card is not present, like an online sale or phone order."
+            },
+            {
+              "q": "Why are you asking me to choose a business type above?",
+              "a": "Clover understands that each business is unique. That’s why we help you select the right combination of hardware and software solutions tailored to your individual business needs. Whether you need to accept payments, manage employees, track inventory, book appointments, and much more, Clover can help you run your business the way you need to.Not fitting into one of our defined business types? No problem. Contact sales to help you learn more about the solutions that works best for you."
+            },
+            {
+              "q": "I saw Clover for a different price. Can you match it?",
+              "a": "Each one of our Clover partners strives to provide merchants with the best plans and pricing for their individual business needs. However, there are other entities, found on eBay and elsewhere, advertising Clover at low prices despite not being genuine Clover partners. Such offers should be approached with caution. While Clover POS devices may be purchased or leased from other entities, they cannot be used with other payment processors.Clover is sold by leading financial institutions such as Citi, PNC, and Wells Fargo. You can also find Clover hardware at trusted retailers including Restaurant Depot and Sam’s Club. More than 1,000 other financial institution partners also sell Clover solutions in the US."
+            },
+            {
+              "q": "Are there any termination fees?",
+              "a": "Contract terms and any termination fees can vary based on your service provider, whether Clover Direct or among our trusted partners including Citi, PNC and Wells Fargo, or from more than 3,000 other financial institution partners that also sell Clover solutions in the US."
+            },
+            {
+              "q": "How will Clover help my business grow?",
+              "a": "No matter the type or size of your business, Clover offers solutions that can grow alongside you. Whether you start off in a food truck and expand to several brick-and-mortar locations, or you take your goods from in-store to online, or you go from no employees to 10 team members, we have the hardware, software, and staff to support you along your journey to success."
+            },
+            {
+              "q": "Can I still subscribe to Clover if I don’t have a device?",
+              "a": "Yes, the Clover Virtual Terminal gives you the convenience of processing payments – and refunds – by logging into your Clover Web Dashboard from a smartphone, tablet, or computer."
+            }
+          ],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "footer",
+      "role": "contentinfo",
+      "id": null,
+      "classes": [
+        "mAZF70It--Footer_footer__PxxIj"
+      ],
+      "innerText": "Take payments Card readers and POS devices Learn more about card readers and POS devices Point of sale system Learn more about POS systems Online ordering and sales Learn more about eCommerce solutions Payment processing Learn more about accepting payments Invoicing Learn more about invoicing Virtual Terminal Learn more about Virtual Terminal Run your business Tracking and reporting Explore tracking and reporting tools Inventory management Explore inventory management tools Clover Capital Learn more about Clover Capital Rapid Deposit Learn more about rapid deposit Employee management Learn about employee management tools Sell more Customer engagement Explore customer engagement tools Gift cards Learn more about gift cards Apps and integrations Learn more about apps and integrations Business types Restaurants Learn more about Clover for restaurants Retail stores Discover Clover for retail stores Service businesses Service businesses Hardware devices Go Learn more about Go Compact Learn more about the clover compact Flex Pocket Learn more about the Flex Pocket Flex Learn more about Clover Flex Mini Learn more about Mini Station Solo Learn more about Station Solo Station Duo Learn more about Station Duo Kiosk Learn more about Kiosk Kitchen Display System Explore Kitchen Display System Accessories Explore accessories for Clover devices Pricing Learn more about device pricing Help Help center Explore resources for help FAQ Read POS frequently asked questions Contact us Connect with a sales team professional Clover Care Learn more about Clover Care Contact sales Connect with a sales team professional Small Business Resources About Blog Explore Clover Blog Case studies Careers Discover careers at Clover Intellectual property Learn more about intellectual property and Clover patents Referrals Learn more about referral partnerships Integrations Developers Discover Clover for developers App market Explore Clover app market Clover Connect Learn more about Clover Connect Integration services Explore integration service providers United States (English) Facebook Connect to Twitterx Connect to Instagram Connect to YouTube Connect to LinkedIn Connect to Github © 2026 Clover Network, LLC *Clover Hardware Promotion available for new Clover Business Solutions merchants who have not previously had a Clover account or processed with First Data Merchant Solutions LLC. Clover accounts are subject to approval, including credit approval. Selecting a Clover point-of-sale credit card processing device does not convey or guarantee approval. Offer is valid only for purchases that include at least one of the following devices: Flex, Flex Pocket, Mini, Station Solo, or Station Duo. Clover devices are only shipped after the application is approved. To be eligible, merchant must: (1) apply for the account through our the online Clover website shopping experience, (2) purchase a Clover Hardware or Software Subscription, (3) be credit approved no later than 1/31/27, (4) activate account by submitting a batch of $25 or more in sales within 30 calendar days from approval date, (5) Processing $10,000 or greater in card transactions within the first four billing cycles. Additional fees may apply to certain Clover apps, services or activated accounts. Promotional offer excludes Payeezy. Eligibility is determined at our sole discretion. Limit of one reward per business relationship, regardless of the number of business locations. Offer is not valid with any other offer and is subject to change without notice. Requires a 3-year contract. All other terms and conditions apply. Offer expires December 31, 2026. †Clover Software Promotional offer valid from 3/5/2026 through 9/5/2026 for qualified merchants of selected business types. New accounts require standard credit approval and underwriting. Eligible merchants receive no SaaS subscription fees during the 90-day trial of the Clover Essentials or Services Growth plan. The trial runs for 90 consecutive calendar days and cannot be paused or extended. After the 90-day trial, standard Essentials or Services Growth plans monthly fees apply. If the trial ends mid‑month, billing will be prorated, and any unused charges will be credited if the service is canceled before the trial ends. A merchant is eligible for only one free trial during their lifecycle. Limit one offer per business tax ID. Eligibility is determined solely by First Data Merchant Services LLC. HIPAA compliance applies to Clover PracticePay™ powered by Rectangle Health. The Clover name and logo are registered trademarks owned by Clover Network, LLC. All trademarks, service marks, and trade names referenced in this material are the property of their respective owners. Terms Read Clover terms and conditions Privacy Policy Read Clover privacy notice Accessibility Read Clover accessibility statement Do Not Sell My Information Learn more about privacy policies",
+      "children": [
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "MuiContainer-root",
+            "jss1",
+            "MuiContainer-maxWidthXl"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Take paymentsCard readers and POS devicesLearn more about card readers and POS devicesPoint of sale systemLearn more about POS systemsOnline ordering and salesLearn more about eCommerce solutionsPayment processingLearn more about accepting ",
+          "wordCount": 208,
+          "body": [],
+          "lists": [
+            {
+              "ordered": false,
+              "items": [
+                "Card readers and POS devicesLearn more about card readers and POS devices",
+                "Point of sale systemLearn more about POS systems",
+                "Online ordering and salesLearn more about eCommerce solutions",
+                "Payment processingLearn more about accepting payments",
+                "InvoicingLearn more about invoicing",
+                "Virtual TerminalLearn more about Virtual Terminal"
+              ]
+            },
+            {
+              "ordered": false,
+              "items": [
+                "Tracking and reportingExplore tracking and reporting tools",
+                "Inventory managementExplore inventory management tools",
+                "Clover CapitalLearn more about Clover Capital",
+                "Rapid DepositLearn more about rapid deposit",
+                "Employee managementLearn about employee management tools"
+              ]
+            },
+            {
+              "ordered": false,
+              "items": [
+                "Customer engagementExplore customer engagement tools",
+                "Gift cardsLearn more about gift cards",
+                "Apps and integrationsLearn more about apps and integrations"
+              ]
+            },
+            {
+              "ordered": false,
+              "items": [
+                "Restaurants Learn more about Clover for restaurants",
+                "Retail storesDiscover Clover for retail stores",
+                "Service businessesService businesses"
+              ]
+            },
+            {
+              "ordered": false,
+              "items": [
+                "GoLearn more about Go",
+                "CompactLearn more about the clover compact",
+                "Flex PocketLearn more about the Flex Pocket",
+                "FlexLearn more about Clover Flex",
+                "MiniLearn more about Mini",
+                "Station SoloLearn more about Station Solo",
+                "Station DuoLearn more about Station Duo",
+                "KioskLearn more about Kiosk",
+                "Kitchen Display SystemExplore Kitchen Display System",
+                "AccessoriesExplore accessories for Clover devices",
+                "PricingLearn more about device pricing"
+              ]
+            },
+            {
+              "ordered": false,
+              "items": [
+                "Help centerExplore resources for help",
+                "FAQRead POS frequently asked questions",
+                "Contact usConnect with a sales team professional",
+                "Clover CareLearn more about Clover Care",
+                "Contact salesConnect with a sales team professional",
+                "Small Business Resources"
+              ]
+            },
+            {
+              "ordered": false,
+              "items": [
+                "BlogExplore Clover Blog",
+                "Case studies",
+                "CareersDiscover careers at Clover",
+                "Intellectual propertyLearn more about intellectual property and Clover patents",
+                "ReferralsLearn more about referral partnerships"
+              ]
+            },
+            {
+              "ordered": false,
+              "items": [
+                "DevelopersDiscover Clover for developers",
+                "App marketExplore Clover app market",
+                "Clover ConnectLearn more about Clover Connect",
+                "Integration servicesExplore integration service providers"
+              ]
+            }
+          ],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "MuiGrid-root",
+            "MuiGrid-item",
+            "MuiGrid-grid-xs-12"
+          ],
+          "purpose": "feature-list",
+          "headlineRef": null,
+          "innerTextSummary": "globeUnited States (English)FacebookConnect to TwitterxConnect to InstagramConnect to YouTubeConnect to LinkedInConnect to Github",
+          "wordCount": 13,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "div",
+          "role": null,
+          "id": null,
+          "classes": [
+            "MuiGrid-root",
+            "MuiGrid-item",
+            "MuiGrid-grid-xs-12"
+          ],
+          "purpose": "feature-list",
+          "headlineRef": null,
+          "innerTextSummary": "© 2026 Clover Network, LLC *Clover Hardware Promotion available for new Clover Business Solutions merchants who have not previously had a Clover account or processed with First Data Merchant Solutions LLC. Clover accounts are subject to app",
+          "wordCount": 405,
+          "body": [
+            "*Clover Hardware Promotion available for new Clover Business Solutions merchants who have not previously had a Clover account or processed with First Data Merchant Solutions LLC. Clover accounts are subject to approval, including credit approval. Selecting a Clover point-of-sale credit card processing device does not convey or guarantee approval. Offer is valid only for purchases that include at least one of the following devices: Flex, Flex Pocket, Mini, Station Solo, or Station Duo. Clover devices are only shipped after the application is approved. To be eligible, merchant must: (1) apply for the account through our the online Clover website shopping experience, (2) purchase a Clover Hardware or Software Subscription, (3) be credit approved no later than 1/31/27, (4) activate account by submitting a batch of $25 or more in sales within 30 calendar days from approval date, (5) Processing $10,000 or greater in card transactions within the first four billing cycles. Additional fees may apply to certain Clover apps, services or activated accounts. Promotional offer excludes Payeezy. Eligibility is determined at our sole discretion. Limit of one reward per business relationship, regardless of the number of business locations. Offer is not valid with any other offer and is subject to change without notice. Requires a 3-year contract. All other terms and conditions apply. Offer expires December 31, 2026.",
+            "†Clover Software Promotional offer valid from 3/5/2026 through 9/5/2026 for qualified merchants of selected business types. New accounts require standard credit approval and underwriting. Eligible merchants receive no SaaS subscription fees during the 90-day trial of the Clover Essentials or Services Growth plan. The trial runs for 90 consecutive calendar days and cannot be paused or extended. After the 90-day trial, standard Essentials or Services Growth plans monthly fees apply. If the trial ends mid‑month, billing will be prorated, and any unused charges will be credited if the service is canceled before the trial ends. A merchant is eligible for only one free trial during their lifecycle. Limit one offer per business tax ID. Eligibility is determined solely by First Data Merchant Services LLC.",
+            "HIPAA compliance applies to Clover PracticePay™ powered by Rectangle Health.",
+            "The Clover name and logo are registered trademarks owned by Clover Network, LLC. All trademarks, service marks, and trade names referenced in this material are the property of their respective owners."
+          ],
+          "lists": [
+            {
+              "ordered": false,
+              "items": [
+                "TermsRead Clover terms and conditions",
+                "Privacy PolicyRead Clover privacy notice",
+                "AccessibilityRead Clover accessibility statement",
+                "Do Not Sell My InformationLearn more about privacy policies"
+              ]
+            }
+          ],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "Take payments Card readers and POS devices Learn more about card readers and POS devices Point of sale system Learn more about POS systems Online ordering and sales Learn more about eCommerce solutions Payment processing Learn more about accepting payments Invoicing Learn more about invoicing Virtual Terminal Learn more about Virtual Terminal",
+      "children": [
+        {
+          "tag": "span",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--FooterSecondaryNavTabletDesktop_title__mgyUE"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Take payments",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "ul",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Card readers and POS devicesLearn more about card readers and POS devicesPoint of sale systemLearn more about POS systemsOnline ordering and salesLearn more about eCommerce solutionsPayment processingLearn more about accepting paymentsInvoi",
+          "wordCount": 39,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "Run your business Tracking and reporting Explore tracking and reporting tools Inventory management Explore inventory management tools Clover Capital Learn more about Clover Capital Rapid Deposit Learn more about rapid deposit Employee management Learn about employee management tools",
+      "children": [
+        {
+          "tag": "span",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--FooterSecondaryNavTabletDesktop_title__mgyUE"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Run your business",
+          "wordCount": 3,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "ul",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Tracking and reportingExplore tracking and reporting toolsInventory managementExplore inventory management toolsClover CapitalLearn more about Clover CapitalRapid DepositLearn more about rapid depositEmployee managementLearn about employee ",
+          "wordCount": 26,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "Sell more Customer engagement Explore customer engagement tools Gift cards Learn more about gift cards Apps and integrations Learn more about apps and integrations",
+      "children": [
+        {
+          "tag": "span",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--FooterSecondaryNavTabletDesktop_title__mgyUE"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Sell more",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "ul",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Customer engagementExplore customer engagement toolsGift cardsLearn more about gift cardsApps and integrationsLearn more about apps and integrations",
+          "wordCount": 17,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "Business types Restaurants Learn more about Clover for restaurants Retail stores Discover Clover for retail stores Service businesses Service businesses",
+      "children": [
+        {
+          "tag": "span",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--FooterSecondaryNavTabletDesktop_title__mgyUE"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Business types",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "ul",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Restaurants Learn more about Clover for restaurants Retail storesDiscover Clover for retail storesService businessesService businesses",
+          "wordCount": 15,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "Hardware devices Go Learn more about Go Compact Learn more about the clover compact Flex Pocket Learn more about the Flex Pocket Flex Learn more about Clover Flex Mini Learn more about Mini Station Solo Learn more about Station Solo Station Duo Learn more about Station Duo Kiosk Learn more about Kiosk Kitchen Display System Explore Kitchen Display System Accessories Explore accessories for Clover devices Pricing Learn more about device pricing",
+      "children": [
+        {
+          "tag": "span",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--FooterSecondaryNavTabletDesktop_title__mgyUE"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Hardware devices",
+          "wordCount": 2,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "ul",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "GoLearn more about GoCompactLearn more about the clover compactFlex PocketLearn more about the Flex PocketFlexLearn more about Clover FlexMiniLearn more about MiniStation SoloLearn more about Station SoloStation DuoLearn more about Station ",
+          "wordCount": 48,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "Help Help center Explore resources for help FAQ Read POS frequently asked questions Contact us Connect with a sales team professional Clover Care Learn more about Clover Care Contact sales Connect with a sales team professional Small Business Resources",
+      "children": [
+        {
+          "tag": "span",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--FooterSecondaryNavTabletDesktop_title__mgyUE"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Help",
+          "wordCount": 1,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "ul",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "Help centerExplore resources for helpFAQRead POS frequently asked questionsContact usConnect with a sales team professionalClover CareLearn more about Clover CareContact salesConnect with a sales team professionalSmall Business Resources",
+          "wordCount": 28,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    },
+    {
+      "tag": "nav",
+      "role": "navigation",
+      "id": null,
+      "classes": [],
+      "innerText": "About Blog Explore Clover Blog Case studies Careers Discover careers at Clover Intellectual property Learn more about intellectual property and Clover patents Referrals Learn more about referral partnerships",
+      "children": [
+        {
+          "tag": "span",
+          "role": null,
+          "id": null,
+          "classes": [
+            "mAZF70It--FooterSecondaryNavTabletDesktop_title__mgyUE"
+          ],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "About",
+          "wordCount": 1,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        },
+        {
+          "tag": "ul",
+          "role": null,
+          "id": null,
+          "classes": [],
+          "purpose": "footer-nav",
+          "headlineRef": null,
+          "innerTextSummary": "BlogExplore Clover BlogCase studiesCareersDiscover careers at CloverIntellectual propertyLearn more about intellectual property and Clover patentsReferralsLearn more about referral partnerships",
+          "wordCount": 19,
+          "body": [],
+          "lists": [],
+          "qa": [],
+          "quotes": []
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "label": "Skip to main content",
+      "href": "#main",
+      "tag": "a",
+      "domPath": "a#skip-nav",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "5px",
+        "padding": "8px 8px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Restaurants",
+      "href": null,
+      "tag": "button",
+      "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-items__BIY15.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m > button.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "graphik-light, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "0px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Services",
+      "href": null,
+      "tag": "button",
+      "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-items__BIY15.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m > button.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "graphik-light, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "0px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Retail",
+      "href": null,
+      "tag": "button",
+      "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-items__BIY15.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m > button.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "graphik-light, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "0px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Healthcare",
+      "href": null,
+      "tag": "button",
+      "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-items__BIY15.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m > button.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "graphik-light, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "0px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Products",
+      "href": null,
+      "tag": "button",
+      "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-items__BIY15.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m > button.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "graphik-light, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "0px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Resources",
+      "href": null,
+      "tag": "button",
+      "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-items__BIY15.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-stretch__Ji+1m > button.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__text-button__RMusp",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "graphik-light, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "0px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Contact sales",
+      "href": "https://sales.clover.com/connect",
+      "tag": "a",
+      "domPath": "div:nth-child(3) > header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--Button_with-button-theme__65PpL.mAZF70It--Button_light__WvRrx",
+      "style": {
+        "backgroundColor": "rgb(34, 136, 0)",
+        "color": "rgb(34, 136, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "8px",
+        "padding": "12px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Full service dining",
+      "href": "/pricing/restaurant",
+      "tag": "a",
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "4px",
+        "padding": "24px 28px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Quick‑service restaurant",
+      "href": "/pricing/quick-service-restaurant",
+      "tag": "a",
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "4px",
+        "padding": "24px 28px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Retail shops",
+      "href": "/pricing/retail",
+      "tag": "a",
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "4px",
+        "padding": "24px 28px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Professional services",
+      "href": "/pricing/professional-services",
+      "tag": "a",
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "4px",
+        "padding": "24px 28px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Personal services",
+      "href": "/pricing/personal-services",
+      "tag": "a",
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "4px",
+        "padding": "24px 28px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Home & field services",
+      "href": "/pricing/home-field-services",
+      "tag": "a",
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "4px",
+        "padding": "24px 28px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "fold"
+    },
+    {
+      "label": "Schedule a call",
+      "href": "/contact/connect-to-sales",
+      "tag": "a",
+      "domPath": "section.mAZF70It--SalesContactModule_sales-contact-module__gZIXa > div.MuiContainer-root.jss1 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--SalesContactModule_sales-contact-module__content-grid__LnHHO > div.mAZF70It--SalesContactModule_sales-contact-module__content__jS6E4 > a.mAZF70It--Button_with-button-theme__65PpL.mAZF70It--Button_light__WvRrx",
+      "style": {
+        "backgroundColor": "rgb(255, 255, 255)",
+        "color": "rgb(34, 136, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "8px",
+        "padding": "16px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "What is a Clover Subscription?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.0",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Can I cancel my subscription?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.1",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "When do I get my first bill?",
+      "href": null,
+      "tag": "button",
+      "domPath": "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.2",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 0, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "16px 24px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "View More FAQs",
+      "href": null,
+      "tag": "button",
+      "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--FaqModule_faq-module__4co+c.mAZF70It--FaqModule_variant-arrow-icon__Pb2WJ > div.mAZF70It--FaqModule_faq-module-container__sAF6g > div.MuiContainer-root.jss1 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > button.mAZF70It--FaqModule_view-more-link__YPC7i.t-button-small",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(34, 136, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "0px",
+        "padding": "12px 12px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "Contact sales",
+      "href": "https://sales.clover.com/connect",
+      "tag": "a",
+      "domPath": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--TextMediaModule_module-wrapper__Avf0a.mAZF70It--TextMediaModule_module-wrapper--no-left-right-padding__yZr5H > div.mAZF70It--TextMediaModule_container__2oZhB.mAZF70It--TextMediaModule_container--center__0rcyw > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--TextMediaModule_text-wrapper__kAKfv > div.mAZF70It--TextStack_cta-container__xpS3k > a.mAZF70It--Button_with-button-theme__65PpL.mAZF70It--Button_light__WvRrx",
+      "style": {
+        "backgroundColor": "rgb(34, 136, 0)",
+        "color": "rgb(34, 136, 0)",
+        "fontFamily": "Graphik, Helvetica, sans-serif",
+        "fontWeight": 300,
+        "borderRadius": "8px",
+        "padding": "16px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    },
+    {
+      "label": "United States (English)",
+      "href": null,
+      "tag": "button",
+      "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterLocalePicker_footer-locale-picker__oiOne > button.mAZF70It--LocalePicker_locale-picker-button__jNsrL",
+      "style": {
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "color": "rgb(0, 68, 0)",
+        "fontFamily": "graphik, sans-serif",
+        "fontWeight": 400,
+        "borderRadius": "0px",
+        "padding": "0px 0px",
+        "boxShadow": "none"
+      },
+      "appearsAbove": "below-fold"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "href": "/pricing",
+        "text": "Skip to main content",
+        "domPath": "a#skip-nav"
+      },
+      {
+        "href": "/",
+        "text": "",
+        "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBar_nav-bar__logo__4EG0U > a.mAZF70It--LogoLink_logo__7wylt"
+      },
+      {
+        "href": "/dashboard/login",
+        "text": "Log InLog in to your dashboard",
+        "domPath": "div:nth-child(3) > header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM"
+      },
+      {
+        "href": "/en-US/help",
+        "text": "Help CenterConnect with help center",
+        "domPath": "div:nth-child(3) > header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM"
+      },
+      {
+        "href": "/pricing",
+        "text": "PricingLearn more about device pricing",
+        "domPath": "div:nth-child(3) > header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM"
+      },
+      {
+        "href": "/shop",
+        "text": "Shop systems",
+        "domPath": "div:nth-child(3) > header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--TextV2_nav__uOg1I.mAZF70It--NavBarDesktop_nav-bar-desktop__util-menu__fBzjM"
+      },
+      {
+        "href": "/cart",
+        "text": "Cart",
+        "domPath": "div:nth-child(3) > header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--CartLink_cart-link__4Mxc-"
+      },
+      {
+        "href": "/pricing/restaurant",
+        "text": "Full service diningCompare pricing plan for full service dining",
+        "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J"
+      },
+      {
+        "href": "/pricing/quick-service-restaurant",
+        "text": "Quick‑service restaurantLearn more about quick-service restaurants",
+        "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J"
+      },
+      {
+        "href": "/pricing/retail",
+        "text": "Retail shopsCompare pricing plans for retail shops",
+        "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J"
+      },
+      {
+        "href": "/pricing/professional-services",
+        "text": "Professional servicesCompare pricing plans for professional service businesses",
+        "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J"
+      },
+      {
+        "href": "/pricing/personal-services",
+        "text": "Personal servicesCompare pricing plans for personal service businesses",
+        "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J"
+      },
+      {
+        "href": "/pricing/home-field-services",
+        "text": "Home & field servicesCompare pricing plans for home and field service businesses",
+        "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J"
+      },
+      {
+        "href": "/pos-systems/accept-payments",
+        "text": "Learn more about accepting payments",
+        "domPath": "div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > a"
+      },
+      {
+        "href": "/pos-systems/accept-payments",
+        "text": "PaymentsLearn more about accepting payments",
+        "domPath": "div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > div.mAZF70It--MultiPanelCell_content__+LErG > a.mAZF70It--TextV2_body__Xdl6h.mAZF70It--MultiPanelCell_learn-more__s0jGK"
+      },
+      {
+        "href": "/pos-systems/business-tracking-reporting",
+        "text": "Discover tracking and reporting tools",
+        "domPath": "div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > a"
+      },
+      {
+        "href": "/pos-systems/business-tracking-reporting",
+        "text": "Tracking & reportingDiscover tracking and reporting tools",
+        "domPath": "div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > div.mAZF70It--MultiPanelCell_content__+LErG > a.mAZF70It--TextV2_body__Xdl6h.mAZF70It--MultiPanelCell_learn-more__s0jGK"
+      },
+      {
+        "href": "/pos-systems/customer-engagement",
+        "text": "Explore customer loyalty for your business",
+        "domPath": "div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > a"
+      },
+      {
+        "href": "/pos-systems/customer-engagement",
+        "text": "Customer loyaltyExplore customer loyalty for your business",
+        "domPath": "div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > div.mAZF70It--MultiPanelCell_content__+LErG > a.mAZF70It--TextV2_body__Xdl6h.mAZF70It--MultiPanelCell_learn-more__s0jGK"
+      },
+      {
+        "href": "/contact/connect-to-sales",
+        "text": "Schedule a callConnect with a sales team professional",
+        "domPath": "section.mAZF70It--SalesContactModule_sales-contact-module__gZIXa > div.MuiContainer-root.jss1 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--SalesContactModule_sales-contact-module__content-grid__LnHHO > div.mAZF70It--SalesContactModule_sales-contact-module__content__jS6E4 > a.mAZF70It--Button_with-button-theme__65PpL.mAZF70It--Button_light__WvRrx"
+      },
+      {
+        "href": "/appmarket",
+        "text": "Clover App Market",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.5 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a"
+      },
+      {
+        "href": "/pos-systems/virtual-terminal",
+        "text": "Clover Virtual Terminal",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.11 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a"
+      },
+      {
+        "href": "/shop",
+        "text": "Card readers and POS devicesLearn more about card readers and POS devices",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems",
+        "text": "Point of sale systemLearn more about POS systems",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/ecommerce",
+        "text": "Online ordering and salesLearn more about eCommerce solutions",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/accept-payments",
+        "text": "Payment processingLearn more about accepting payments",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-solutions/invoicing",
+        "text": "InvoicingLearn more about invoicing",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/virtual-terminal",
+        "text": "Virtual TerminalLearn more about Virtual Terminal",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/business-tracking-reporting",
+        "text": "Tracking and reportingExplore tracking and reporting tools",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/online-ordering-inventory",
+        "text": "Inventory managementExplore inventory management tools",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/financial-solutions/clover-capital",
+        "text": "Clover CapitalLearn more about Clover Capital",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/financial-solutions/rapid-deposit",
+        "text": "Rapid DepositLearn more about rapid deposit",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/employees",
+        "text": "Employee managementLearn about employee management tools",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/customer-engagement",
+        "text": "Customer engagementExplore customer engagement tools",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/gift-cards",
+        "text": "Gift cardsLearn more about gift cards",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/apps",
+        "text": "Apps and integrationsLearn more about apps and integrations",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-solutions/food-beverage/m/full-service",
+        "text": "Restaurants Learn more about Clover for restaurants",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-solutions/retail",
+        "text": "Retail storesDiscover Clover for retail stores",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-solutions/service-businesses",
+        "text": "Service businessesService businesses",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/go",
+        "text": "GoLearn more about Go",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/compact",
+        "text": "CompactLearn more about the clover compact",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/flex-pocket",
+        "text": "Flex PocketLearn more about the Flex Pocket",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/flex",
+        "text": "FlexLearn more about Clover Flex",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/mini",
+        "text": "MiniLearn more about Mini",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/station-solo",
+        "text": "Station SoloLearn more about Station Solo",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/station-duo",
+        "text": "Station DuoLearn more about Station Duo",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/kiosk",
+        "text": "KioskLearn more about Kiosk",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/kitchen-display-system",
+        "text": "Kitchen Display SystemExplore Kitchen Display System",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos/accessories",
+        "text": "AccessoriesExplore accessories for Clover devices",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/help",
+        "text": "Help centerExplore resources for help",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/resources/faqs",
+        "text": "FAQRead POS frequently asked questions",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/contact",
+        "text": "Contact usConnect with a sales team professional",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos-systems/clover-care",
+        "text": "Clover CareLearn more about Clover Care",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/small-business-resources",
+        "text": "Small Business Resources",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/case-studies",
+        "text": "Case studies",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/resources/intellectual-property",
+        "text": "Intellectual propertyLearn more about intellectual property and Clover patents",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/developers",
+        "text": "DevelopersDiscover Clover for developers",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/appmarket",
+        "text": "App marketExplore Clover app market",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/pos/integration-services",
+        "text": "Integration servicesExplore integration service providers",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "/terms",
+        "text": "TermsRead Clover terms and conditions",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterLegalLinks_footer-legal-links__iPwFS > div:nth-child(2) > ul.mAZF70It--Footer_legalLinks__RbOzh > li:nth-child(1) > a.mAZF70It--FooterLegalLinks_link__RNV8W"
+      },
+      {
+        "href": "/privacy-policy",
+        "text": "Privacy PolicyRead Clover privacy notice",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterLegalLinks_footer-legal-links__iPwFS > div:nth-child(2) > ul.mAZF70It--Footer_legalLinks__RbOzh > li:nth-child(2) > a.mAZF70It--FooterLegalLinks_link__RNV8W"
+      },
+      {
+        "href": "/accessibility",
+        "text": "AccessibilityRead Clover accessibility statement",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterLegalLinks_footer-legal-links__iPwFS > div:nth-child(2) > ul.mAZF70It--Footer_legalLinks__RbOzh > li:nth-child(3) > a.mAZF70It--FooterLegalLinks_link__RNV8W"
+      },
+      {
+        "href": "/pricing",
+        "text": "Do Not Sell My InformationLearn more about privacy policies",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterLegalLinks_footer-legal-links__iPwFS > div:nth-child(2) > ul.mAZF70It--Footer_legalLinks__RbOzh > li:nth-child(4) > a.mAZF70It--FooterLegalLinks_link__RNV8W"
+      }
+    ],
+    "external": [
+      {
+        "href": "https://sales.clover.com/connect",
+        "text": "Contact salesConnect with a sales team professional",
+        "domPath": "div:nth-child(3) > header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--Button_with-button-theme__65PpL.mAZF70It--Button_light__WvRrx"
+      },
+      {
+        "href": "https://connect.clover.com/get-started",
+        "text": "Contact sales",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.7 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a"
+      },
+      {
+        "href": "https://citi.merchantservicesbyfirstdata.com/?utm_source=cloverdotcom-cloverfaqs",
+        "text": "Citi",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.8 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a:nth-child(1)"
+      },
+      {
+        "href": "https://www.pnc.com/en/small-business/payments-and-processing/pnc-merchant-services.html?utm_source=cloverdotcom-cloverfaqs",
+        "text": "PNC",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.8 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a:nth-child(2)"
+      },
+      {
+        "href": "https://www.wellsfargo.com/biz/merchant/clover-pos-systems/?utm_source=cloverdotcom-cloverfaqs",
+        "text": "Wells Fargo",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.8 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a:nth-child(3)"
+      },
+      {
+        "href": "https://partners.clover.com/restaurant-depot/home/?utm_source=cloverdotcom-cloverfaqs",
+        "text": "Restaurant Depot",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.8 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a:nth-child(4)"
+      },
+      {
+        "href": "https://tap.clover.com/samsclub/home/?utm_medium=fdpartners_cloverpartners_rd&utm_source=samsclubms",
+        "text": "Sam’s Club",
+        "domPath": "div#accordion__body__7yWiiCnEBW2DCQ7xBxxPfI.8 > div > div.mAZF70It--FaqButtonAccordion_body-container__qnvEB > div.mAZF70It--RichBlurb_root__b7gl+.mAZF70It--TextV2_modern-body__Q98aW > p.mAZF70It--RichBlurb_paragraph__lM8rJ.rich-blurb-paragraph > a:nth-child(5)"
+      },
+      {
+        "href": "https://sales.clover.com/connect",
+        "text": "Contact salesExplore POS offerings for your business",
+        "domPath": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--TextMediaModule_module-wrapper__Avf0a.mAZF70It--TextMediaModule_module-wrapper--no-left-right-padding__yZr5H > div.mAZF70It--TextMediaModule_container__2oZhB.mAZF70It--TextMediaModule_container--center__0rcyw > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--TextMediaModule_text-wrapper__kAKfv > div.mAZF70It--TextStack_cta-container__xpS3k > a.mAZF70It--Button_with-button-theme__65PpL.mAZF70It--Button_light__WvRrx"
+      },
+      {
+        "href": "https://blog.clover.com/",
+        "text": "BlogExplore Clover Blog",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "https://careers.fiserv.com/",
+        "text": "CareersDiscover careers at Clover",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "https://referrals.clover.com/refer-to-clover/",
+        "text": "ReferralsLearn more about referral partnerships",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "https://integrate.clover.com/",
+        "text": "Clover ConnectLearn more about Clover Connect",
+        "domPath": "div.MuiGrid-root.mAZF70It--FooterSecondaryNavTabletDesktop_container__3xjsz > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > nav > ul > li.mAZF70It--FooterSecondaryNavTabletDesktop_list-item__0nE6u > a.mAZF70It--FooterLinkSet_link__FMSRh"
+      },
+      {
+        "href": "https://www.facebook.com/clovercommerce",
+        "text": "Facebook",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO"
+      },
+      {
+        "href": "https://x.com/clovercommerce",
+        "text": "Connect to Twitterx",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO"
+      },
+      {
+        "href": "https://www.instagram.com/clovercommerce/",
+        "text": "Connect to Instagram",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO"
+      },
+      {
+        "href": "https://www.youtube.com/c/clover/featured",
+        "text": "Connect to YouTube",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO"
+      },
+      {
+        "href": "https://www.linkedin.com/company/clovernetwork",
+        "text": "Connect to LinkedIn",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO"
+      },
+      {
+        "href": "https://github.com/clover",
+        "text": "Connect to Github",
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO"
+      }
+    ]
+  },
+  "media": {
+    "images": [
+      {
+        "src": "https://cloverstatic.com/web/apps/cloverdotcom/release::v2.142.0-f81e9288a386b/assets/media/clover-logo.5637c88fda21055b797e300e16140c95.svg",
+        "currentSrc": "https://cloverstatic.com/web/apps/cloverdotcom/release::v2.142.0-f81e9288a386b/assets/media/clover-logo.5637c88fda21055b797e300e16140c95.svg",
+        "srcset": null,
+        "alt": "Clover",
+        "naturalWidth": 164,
+        "naturalHeight": 40,
+        "rect": {
+          "x": 24,
+          "y": 69,
+          "width": 90,
+          "height": 22
+        },
+        "domPath": "div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-left__KJ3wA > div.mAZF70It--NavBar_nav-bar__logo__4EG0U > a.mAZF70It--LogoLink_logo__7wylt > img",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6Qa5ULroKEroOt7Nl1YiYC/0ec98fd86354ada7db83981ed1f023db/icon-full-service-dining.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/6Qa5ULroKEroOt7Nl1YiYC/0ec98fd86354ada7db83981ed1f023db/icon-full-service-dining.svg",
+        "srcset": null,
+        "alt": "icon-full-service-dining",
+        "naturalWidth": 160,
+        "naturalHeight": 150,
+        "rect": {
+          "x": 281,
+          "y": 508,
+          "width": 48,
+          "height": 48
+        },
+        "domPath": "section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J > img.mAZF70It--DefaultCard_solution-picker-module__button-image__g10dT",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6LReGASKropJPTMbWTcI0f/fb79e2b08b56659ef5c65160c999373d/icon-quick-service-dining.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/6LReGASKropJPTMbWTcI0f/fb79e2b08b56659ef5c65160c999373d/icon-quick-service-dining.svg",
+        "srcset": null,
+        "alt": "icon-quick-service-dining",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "rect": {
+          "x": 601,
+          "y": 508,
+          "width": 48,
+          "height": 48
+        },
+        "domPath": "section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J > img.mAZF70It--DefaultCard_solution-picker-module__button-image__g10dT",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/4zJUNY0rYmLPN8ju8nU5PF/aa6fdcc2587f2b0e62c4fef85d4bcd65/icon-retail-shops.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/4zJUNY0rYmLPN8ju8nU5PF/aa6fdcc2587f2b0e62c4fef85d4bcd65/icon-retail-shops.svg",
+        "srcset": null,
+        "alt": "Retail shops",
+        "naturalWidth": 48,
+        "naturalHeight": 48,
+        "rect": {
+          "x": 921,
+          "y": 508,
+          "width": 48,
+          "height": 48
+        },
+        "domPath": "section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J > img.mAZF70It--DefaultCard_solution-picker-module__button-image__g10dT",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/1xMep3GD2A2hJMxuF1ih2Y/364c58af0e9f506a73baa375d4cbee26/icon-professional-office-services.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/1xMep3GD2A2hJMxuF1ih2Y/364c58af0e9f506a73baa375d4cbee26/icon-professional-office-services.svg",
+        "srcset": null,
+        "alt": "icon-professional-office-services",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "rect": {
+          "x": 281,
+          "y": 630,
+          "width": 48,
+          "height": 48
+        },
+        "domPath": "section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J > img.mAZF70It--DefaultCard_solution-picker-module__button-image__g10dT",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/7sTkcOae52Px5uhP18WEtu/f962a9815aa17cae67446b75450ba68f/icon-health-professional-services.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/7sTkcOae52Px5uhP18WEtu/f962a9815aa17cae67446b75450ba68f/icon-health-professional-services.svg",
+        "srcset": null,
+        "alt": "icon-health-professional-services",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "rect": {
+          "x": 601,
+          "y": 630,
+          "width": 48,
+          "height": 48
+        },
+        "domPath": "section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J > img.mAZF70It--DefaultCard_solution-picker-module__button-image__g10dT",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/3VGBFgz4OlzmzPm700an1Q/6e2dfcb3ce9b39ce2d737bc17d6d9d5d/icon-home-services.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/3VGBFgz4OlzmzPm700an1Q/6e2dfcb3ce9b39ce2d737bc17d6d9d5d/icon-home-services.svg",
+        "srcset": null,
+        "alt": "icon-home-services",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "rect": {
+          "x": 921,
+          "y": 630,
+          "width": 48,
+          "height": 48
+        },
+        "domPath": "section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--DefaultCard_solution-picker-module__buttons__hwn-b > a.mAZF70It--DefaultCard_solution-picker-module__button__5K-5J > img.mAZF70It--DefaultCard_solution-picker-module__button-image__g10dT",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/5mn3xGDFoqLhQm3u6sHZ80/23acf2f4b8a91fcc9e6e4d379a88fd68/Clover_Payments_01.jpg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/5mn3xGDFoqLhQm3u6sHZ80/23acf2f4b8a91fcc9e6e4d379a88fd68/Clover_Payments_01.jpg",
+        "srcset": null,
+        "alt": "Clover Payments 01",
+        "naturalWidth": 850,
+        "naturalHeight": 500,
+        "rect": {
+          "x": 143,
+          "y": 1052,
+          "width": 367,
+          "height": 176
+        },
+        "domPath": "div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > a > img.mAZF70It--MultiPanelCell_image__NPTwl",
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/Clover_Payments_01-66f3e2.jpg"
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/4DAjYJqYHgyh88Lic4qHca/31dfa861c10f4317d3ab56a037339eb7/Clover_Payments_02.jpg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/4DAjYJqYHgyh88Lic4qHca/31dfa861c10f4317d3ab56a037339eb7/Clover_Payments_02.jpg",
+        "srcset": null,
+        "alt": "Clover Payments 02",
+        "naturalWidth": 850,
+        "naturalHeight": 500,
+        "rect": {
+          "x": 536,
+          "y": 1052,
+          "width": 367,
+          "height": 176
+        },
+        "domPath": "div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > a > img.mAZF70It--MultiPanelCell_image__NPTwl",
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/Clover_Payments_02-d1e340.jpg"
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/5WJZLFu1mWpfzgGkuVIqzE/676165c22c850321c4ddeca48dfb2f4b/Clover_Payments_03.jpg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/5WJZLFu1mWpfzgGkuVIqzE/676165c22c850321c4ddeca48dfb2f4b/Clover_Payments_03.jpg",
+        "srcset": null,
+        "alt": "Clover Payments 03",
+        "naturalWidth": 850,
+        "naturalHeight": 500,
+        "rect": {
+          "x": 930,
+          "y": 1052,
+          "width": 367,
+          "height": 176
+        },
+        "domPath": "div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FadeToastUp_fade-toast-up__jmg7z.mAZF70It--MultiPanelCell_grid-cell__+iLc7 > a > img.mAZF70It--MultiPanelCell_image__NPTwl",
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/Clover_Payments_03-460713.jpg"
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/2CjVR3eI8lMT9w2B53OmuJ/6970386a2df8875adf840f7f42e83eda/woman-on-phone-and-laptop.webp",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/2CjVR3eI8lMT9w2B53OmuJ/6970386a2df8875adf840f7f42e83eda/woman-on-phone-and-laptop.webp",
+        "srcset": null,
+        "alt": "Women-at-counter-on-phone-with-laptop",
+        "naturalWidth": 1400,
+        "naturalHeight": 950,
+        "rect": {
+          "x": 696,
+          "y": 1567,
+          "width": 744,
+          "height": 672
+        },
+        "domPath": "article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SalesContactModule_sales-contact-module__gZIXa > div.MuiContainer-root.jss1 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--SalesContactModule_sales-contact-module__image-container__sTotr > img.mAZF70It--SalesContactModule_sales-contact-module__image__wyaX4",
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/woman-on-phone-and-laptop-78a157.webp"
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6SVsJyQMqonv4zdPb19Uka/d5af135b24feaec679f4cc065bfe3b59/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_.png?fit=scale&fm=webp",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/6SVsJyQMqonv4zdPb19Uka/d5af135b24feaec679f4cc065bfe3b59/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_.png?fit=scale&fm=webp",
+        "srcset": null,
+        "alt": "Solo, Mini and Flex devices displaying the order and sale details on screen",
+        "naturalWidth": 7040,
+        "naturalHeight": 1798,
+        "rect": {
+          "x": 0,
+          "y": 3336,
+          "width": 1440,
+          "height": 368
+        },
+        "domPath": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--TextMediaModule_module-wrapper__Avf0a.mAZF70It--TextMediaModule_module-wrapper--no-left-right-padding__yZr5H > div.mAZF70It--TextMediaModule_container__2oZhB.mAZF70It--TextMediaModule_container--center__0rcyw > div.mAZF70It--EnhancedMedia_enhanced-media__BTHki.mAZF70It--FadeToastUp_fade-toast-up__jmg7z > img",
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_-c33740.p"
+      },
+      {
+        "src": "https://cloverstatic.com/web/apps/cloverdotcom/release::v2.142.0-f81e9288a386b/assets/media/clover-logo-dark-green.e18af555ab73d88c83d138ce5e687b15.svg",
+        "currentSrc": "https://cloverstatic.com/web/apps/cloverdotcom/release::v2.142.0-f81e9288a386b/assets/media/clover-logo-dark-green.e18af555ab73d88c83d138ce5e687b15.svg",
+        "srcset": null,
+        "alt": "Clover",
+        "naturalWidth": 300,
+        "naturalHeight": 73,
+        "rect": {
+          "x": 72,
+          "y": 3744,
+          "width": 90,
+          "height": 22
+        },
+        "domPath": "footer.mAZF70It--Footer_footer__PxxIj > div.MuiContainer-root.jss1 > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--Footer_logo__w79hm > a.mAZF70It--LogoLink_logo__7wylt > img",
+        "resolves": true
+      },
+      {
+        "src": "https://cloverstatic.com/web/apps/cloverdotcom/release::v2.142.0-f81e9288a386b/assets/media/united-states.3585dc22389ef07599dd58bab74b98b2.svg",
+        "currentSrc": "https://cloverstatic.com/web/apps/cloverdotcom/release::v2.142.0-f81e9288a386b/assets/media/united-states.3585dc22389ef07599dd58bab74b98b2.svg",
+        "srcset": null,
+        "alt": "",
+        "naturalWidth": 150,
+        "naturalHeight": 150,
+        "rect": {
+          "x": 64,
+          "y": 4695,
+          "width": 17,
+          "height": 17
+        },
+        "domPath": "div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterLocalePicker_footer-locale-picker__oiOne > button.mAZF70It--LocalePicker_locale-picker-button__jNsrL > img.mAZF70It--LocalePicker_flag-icon__tk4pq",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/3su4eO3VkW4IRyy5kBLZuj/9adc96c4fa1ebfb63c869ce6137282c3/Vector__1_.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/3su4eO3VkW4IRyy5kBLZuj/9adc96c4fa1ebfb63c869ce6137282c3/Vector__1_.svg",
+        "srcset": null,
+        "alt": "Facebook green icon",
+        "naturalWidth": 21,
+        "naturalHeight": 21,
+        "rect": {
+          "x": 1158,
+          "y": 4693,
+          "width": 21,
+          "height": 21
+        },
+        "domPath": "div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO > img",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/j7RTGINxoqhE9qnFwzPN1/f0227859a2c8901345253c87b5f1a4a1/Vector__3_.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/j7RTGINxoqhE9qnFwzPN1/f0227859a2c8901345253c87b5f1a4a1/Vector__3_.svg",
+        "srcset": null,
+        "alt": "X icon green",
+        "naturalWidth": 22,
+        "naturalHeight": 21,
+        "rect": {
+          "x": 1195,
+          "y": 4693,
+          "width": 22,
+          "height": 21
+        },
+        "domPath": "div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO > img",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/4953Bl9xV483Rnn6e4MAdX/fcd48acdf8252602ef4c83f76d0bbe94/Vector.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/4953Bl9xV483Rnn6e4MAdX/fcd48acdf8252602ef4c83f76d0bbe94/Vector.svg",
+        "srcset": null,
+        "alt": "Instagram icon green",
+        "naturalWidth": 21,
+        "naturalHeight": 21,
+        "rect": {
+          "x": 1233,
+          "y": 4693,
+          "width": 21,
+          "height": 21
+        },
+        "domPath": "div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO > img",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6Tigq10tY4qhDBN2AZ4V1J/a83250d62e6863944764d2397dbd0d59/icon-youtube.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/6Tigq10tY4qhDBN2AZ4V1J/a83250d62e6863944764d2397dbd0d59/icon-youtube.svg",
+        "srcset": null,
+        "alt": "youtube icon green",
+        "naturalWidth": 22,
+        "naturalHeight": 15,
+        "rect": {
+          "x": 1270,
+          "y": 4696,
+          "width": 22,
+          "height": 15
+        },
+        "domPath": "div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO > img",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/p9QjeEJvsXEgD9d446pNn/0be807b59d96dabc94571b69ffb28297/Vector__5_.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/p9QjeEJvsXEgD9d446pNn/0be807b59d96dabc94571b69ffb28297/Vector__5_.svg",
+        "srcset": null,
+        "alt": "Linkedin icon green",
+        "naturalWidth": 22,
+        "naturalHeight": 21,
+        "rect": {
+          "x": 1308,
+          "y": 4693,
+          "width": 22,
+          "height": 21
+        },
+        "domPath": "div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO > img",
+        "resolves": true
+      },
+      {
+        "src": "https://images.ctfassets.net/v6ivjcl8qjz2/1fnjDnnAWbN1awAbi2A053/a99c60cff770f4fccba48c5301a32cfd/Vector__4_.svg",
+        "currentSrc": "https://images.ctfassets.net/v6ivjcl8qjz2/1fnjDnnAWbN1awAbi2A053/a99c60cff770f4fccba48c5301a32cfd/Vector__4_.svg",
+        "srcset": null,
+        "alt": "Github icon green",
+        "naturalWidth": 22,
+        "naturalHeight": 21,
+        "rect": {
+          "x": 1346,
+          "y": 4693,
+          "width": 22,
+          "height": 21
+        },
+        "domPath": "div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.MuiGrid-container > div.MuiGrid-root.mAZF70It--LocalePickerAndSocialLinks_container__q-tvz > div.MuiGrid-root.MuiGrid-item > div.mAZF70It--FooterSocialLinks_footer-social-links__3Eg-R > a.mAZF70It--Button_button__image__Wi0BN.mAZF70It--Button_button__JBBzO > img",
+        "resolves": true
+      }
+    ],
+    "allImgCount": 20,
+    "inlineSvgs": [
+      {
+        "viewBox": null,
+        "domPath": "header.mAZF70It--NavBar_nav-bar__3Kd0R > div.mAZF70It--NavBar_nav-bar__wrapper-group__Cgx6v > div.mAZF70It--NavBar_nav-bar__wrapper__JwsVQ > div.mAZF70It--NavBarDesktop_nav-bar-desktop__menu__QZRcn > nav.mAZF70It--NavBarDesktop_nav-bar-desktop__menu-right__YxX4d > a.mAZF70It--CartLink_cart-link__4Mxc- > svg.mAZF70It--CartLink_cart-link-icon__dXZgz",
+        "width": 32
+      }
+    ],
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "forms": [],
+  "widgets": {
+    "modals": [],
+    "accordions": [
+      {
+        "domPath": "[aria-expanded][aria-controls]",
+        "itemCount": 12
+      }
+    ],
+    "tabs": []
+  },
+  "components": {
+    "cards": {
+      "count": 0,
+      "examples": []
+    },
+    "grids": {
+      "count": 3,
+      "examples": [
+        "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--SolutionDefault_solution-picker-module__buttons__s9VK2 > div.MuiGrid-root.MuiGrid-container",
+        "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--MultiPanelModule_multiple-panel-module__VcoFd > div.MuiContainer-root.jss1 > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cells__ThMkz > div.MuiGrid-root.MuiGrid-item > div.MuiGrid-root.mAZF70It--MultiPanelModule_multiple-panel-module__cell__-G3aL"
+      ]
+    },
+    "accordions": {
+      "count": 3,
+      "examples": [
+        "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.0",
+        "button#accordion__header__7yWiiCnEBW2DCQ7xBxxPfI.1"
+      ]
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 0,
+      "examples": []
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 0,
+      "examples": []
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 0,
+      "examples": []
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG",
+      "purpose": "hero",
+      "background": {
+        "color": "rgb(1, 41, 6)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(255, 255, 255)"
+      },
+      "spacing": {
+        "paddingBlock": "128px",
+        "paddingInline": "0px",
+        "gap": null
+      },
+      "borderRadius": null,
+      "fontFamilies": [
+        "altform"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--MultiPanelModule_multiple-panel-module__VcoFd",
+      "purpose": "rich-text",
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(0, 68, 0)"
+      },
+      "spacing": {
+        "paddingBlock": "80px",
+        "paddingInline": "0px",
+        "gap": null
+      },
+      "borderRadius": null,
+      "fontFamilies": [
+        "altform"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--SalesContactModule_sales-contact-module__gZIXa",
+      "purpose": "rich-text",
+      "background": {
+        "color": "rgb(248, 248, 248)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(0, 68, 0)"
+      },
+      "spacing": {
+        "paddingBlock": "0px",
+        "paddingInline": "0px",
+        "gap": null
+      },
+      "borderRadius": null,
+      "fontFamilies": [
+        "altform"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--FaqModule_faq-module__4co+c.mAZF70It--FaqModule_variant-arrow-icon__Pb2WJ",
+      "purpose": "rich-text",
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(0, 68, 0)"
+      },
+      "spacing": {
+        "paddingBlock": "64px",
+        "paddingInline": "24px",
+        "gap": null
+      },
+      "borderRadius": null,
+      "fontFamilies": [
+        "altform"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6.mAZF70It--PageAssembly_page-assembly--alternating-module-color__xYuep > section.mAZF70It--TextMediaModule_module-wrapper__Avf0a.mAZF70It--TextMediaModule_module-wrapper--no-left-right-padding__yZr5H",
+      "purpose": "unknown",
+      "background": {
+        "color": "rgb(248, 248, 248)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(0, 68, 0)"
+      },
+      "spacing": {
+        "paddingBlock": "48px",
+        "paddingInline": "0px",
+        "gap": null
+      },
+      "borderRadius": null,
+      "fontFamilies": [
+        "altform",
+        "graphik"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null
+  },
+  "cssCustomProperties": [
+    {
+      "name": "--font-stack",
+      "value": "\"Graphik\",\"Helvetica\",sans-serif"
+    }
+  ],
+  "codeBlocks": [],
+  "body": [
+    "Find the right solution to power your business",
+    "Pay as little as 2.3% + 10¢ per transaction",
+    "Prices shown are only available on Clover.com.",
+    "Full service dining",
+    "Quick‑service restaurant",
+    "Retail shops",
+    "Professional services",
+    "Personal services",
+    "Home & field services",
+    "Every Clover system has business built-in tools",
+    "Get paid faster",
+    "Ready to go and simple to use, start taking payments in person, over the phone, online–which ever way your customers want to pay.",
+    "Run your business",
+    "Stay on top of your performance with analytics tools that deliver real-time reports, track key metrics, and provide insights.",
+    "Engage your customers",
+    "Bring customers back with more of what they love–inspiring rewards, valuable promotions, and open lines of communication.",
+    "Let’s work together to find the right system for your business",
+    "Our business consultants are available in person or by phone to help you find the right system. We’ll help you get up and running, and then we’re available 24/7/365 for troubleshooting and support.",
+    "We’re here to help—always.",
+    "Call now",
+    "Frequently Asked Questions",
+    "Yes, the Clover Virtual Terminal gives you the convenience of processing payments – and refunds – by logging into your Clover Web Dashboard from a smartphone, tablet, or computer.",
+    "It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready."
+  ],
+  "fontFaces": [
+    {
+      "family": "Graphik",
+      "weight": "300",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Light.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 300; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light.otf\") format(\"opentype\"); }"
+    },
+    {
+      "family": "Graphik",
+      "weight": "400",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 400; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular.otf\") format(\"opentype\"); }"
+    },
+    {
+      "family": "Graphik",
+      "weight": "500",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 500; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium.otf\") format(\"opentype\"); }"
+    },
+    {
+      "family": "Graphik",
+      "weight": "600",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 600; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold.otf\") format(\"opentype\"); }"
+    },
+    {
+      "family": "Graphik",
+      "weight": "300",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Light.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 300; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light.otf\") format(\"opentype\"); }"
+    },
+    {
+      "family": "Graphik",
+      "weight": "400",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 400; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular.otf\") format(\"opentype\"); }"
+    },
+    {
+      "family": "Graphik",
+      "weight": "500",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 500; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium.otf\") format(\"opentype\"); }"
+    },
+    {
+      "family": "Graphik",
+      "weight": "600",
+      "style": "normal",
+      "display": null,
+      "unicodeRange": null,
+      "urls": [
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff2",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff",
+        "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold.otf"
+      ],
+      "cssRule": "@font-face { font-family: Graphik; font-weight: 600; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold.otf\") format(\"opentype\"); }"
+    }
+  ],
+  "iconFontProbe": null,
+  "iconLinks": [
+    {
+      "rel": "shortcut icon",
+      "href": "https://cloverstatic.com/content/icons/web/favicons/favicon.ico",
+      "sizes": null
+    },
+    {
+      "rel": "apple-touch-icon",
+      "href": "https://cloverstatic.com/content/icons/web/favicons/apple-touch-icon.png",
+      "sizes": "180x180"
+    },
+    {
+      "rel": "icon",
+      "href": "https://cloverstatic.com/content/icons/web/favicons/android-chrome-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "rel": "mask-icon",
+      "href": "https://cloverstatic.com/content/icons/web/favicons/safari-pinned-tab.svg",
+      "sizes": null
+    }
+  ],
+  "logoCandidates": [],
+  "stats": {
+    "wordCount": 1226,
+    "ctaCount": 21,
+    "internalLinkCount": 63,
+    "externalLinkCount": 18,
+    "imageCount": 20
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 13,
+    "mainTextLen": 7892,
+    "realImageCount": 20,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "stardust/current/assets/screenshots/pricing.png"
+}

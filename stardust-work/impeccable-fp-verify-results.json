@@ -1,0 +1,320 @@
+[
+  {
+    "url": "https://www.clover.com/",
+    "desktop": {
+      "gradientText": [],
+      "accentStripes": [],
+      "accentStripeCount": 0,
+      "eyebrows": [],
+      "eyebrowCount": 0,
+      "zIndexOver100": [
+        {
+          "sel": "#skip-nav",
+          "z": 300
+        },
+        {
+          "sel": "div.mAZF70It--SiteHeader_header-container__6jQ54",
+          "z": 200
+        },
+        {
+          "sel": "div.onetrust-pc-dark-filter.ot-fade-in",
+          "z": 2147483645
+        },
+        {
+          "sel": "#onetrust-banner-sdk",
+          "z": 2147483645
+        },
+        {
+          "sel": "#onetrust-pc-sdk",
+          "z": 2147483647
+        },
+        {
+          "sel": "#ot-anchor",
+          "z": 2147483647
+        },
+        {
+          "sel": "#ot-fltr-modal",
+          "z": 2147483646
+        },
+        {
+          "sel": "#ot-sdk-btn-floating",
+          "z": 2147483646
+        }
+      ],
+      "zIndexOver100Count": 8,
+      "theaterText": [],
+      "headingOverflows": []
+    },
+    "heroStack": [
+      {
+        "tag": "div",
+        "cls": "",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "ot-sdk-twelve ot-sdk-columns",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "ot-sdk-row",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "ot-sdk-container",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "otCenterRounded default ot-bnr-w-logo vertical-align-content",
+        "bgColor": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "onetrust-pc-dark-filter ot-fade-in",
+        "bgColor": "rgba(0, 0, 0, 0.5)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "h1",
+        "cls": "",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "mAZF70It--LandingPageHero_landing-page-hero__wrapper__A9X74",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      }
+    ],
+    "mobileHeadingOverflows": []
+  },
+  {
+    "url": "https://www.clover.com/pricing",
+    "desktop": {
+      "gradientText": [],
+      "accentStripes": [],
+      "accentStripeCount": 0,
+      "eyebrows": [],
+      "eyebrowCount": 0,
+      "zIndexOver100": [
+        {
+          "sel": "#skip-nav",
+          "z": 300
+        },
+        {
+          "sel": "div.mAZF70It--SiteHeader_header-container__6jQ54",
+          "z": 200
+        },
+        {
+          "sel": "div.onetrust-pc-dark-filter.ot-fade-in",
+          "z": 2147483645
+        },
+        {
+          "sel": "#onetrust-banner-sdk",
+          "z": 2147483645
+        },
+        {
+          "sel": "#onetrust-pc-sdk",
+          "z": 2147483647
+        },
+        {
+          "sel": "#ot-anchor",
+          "z": 2147483647
+        },
+        {
+          "sel": "#ot-fltr-modal",
+          "z": 2147483646
+        },
+        {
+          "sel": "#ot-sdk-btn-floating",
+          "z": 2147483646
+        }
+      ],
+      "zIndexOver100Count": 8,
+      "theaterText": [],
+      "headingOverflows": []
+    },
+    "heroStack": [
+      {
+        "tag": "div",
+        "cls": "",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "ot-sdk-twelve ot-sdk-columns",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "ot-sdk-row",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "ot-sdk-container",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "otCenterRounded default ot-bnr-w-logo vertical-align-content",
+        "bgColor": "rgb(255, 255, 255)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "onetrust-pc-dark-filter ot-fade-in",
+        "bgColor": "rgba(0, 0, 0, 0.5)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "p",
+        "cls": "",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "h1",
+        "cls": "mAZF70It--MarkdownWrapper_wrapper__g8p+g mAZF70It--TextV2_h1",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      }
+    ],
+    "mobileHeadingOverflows": []
+  },
+  {
+    "url": "https://www.clover.com/pos-systems",
+    "desktop": {
+      "gradientText": [],
+      "accentStripes": [],
+      "accentStripeCount": 0,
+      "eyebrows": [],
+      "eyebrowCount": 0,
+      "zIndexOver100": [
+        {
+          "sel": "#skip-nav",
+          "z": 300
+        },
+        {
+          "sel": "div.mAZF70It--SiteHeader_header-container__6jQ54",
+          "z": 200
+        },
+        {
+          "sel": "div.onetrust-pc-dark-filter.ot-fade-in",
+          "z": 2147483645
+        },
+        {
+          "sel": "#onetrust-banner-sdk",
+          "z": 2147483645
+        },
+        {
+          "sel": "#onetrust-pc-sdk",
+          "z": 2147483647
+        },
+        {
+          "sel": "#ot-anchor",
+          "z": 2147483647
+        },
+        {
+          "sel": "#ot-fltr-modal",
+          "z": 2147483646
+        },
+        {
+          "sel": "#ot-sdk-btn-floating",
+          "z": 2147483646
+        }
+      ],
+      "zIndexOver100Count": 8,
+      "theaterText": [],
+      "headingOverflows": []
+    },
+    "heroStack": [
+      {
+        "tag": "div",
+        "cls": "onetrust-pc-dark-filter ot-fade-in",
+        "bgColor": "rgba(0, 0, 0, 0.5)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "h1",
+        "cls": "mAZF70It--TextMediaModule_title__lEdqc mAZF70It--TextMediaMo",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "mAZF70It--FadeToastUp_fade-toast-up__jmg7z mAZF70It--FadeToa",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "mAZF70It--TextMediaModule_container__2oZhB mAZF70It--feature",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "section",
+        "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--fe",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "article",
+        "cls": "mAZF70It--PageAssembly_page-assembly__aXcs6",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "main",
+        "cls": "mAZF70It--App_main__dwl8D mAZF70It--App_has-header-top__QVr2",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      },
+      {
+        "tag": "div",
+        "cls": "mAZF70It--App_app__GQ97N",
+        "bgColor": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "isMedia": false
+      }
+    ],
+    "mobileHeadingOverflows": []
+  }
+]

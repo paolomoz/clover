@@ -1,0 +1,385 @@
+{
+ "source": "http://127.0.0.1:8791/stardust/prototypes/contact-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Contact us"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": []
+  },
+  {
+   "section": "contact-accordion",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Get sales help"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "We can help you choose the right system. Call"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "(833) 318-0794",
+     "href": "tel:+18333180794"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Contact sales",
+     "href": "https://sales.clover.com/connect"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Connect with a sales team professional"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Where to buy Clover"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Clover is sold by trusted partners including , and ."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Citi",
+     "href": "https://citi.merchantservicesbyfirstdata.com/?utm_source=cloverdotcom-getstarted"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "PNC",
+     "href": "https://www.pnc.com/en/small-business/payments-and-processing/pnc-merchant-services.html?utm_source=cloverdotcom-getstarted"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Wells Fargo",
+     "href": "https://www.wellsfargo.com/biz/merchant/clover-pos-systems/?utm_source=cloverdotcom-getstarted"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "See Clover in person at and ."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Restaurant Depot",
+     "href": "https://www.firstdatapartners.com/restaurant-depot/?utm_source=cloverdotcom-getstarted"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Sam’s Club",
+     "href": "https://www.samsclubms.com/content/samsclubms/home.html?utm_source=cloverdotcom-getstarted"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Shop now",
+     "href": "/shop"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Shop Clover devices"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Get help with your existing system"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "The fastest way to get help is to log in to to access information that's personalized for the Clover system you have. We've upgraded Help to include relevant articles based on your system, including your device(s) and the features you use."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Clover Help",
+     "href": "https://www.clover.com/en-US/help"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Our agents are available to assist you when you're unable to resolve issues on your own. There are a few ways to reach live support:"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "From a browser, log in to your and select Help at the top to access a range of support options."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Clover account",
+     "href": "https://www.clover.com/dashboard/login"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "On a Clover device, tap Help on the home screen."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "In the Clover Go mobile app, open the menu and tap Help."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Find your direct support phone number on your statement."
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Support outside of the U.S."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Austria: Call"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "43-800-005-680",
+     "href": "tel:+43-800-005-680"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Germany: Call"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "49-180-6-22558800",
+     "href": "tel:+49-180-6-22558800"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Ireland: Call (option 1 + option 1)"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "353-818-021-062",
+     "href": "tel:+18555714243"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "UK:"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "(Clover UK Merchant Services) Call (option 1 + option 1)"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "44-345-606-5055",
+     "href": "tel:+18444902437"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "(Lloyds Bank Cardnet) Call (option 1 + option 1)"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "44-1268-567-100",
+     "href": "tel:+44-1268-567-100"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "(Allied Irish Bank Merchant Services - GB) Call (option 1 + option 1)"
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "44-371-200-1436",
+     "href": "tel:+44-371-200-1436"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "(Allied Irish Bank Merchant Services - Northern-Ireland) Call (option 1 + option 1)"
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "44-371-200-1437",
+     "href": "tel:+44-371-200-1437"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Canada: Call"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "(888) 263-1938",
+     "href": "tel:+18882631938"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Argentina: Call"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "54-11-4340-9800x424",
+     "href": "tel:+541143409800;ext424"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Installation support"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Clover is easy to set up yourself using our . For hands-on help, , a trusted third-party installation and support services provider (additional fees apply)."
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "quick start guides",
+     "href": "https://www.clover.com/setup"
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "contact SMB CompuCom",
+     "href": "https://www.clover.com/installation-support-services"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Make a suggestion"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "to see what features are in the works, or make a suggestion."
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Browse feature requests",
+     "href": "https://clover.uservoice.com/forums/108337-all-other-suggestions"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Developers"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Interested in building apps and integrations for Clover? Check out our ."
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "developer portal",
+     "href": "https://www.clover.com/developers"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Partners"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Interested in partnering with Clover? Send an email to"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "business@clover.com",
+     "href": "mailto:business@clover.com"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "Resellers"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Interested in reselling Clover? Find out about First Data’s and ."
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "ISO partnerships",
+     "href": "https://www.firstdata.com/en_us/first-data-partners/iso-partnerships.html"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "agent program",
+     "href": "https://www.firstdata.com/en_us/first-data-partners/agent-partnerships.html"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Press"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "For press inquiries, send an email to ."
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "media@fiserv.com",
+     "href": "mailto:media@fiserv.com"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

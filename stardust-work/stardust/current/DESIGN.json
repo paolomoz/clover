@@ -1,0 +1,530 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-23T06:27:19.465Z",
+  "title": "Design System: Clover (current state)",
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-07-23T06:27:19.465Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "note": "descriptive sidecar; carries what the DESIGN.md frontmatter schema cannot hold"
+  },
+  "extensions": {
+    "colorMeta": {
+      "clover-green": {
+        "role": "primary",
+        "displayName": "Clover Green",
+        "canonical": "#228800"
+      },
+      "forest-deep": {
+        "role": "secondary",
+        "displayName": "Forest Deep",
+        "canonical": "#004400"
+      },
+      "pine-dark": {
+        "role": "tertiary",
+        "displayName": "Pine Dark",
+        "canonical": "#004422"
+      },
+      "acid-lime": {
+        "role": "secondary",
+        "displayName": "Acid Lime",
+        "canonical": "#b6fb6f"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#000000"
+      },
+      "charcoal": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "canonical": "#333333"
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#ededed"
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "#ffffff"
+      }
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "8px",
+        "secondary": "4px",
+        "pill": null,
+        "primarySources": [
+          "contact",
+          "home",
+          "pos-solutions__restaurant"
+        ],
+        "occurrences": {
+          "8px": 31,
+          "4px": 8,
+          "5px": 5,
+          "16px": 2
+        }
+      },
+      "shadows": [],
+      "gradients": [],
+      "patterns": [
+        {
+          "name": "card-grid",
+          "evidence": "grids detected on 5/5 pages (contact, home, pos-solutions__restaurant, pos-systems, pricing)"
+        },
+        {
+          "name": "carousel",
+          "evidence": "carousels detected on 2/5 pages (home, pos-solutions__restaurant)"
+        },
+        {
+          "name": "footer-mega",
+          "evidence": "8-column footer nav (Take payments / Run your business / Sell more / Business types / Hardware devices / Help / About / Integrations) on all pages"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "A Clover for every small business",
+      "heroSubcopy": "Do what you do better with the world's smartest POS system.",
+      "heroImage": null,
+      "heroMedium": {
+        "kind": "video",
+        "mechanism": "video-file",
+        "src": "https://videos.ctfassets.net/v6ivjcl8qjz2/5icZY4hKv1UI6DDLPgNEen/0685e74e3e8d3e14b73ee9874c0ddb37/Clover-Hero-Shoot-Fine-Dining_Table-whitesleeve_16x9_1920x1080_web.mp4",
+        "domPath": "main#main > article.mAZF70It--PageAssembly_page-assembly__aXcs6 > section.mAZF70It--LandingPageHero_landing-page-hero__JKRhJ > div.mAZF70It--LandingPageHero_background-media__aAnj9.mAZF70It--BackgroundMediaSubject_background-media__qz+Ya > video",
+        "loader": null,
+        "poster": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900
+        },
+        "attrs": {
+          "autoplay": false,
+          "loop": true,
+          "muted": true
+        }
+      },
+      "primaryCTALabel": "Contact sales",
+      "ctaSamples": [
+        "Contact sales",
+        "Get sales help",
+        "Where to buy Clover",
+        "Support outside of the U.S.",
+        "Installation support",
+        "Make a suggestion",
+        "Developers",
+        "Partners"
+      ],
+      "navItems": [
+        "Restaurants",
+        "Services",
+        "Retail",
+        "Healthcare",
+        "Products",
+        "Resources"
+      ],
+      "footerHeadings": [
+        "Take payments",
+        "Run your business",
+        "Sell more",
+        "Business types",
+        "Hardware devices",
+        "Help",
+        "About",
+        "Integrations"
+      ],
+      "firstParagraph": "Do what you do better with the world's smartest POS system.",
+      "tone": {
+        "guess": "bold-direct",
+        "evidence": "short benefit-led heroes (\"A Clover for every small business\", \"You bring the flavor, Clover powers the pay\", \"Win the daily race against the clock\"), second-person address, stat-band bragging (\"Run the numbers: 4M+, #1, $337B+\"), no jargon"
+      }
+    },
+    "voiceTable": {
+      "ctaFrequency": [
+        {
+          "label": "Contact sales",
+          "total": 11,
+          "pageCount": 5,
+          "pages": [
+            "contact",
+            "home",
+            "pos-solutions__restaurant",
+            "pos-systems",
+            "pricing"
+          ]
+        },
+        {
+          "label": "Online ordering",
+          "total": 2,
+          "pageCount": 2,
+          "pages": [
+            "pos-solutions__restaurant",
+            "pos-systems"
+          ]
+        },
+        {
+          "label": "View More FAQs",
+          "total": 2,
+          "pageCount": 2,
+          "pages": [
+            "pos-systems",
+            "pricing"
+          ]
+        },
+        {
+          "label": "Get sales help",
+          "total": 1,
+          "pageCount": 1,
+          "pages": [
+            "contact"
+          ]
+        },
+        {
+          "label": "Where to buy Clover",
+          "total": 1,
+          "pageCount": 1,
+          "pages": [
+            "contact"
+          ]
+        },
+        {
+          "label": "Get help with your existing system",
+          "total": 1,
+          "pageCount": 1,
+          "pages": [
+            "contact"
+          ]
+        },
+        {
+          "label": "Support outside of the U.S.",
+          "total": 1,
+          "pageCount": 1,
+          "pages": [
+            "contact"
+          ]
+        },
+        {
+          "label": "Installation support",
+          "total": 1,
+          "pageCount": 1,
+          "pages": [
+            "contact"
+          ]
+        }
+      ],
+      "headingFrequency": [
+        {
+          "text": "Want to purchase a device with Clover?",
+          "total": 3,
+          "pageCount": 3,
+          "level": 2
+        }
+      ],
+      "toneMetrics": {
+        "headingsTotal": 88,
+        "headingsUppercasePercent": 0,
+        "distinctHeadings": 86,
+        "distinctCtaLabels": 42
+      }
+    },
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "#228800",
+          "color": "rgb(34, 136, 0)",
+          "borderRadius": "8px",
+          "padding": "12px 0px",
+          "fontWeight": 300,
+          "shadow": null,
+          "occurrences": 10
+        },
+        "secondary": {
+          "background": "#ffffff",
+          "color": "rgb(34, 136, 0)",
+          "borderRadius": "8px",
+          "padding": "16px 0px",
+          "fontWeight": 300,
+          "shadow": null,
+          "occurrences": 12
+        },
+        "ghost": null
+      },
+      "dualCTAPattern": "primary-then-secondary (home hero: \"Get Clover\" + \"Contact sales\")",
+      "cards": {
+        "background": "#ffffff",
+        "borderRadius": "8px",
+        "padding": null,
+        "shadow": null,
+        "border": null
+      },
+      "inputs": {
+        "borderRadius": "50px",
+        "padding": "6px 15px",
+        "border": "1px solid rgb(112, 112, 112)"
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 5,
+        "headingSequence": [
+          "Restaurants",
+          "Services",
+          "Retail",
+          "Healthcare",
+          "Products",
+          "Resources"
+        ],
+        "ctaLabels": [
+          "Contact sales",
+          "Log In",
+          "Help Center",
+          "Pricing",
+          "Shop systems"
+        ],
+        "exampleSlug": "home",
+        "exampleSelector": "header",
+        "examplePages": [
+          "contact",
+          "home",
+          "pos-solutions__restaurant",
+          "pos-systems",
+          "pricing"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 5,
+        "headingSequence": [
+          "Take payments",
+          "Run your business",
+          "Sell more",
+          "Business types",
+          "Hardware devices",
+          "Help",
+          "About",
+          "Integrations"
+        ],
+        "ctaLabels": [],
+        "exampleSlug": "contact",
+        "exampleSelector": "footer",
+        "examplePages": [
+          "contact",
+          "home",
+          "pos-solutions__restaurant",
+          "pos-systems",
+          "pricing"
+        ]
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.643,
+        1.4,
+        2.222
+      ],
+      "matchedScale": null
+    },
+    "spacing": {
+      "baseUnit": 8,
+      "scale": [
+        24,
+        48,
+        64,
+        80,
+        120,
+        128
+      ],
+      "sectionPadding": "48px",
+      "containerMaxWidth": "1158px",
+      "gridGap": null
+    },
+    "fonts": [
+      {
+        "url": "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff2",
+        "family": "Graphik",
+        "weight": "600",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Graphik-Semibold-Cy-Gr-Web-5a49d3.woff2",
+        "sourceCssRule": "@font-face { font-family: Graphik; font-weight: 600; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold.otf\") format(\"opentype\"); }",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2",
+        "family": "Graphik",
+        "weight": "400",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Graphik-Regular-Cy-Gr-Web-c8b94e.woff2",
+        "sourceCssRule": "@font-face { font-family: Graphik; font-weight: 400; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Regular.otf\") format(\"opentype\"); }",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff2",
+        "family": "Graphik",
+        "weight": "300",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Graphik-Light-Cy-Gr-Web-bbc8d3.woff2",
+        "sourceCssRule": "@font-face { font-family: Graphik; font-weight: 300; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Light.otf\") format(\"opentype\"); }",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2",
+        "family": "Graphik",
+        "weight": "500",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Graphik-Medium-Cy-Gr-Web-59a557.woff2",
+        "sourceCssRule": "@font-face { font-family: Graphik; font-weight: 500; src: url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2\") format(\"woff2\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff\") format(\"woff\"), url(\"https://cloverstatic.com/content/fonts/graphik/Graphik-Medium.otf\") format(\"opentype\"); }",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/altform/Altform-Light.woff2",
+        "family": "altform",
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Altform-Light-55bf24.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/altform/Altform-Regular.woff2",
+        "family": "altform",
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Altform-Regular-8c191c.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/formula/PPFormula-CondensedBlack.woff2",
+        "family": "formula",
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/PPFormula-CondensedBlack-645804.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/altform/Altform-SemiBold.woff2",
+        "family": "altform",
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Altform-SemiBold-cf6aa2.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://cloverstatic.com/content/fonts/altform/Altform-Bold.woff2",
+        "family": "altform",
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/Altform-Bold-1dce51.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2",
+        "family": "google-fonts (Roboto / Material Icons)",
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ-08e4f0.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "open"
+      },
+      {
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+        "family": "google-fonts (Roboto / Material Icons)",
+        "weight": null,
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-1500b8.woff2",
+        "sourceCssRule": null,
+        "licensingFlag": "open"
+      }
+    ],
+    "iconFont": null,
+    "shadows": [],
+    "templateGenerations": {
+      "note": "site spans two template generations",
+      "home": {
+        "display": "PP Formula Condensed Black 92px uppercase",
+        "buttons": [
+          "#b6fb6f",
+          "#000000"
+        ],
+        "container": "1280-1392px",
+        "hero": "full-bleed background video"
+      },
+      "classic": {
+        "headings": "Altform 56/40px",
+        "buttons": [
+          "#228800"
+        ],
+        "container": "1158px"
+      }
+    }
+  },
+  "narrative": {
+    "northStar": "The Merchant's Corner (descriptive label, not authored direction)",
+    "overview": "Flat, photographic, green-blocked. Single-hue brand deployed as full-section grounds and CTAs over white/gray, with real-merchant photography and video carrying the atmosphere. Zero shadows; depth via color blocking.",
+    "keyCharacteristics": [
+      "monochromatic green brand",
+      "flat / no shadows / no gradients",
+      "condensed-display shout on home, humanist calm on interior",
+      "real-merchant photography",
+      "8px radius signature",
+      "ad-hoc type scale",
+      "8-column mega-footer"
+    ],
+    "rules": [
+      {
+        "name": "The One-Hue Rule (observed)",
+        "body": "Every non-neutral color captured on five pages is a green.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ad-hoc Scale (observed)",
+        "body": "Heading ratios 1.643/1.400/2.222 match no modular scale.",
+        "section": "typography"
+      },
+      {
+        "name": "The No-Shadow Rule (observed)",
+        "body": "Separation is a background-color change, never elevation.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "keep accents within the green family",
+      "full-section color blocks for rhythm",
+      "8px radii",
+      "real-merchant photography; preserve the home hero video signature",
+      "short second-person benefit-led copy"
+    ],
+    "donts": [
+      "no box-shadows or gradients",
+      "no second hue",
+      "no display fonts outside display size",
+      "no enterprise-fintech register"
+    ]
+  }
+}

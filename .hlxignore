@@ -1,7 +1,4 @@
-.*
-*.md
-karma.config.js
-LICENSE
-package.json
-package-lock.json
-test/*
+stardust-work/
+qa/
+tools/
+content/

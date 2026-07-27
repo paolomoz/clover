@@ -1,0 +1,663 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:prototype (media gap-fill, re-direct 2026-07-26)",
+  "writtenAt": "2026-07-26T15:47:36.182Z",
+  "renderedBy": "playwright"
+ },
+ "pages": {
+  "pos-systems": {
+   "url": "https://www.clover.com/pos-systems",
+   "fetchedAt": "2026-07-26T15:47:10.429Z",
+   "renderedBy": "playwright",
+   "sections": [
+    {
+     "i": 0,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--featureHero_hero__owzEe mAZF70It",
+     "heading": "Win the daily race against the clock with a Clover POS System.",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Win the daily race against the clock with a Clover POS System. With a Clover point of sale (POS) system, you’ll feel like you can handle it all. Have a restaurant, retail, eCommerce, or service business? Our solutions help you manage daily tasks, regardless of where your business is at. From accepting payments to organizing inventory (and so much more), it’s all at your fingertips — anytime, anywhere. Might have you wondering why you didn’t get it sooner. Get started Get started",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/20xdjV27o2EuVZr07M2JNj/e40c8cb9e542e559c92e56698b1a6ddc/clover-duo-printer-mini3-facing-customer.webp?fit=scale&fm=webp",
+       "alt": "Station duo with a processing screen on the mini. The word \"processing\" and an illustration of a credit card are on the mini.",
+       "w": 2400,
+       "h": 1600
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 1,
+     "cls": "mAZF70It--GridModule_module-wrapper__l89hU",
+     "heading": "PACKED WITH POWER",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "PACKED WITH POWER Clover POS systems come with many built-in features so you can set up your business right away and right-size it for your needs. ANY TIME ANYWHERE Cloud-based for good reason. Track your sales, refunds, deposits, and run reports, wherever you are or need to be. COMPLETELY CUSTOMIZABLE Your system, your needs. Tailored to scale with your business with devices, apps, and accessories that make sense when your timing says so. REAL‑TIME REPORTING Live and trending sales data helps track your business’s performance via customizable reports in your Clover dashboard. It can really be that easy.",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/1ianMlu3VUIduB8mAQKUGr/eb5935559b061b2e5ee28f683175587c/people-group-network-signal-icon.svg",
+       "alt": "people group network signal icon",
+       "w": 60,
+       "h": 61
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/691Hb6IfNWJ0hhHnfzLTyB/ee0d64df76eebd21ac7bce6af92a1dca/mobile-phone-vibrate-icon.svg",
+       "alt": "mobile phone vibrate icon",
+       "w": 60,
+       "h": 61
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/xzfHEUDqt5OwKzpLEE9eA/b225f4ca9bef4b31cea7fd174f4682fd/completely-customizable-icon.svg",
+       "alt": "completely customizable icon",
+       "w": 60,
+       "h": 60
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/2qJjqgfUmVckmM4H7IU6ON/ae681914b67c32e2dad136220e98f6ab/computer-cursor-interface__2_.svg",
+       "alt": "computer cursor interface icon",
+       "w": 60,
+       "h": 60
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 2,
+     "cls": "mAZF70It--ControlledScrollModule_controlled-scroll-wrapper__en59K",
+     "heading": "A POS that can manage all your moving parts",
+     "bg": "rgb(255, 255, 255)",
+     "eyebrow": null,
+     "text": "A POS that can manage all your moving parts Customize your system Start with softwarePick a plan with features to fit your business – payments, inventory and everything in between. Hand-pick your hardwareSelect a POS device for your business – countertop, portable or no device at all! Add accessories and appsGet Clover-approved accessories and third-party apps from our App Market to maximize your system. Shop now Shop Clover devices Process more payments Get paid in all kinds of waysTap, dip, swipe, are all welcome here. Accept all major credit/debit cards to mobile wallet and contactless payments - and even scan checks, safely and securely. Tackle transactions with easeOffer one-touch tipping and digital receipts. And, complete refunds, returns, and exchanges efficiently. Say hello to efficiencyEnable online ordering so customers can make the most of their time - and you, yours. Take ca",
+     "imgs": [],
+     "cssBgs": [
+      "https://images.ctfassets.net/v6ivjcl8qjz2/7wWCpIsnbHSVsBpzSYpCv0/508ac42f1f4a41dd8c2073cdc00e7464/mini-3-solo-flex-3.png?fit=fill&fm=webp&h=800",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/2ZKrEJU32wsriqn29H90wT/d664c078810a50751773f491f41470da/clover-mini-total-screen.webp?fit=fill&fm=webp&h=800",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/3axZv3VMs7z8BjygacaPjk/4f8eb891acdec4e06e582295159c10ee/pos-clover-station-manage-orders.png?fit=fill&fm=webp&h=800",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/3RLUSCJ6UX3uqsXuyjvRpM/c230909e2e8f2566b0b5f806b1907428/clover-mini-customer-profile-screen.webp?fit=fill&fm=webp&h=800",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/axdVt6g9Q8qy248FGPAaf/584bb162785e68e0491307e7ce89466c/flex-3-top-Employees-Screen.png?fit=fill&fm=webp&h=800"
+     ]
+    },
+    {
+     "i": 3,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Faster, stress‑free set‑up – with a little help from our team",
+     "bg": "rgb(238, 255, 238)",
+     "eyebrow": null,
+     "text": "Faster, stress‑free set‑up – with a little help from our team Convenient, concierge-style set-up support from experts who understand your unique business. Contact sales Connect to a sales team professional",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/01FR1clkkNLqs3y2mvafH9/e31b42c02d75cc097277a3d73f555b56/features-woman-on-phone.png?fit=scale&fm=webp",
+       "alt": "features woman on phone",
+       "w": 710,
+       "h": 800
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 4,
+     "cls": "mAZF70It--GridModule_module-wrapper__l89hU",
+     "heading": "More POS features, more for your business",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "More POS features, more for your business OFFER AND ACCEPT GIFT CARDS GET FEEDBACK DIRECTLY FROM YOUR CUSTOMERS BETTER MANAGE CUSTOMERS AND EMPLOYEES LAUNCH AND PROMOTE DEALS AND DISCOUNTS",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/2mmun2o27AMP0w6kwNJbpo/ffd7b3366e953d158723405c92ee86d7/hand-card-heart-gift-reward-icon.svg",
+       "alt": "hand card heart gift reward icon",
+       "w": 60,
+       "h": 60
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6e97v7unVAv8E8LiqVp3GL/5156adbd2830f2ca947aacbef4b43f4c/hear-feedback-icon.svg",
+       "alt": "hear feedback icon",
+       "w": 60,
+       "h": 60
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/tJj04RMqRSRImnxyAQrsg/28975d9e1f1c6030c527df2062c81881/manage-tables-icon.svg",
+       "alt": "manage tables icon",
+       "w": 60,
+       "h": 60
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/2dp07R9NsegVaUpWd5xGgR/c8455e455d93dd815049ea0cbceb5aca/happy-hour-icon.svg",
+       "alt": "happy hour icon",
+       "w": 60,
+       "h": 60
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 5,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Get paid in more ways ‑ ’cause we all like options.",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Get paid in more ways ‑ ’cause we all like options. In partnership with our parent company, Fiserv, we provide even more solutions and resources for businesses of all types and sizes. There’s something for everyone! Learn more Explore small business resources",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/GxsFjVMtVGkGAbs2RtMsy/6dc9b8881dcb295d318047170b3dee57/duo2022-printer-mini3-flex3-go3-merchant-1200x800.png?fit=scale&fm=webp",
+       "alt": "Clover Station Duo, Flex, Go",
+       "w": 1200,
+       "h": 800
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 6,
+     "cls": "mAZF70It--GridModule_module-wrapper__l89hU",
+     "heading": "Peace of mind with your system",
+     "bg": "rgb(248, 248, 248)",
+     "eyebrow": null,
+     "text": "Peace of mind with your system FREE OVERNIGHT SHIPPING* Once you’re approved, your system will arrive in one business day. *Online orders only. QUICK AND EASY SET UP Set up your business and start taking payments all in the same day with the Clover Dashboard. CONSISTENT RATES All cards, including AMEX and rewards cards, feature the same low rates. HELP WHEN YOU NEED IT Ready to assist you with everything from setting up to troubleshooting.",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/3gul6mE9aoJpx03vUUtkbL/5602d95fda2f1b1ad6215da868eca70b/box-motion.svg",
+       "alt": "icon shipping",
+       "w": 60,
+       "h": 60
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/o8VXKAnMSKEqOYGUsPjas/1e5c7b257409a92c67ef0fd34327a70d/laptop-card.svg",
+       "alt": "Icon - laptop with credit card",
+       "w": 60,
+       "h": 60
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/5RoEfYOhRVAfh9H5Zkbs1d/90c3da110a83a52a45869bf62a630fd9/icon60_rates__1_.svg",
+       "alt": "rates icon",
+       "w": 60,
+       "h": 60
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/22ZYpC4QTOTRthakpQFCRQ/f2e68a25cb988f5f98c201de696d8728/head-set.svg",
+       "alt": "icon help",
+       "w": 60,
+       "h": 60
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 7,
+     "cls": "mAZF70It--FaqModule_faq-module__4co+c mAZF70It--FaqModule_variant-arrow-icon__Pb2WJ",
+     "heading": "Got questions? We got answers.",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Got questions? We got answers. What is a POS system? Are Clover POS systems suitable for my business? What kind of customer support does Clover offer? Can I integrate third‑party POS apps and accessories with my Clover point‑of‑sale system? Can I use Clover without having a POS system? How do I transfer money from Clover to my bank account? What are the key features and benefits of Clover’s POS hardware and software? Which payment options does Clover support? How much does a Clover POS system cost? How much does Clover charge per transaction? View More FAQs",
+     "imgs": [],
+     "cssBgs": []
+    },
+    {
+     "i": 8,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Want to purchase a device with Clover?",
+     "bg": "rgb(248, 248, 248)",
+     "eyebrow": null,
+     "text": "Want to purchase a device with Clover? It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready. Contact sales Explore POS offerings for your business",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6SVsJyQMqonv4zdPb19Uka/d5af135b24feaec679f4cc065bfe3b59/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_.png?fit=scale&fm=webp",
+       "alt": "Solo, Mini and Flex devices displaying the order and sale details on screen",
+       "w": 7040,
+       "h": 1798
+      }
+     ],
+     "cssBgs": []
+    }
+   ]
+  },
+  "pos-solutions__restaurant": {
+   "url": "https://www.clover.com/pos-solutions/restaurant",
+   "fetchedAt": "2026-07-26T15:47:19.149Z",
+   "renderedBy": "playwright",
+   "sections": [
+    {
+     "i": 0,
+     "cls": "mAZF70It--TextMediaModule_hero_hero__NgAVW mAZF70It--TextMediaModule_hero_hero-v2__ti8Il m",
+     "heading": "You bring the flavor, Clover powers the pay",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": "CLOVER FOR RESTAURANTS",
+     "text": "CLOVER FOR RESTAURANTS You bring the flavor, Clover powers the pay Improve efficiencies, reduce costs, and do what you do better with a Clover restaurant pos system. Get started with Clover Explore POS offerings for your business Contact sales Connect with a sales team professional",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/2Q97A7zM8sgOg3c4iU1muV/6dc5a0fe0ce5e4c93d118c94b044a40b/restaurant-hero-desktop-1440x520.jpg?fit=scale&fm=webp",
+       "alt": "Chef in a kitchen wearing a dark green apron while cooking food on a high flame. A large flame peeks out from under the pan.",
+       "w": 2880,
+       "h": 1040
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 1,
+     "cls": "mAZF70It--Carousel_carousel-wrapper__7+Qmw mAZF70It--Carousel_square__GyIj7",
+     "heading": "Manage it all from one system built for restaurants",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Manage it all from one system built for restaurants Take and modify orders Fire orders to the kitchen Accept payments Map your tables Speed up service Create menu categories",
+     "imgs": [],
+     "cssBgs": [
+      "https://images.ctfassets.net/v6ivjcl8qjz2/2407zxqtePXKM4c6pm6pqQ/2243c406df43451f09b13a20278e0cce/carousel_1__1_.webp?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/2TeBIB1UivhFxwy529VpjG/07e4f6bbebf049754941e55b6645dc2e/restaurant-all-in-one-kitchen-350x350-2x.jpg?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/6zeUm5i0Lp4gA66ZFULcUO/9b1a89dd25367954d3e8ad7e891cc347/restaurant-all-in-one-payments-350x350-2x.jpg?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/3xXJpJgDO4tM6uqdd0bapw/148df219371e6739e9beeac284a3fa3e/restaurant-all-in-one-tables-350x350-2x.jpg?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/2Fw1AcxVz2k2x8KgS3uuss/0c383a98a3ca6e4ee2e904a49bbe7d26/restaurant-all-in-one-service-350x350-2x.jpg?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/4lF5nyPjbz2OThCbBNvmDX/2eef3c37eb2f76613237724b4d72392b/restaurant-all-in-one-menu-breakpoint-350x234-2x.jpg?fit=fill&fm=webp&w=350"
+     ]
+    },
+    {
+     "i": 2,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Everything your restaurant needs in one place",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Everything your restaurant needs in one place",
+     "imgs": [],
+     "cssBgs": []
+    },
+    {
+     "i": 3,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "From the restaurant floor…",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": "FRONT OF HOUSE",
+     "text": "FRONT OF HOUSE From the restaurant floor… Control coursing, menu modifications, seating, and more with ordering and payment solutions at the counter or tableside.",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/4jeBpwruUIaNNpYyUXqwxa/ea8a83c399c44fe68ceae29d07ae6aa2/restaurant-front-of-house.webp?fit=scale&fm=webp",
+       "alt": "Server with drinks and a Flex talking to a customer. Illustration of menu modifiers and payment types are placed over server.",
+       "w": 1080,
+       "h": 1114
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 4,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "To the kitchen…",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": "BACK OF HOUSE",
+     "text": "BACK OF HOUSE To the kitchen… Connect the front of house to the back to maintain smooth, efficient service with timed order routing, inventory tracking, and real-time order display.",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/2O803IRJVGV0v1Zrwyhlo/cd639b6b824aa6754c73ced5654bc94f/restaurant-to-the-kitchen-880x410-1x.png?fit=scale&fm=webp",
+       "alt": "Server putting a take-out container into a paper bag with a Clover Kitchen Display System in the background. ",
+       "w": 880,
+       "h": 410
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 5,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "And everything in‑between",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": "BACK OFFICE",
+     "text": "BACK OFFICE And everything in‑between Boost operational efficiencies, optimize team performance, manage finances, and more—all from a single dashboard designed for restaurant owners and operators.",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/5RwJbNwsxekW6quuxWjAZ/cad4cd0762be4dd0f9d2ad24e58419f5/restaurant-tablet-back-office-desktop-620x514-2x.png?fit=scale&fm=webp",
+       "alt": "Clover dashboard graphic on a tablet showing a restaurants daily sales volume. ",
+       "w": 1240,
+       "h": 1028
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 6,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Online ordering made easy with eCommerce solutions",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Online ordering made easy with eCommerce solutions Boost revenue and expand your offerings with commission-free online ordering, delivery management, and seamless integration with third-party delivery apps. Online ordering Learn more about online ordering",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/9VD8CGKo6oC7v9xpB95X3/0d12ba65d3c6889aa9b8599c8711acd2/Restaurant_-_Online_Ordering.png?fit=scale&fm=webp",
+       "alt": "Food delivery service icons: Uber Eats, Google Restaurants, DoorDash, etc.",
+       "w": 1080,
+       "h": 1080
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 7,
+     "cls": "mAZF70It--Carousel_carousel-wrapper__7+Qmw",
+     "heading": null,
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "chevron_left chevron_right",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/4WXNni0wvOZe4hjsJi9O0X/e539fb6a669599a1bd43807c79e3d733/Restaurant_video_thumbnail.png",
+       "alt": "",
+       "w": 1200,
+       "h": 619
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 8,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Meet the future of restaurant ordering",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Meet the future of restaurant ordering In quick service restaurants, improving efficiency is a key ingredient. The Clover Kiosk promotes faster service by letting customers place their own orders. Grow your average ticket value Kiosks give customers more freedom and flexibility to browse and customize, leading to higher order values, in addition to cross selling and upselling options within the kiosk software. Streamline operations Front-of-house tasks no longer need as much attention, saving money on labor costs. Integrated workflow Menus are automatically imported and synced across all devices. Easily add pick-up and dine in orders, all while ensuring accuracy and reducing food wastage.",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/3JAtiOhaXscjzRGeSuoUv3/cf5e711fff5a5f32514874c03a1915e3/kiosk-qsr-restaurant-image__1_.webp?fit=scale&fm=webp",
+       "alt": "Kiosk ordering screen with menu item pictures, descriptions, and prices displayed.",
+       "w": 2520,
+       "h": 2000
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 9,
+     "cls": "mAZF70It--Carousel_carousel-wrapper__7+Qmw mAZF70It--Carousel_square__GyIj7",
+     "heading": "Customize your restaurant tools",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Customize your restaurant tools Flex Pocket This mobile POS is built with a user-friendly interface, robust operations tools, full-day battery life, and digital receipts. Flex Discover the Flex handheld POS system Take orders tableside or payments on the go with our handheld, 100% mobile POS device. KDS Discover the Kitchen Display System Connect front-of-house service, online orders, and kitchen staff with a Kitchen Display System that serves up everything seamlessly. Station Solo Discover the Station Solo POS system The easy-to-use POS that keeps your whole team on the same page from the front of house to the back of the bar. Station Duo Discover the Station Duo POS system With a dual-screen terminal perfect for high-volume counters, you’ll accept payments and make faster customer transactions. Mini Learn more about Mini POS system The small-but-mighty Mini is a compact POS that doesn’",
+     "imgs": [],
+     "cssBgs": [
+      "https://images.ctfassets.net/v6ivjcl8qjz2/7gYRNMbss2hpS4IBaequYV/7fa036abf90274d9389d952adb8a7fbc/flex_pocket_carousel.webp?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/7pRwfxuMfFtSkEB9j22xZR/3c64d73a0aa20147267040ead7988af7/customize-your-hardware-flex-3-left-45-top-desktop-374x374-2x.png?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/52fQbTBywzKXmO1Zdx9C9F/360ce2146ded8b1dede680e48a3560a0/kds-carousel.webp?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/7t5T3IHQi1GvzdUyloGrmd/37dfdbe9aba10f87c4db29515add5897/solo_carousel__2_.png?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/5knsGQRqJKVOOc5puk2yqY/329b83faa9883777576bbd5e274b0697/customize-your-hardware-duo-2022-customer-left-45-desktop-374x374-2x.png?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/4nAZaAuWuWj8hrqMyTjpZI/c4b298fd2be6056f3d911915a1f27bad/hardware-carousel-mini-3-right-45-650x580.png?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/4IHNGuYSvt21sR7OO08HSr/c3cdd99b677d593902249f420470df4e/customize-your-hardware-go-3-left-45-desktop-374x374-2x.png?fit=fill&fm=webp&w=350",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/1zbpShAaSthlLN110ca8xd/b83de079305feb1dadae216630a08f2d/kiosk-restaurant-image.webp?fit=fill&fm=webp&w=350"
+     ]
+    },
+    {
+     "i": 10,
+     "cls": "mAZF70It--CardModule_card-module-wrapper__7dI78 mAZF70It--CardModule_card-module-wrapper--",
+     "heading": "Take your restaurant to the next level with Clover",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Take your restaurant to the next level with Clover Full‑service restaurant Running a restaurant or bar calls for a tailored, full-service system to keep operations running smoothly. Full‑service restaurants Explore Clover for full-service restaurants Quick‑service restaurant With high-volume service, speed matters. Keep your queue moving with a quick service solution for your cafe, food truck, or coffee cart. Quick‑service restaurants Explore Clover for quick-service restaurants",
+     "imgs": [],
+     "cssBgs": [
+      "https://images.ctfassets.net/v6ivjcl8qjz2/2JjkvEbuMVeppDpfdPsoNT/0b2ca0560f76dab2ad379aa533d91c90/restaurant-fsr-540x352-2x.jpg?fit=fill&fm=webp&w=521",
+      "https://images.ctfassets.net/v6ivjcl8qjz2/2bVY5t51Ei17mXcnCY4Afb/026ea66f467a683e58683fc6c41a6ad4/restaurant-qsr-540x352-2x.jpg?fit=fill&fm=webp&w=521"
+     ]
+    },
+    {
+     "i": 11,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Want to purchase a device with Clover?",
+     "bg": "rgb(248, 248, 248)",
+     "eyebrow": null,
+     "text": "Want to purchase a device with Clover? It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready. Contact sales Explore POS offerings for your business",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6SVsJyQMqonv4zdPb19Uka/d5af135b24feaec679f4cc065bfe3b59/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_.png?fit=scale&fm=webp",
+       "alt": "Solo, Mini and Flex devices displaying the order and sale details on screen",
+       "w": 7040,
+       "h": 1798
+      }
+     ],
+     "cssBgs": []
+    }
+   ]
+  },
+  "pricing": {
+   "url": "https://www.clover.com/pricing",
+   "fetchedAt": "2026-07-26T15:47:26.225Z",
+   "renderedBy": "playwright",
+   "sections": [
+    {
+     "i": 0,
+     "cls": "mAZF70It--SolutionPickerModule_solution-picker-module__oeXXG",
+     "heading": "Find the right solution to power your business",
+     "bg": "rgb(1, 41, 6)",
+     "eyebrow": null,
+     "text": "Find the right solution to power your business Pay as little as 2.3% + 10¢ per transaction Prices shown are only available on Clover.com. Full service dining Compare pricing plan for full service dining Quick‑service restaurant Learn more about quick-service restaurants Retail shops Compare pricing plans for retail shops Professional services Compare pricing plans for professional service businesses Personal services Compare pricing plans for personal service businesses Home & field services Compare pricing plans for home and field service businesses",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6Qa5ULroKEroOt7Nl1YiYC/0ec98fd86354ada7db83981ed1f023db/icon-full-service-dining.svg",
+       "alt": "icon-full-service-dining",
+       "w": 160,
+       "h": 150
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6LReGASKropJPTMbWTcI0f/fb79e2b08b56659ef5c65160c999373d/icon-quick-service-dining.svg",
+       "alt": "icon-quick-service-dining",
+       "w": 150,
+       "h": 150
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/4zJUNY0rYmLPN8ju8nU5PF/aa6fdcc2587f2b0e62c4fef85d4bcd65/icon-retail-shops.svg",
+       "alt": "Retail shops",
+       "w": 48,
+       "h": 48
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/1xMep3GD2A2hJMxuF1ih2Y/364c58af0e9f506a73baa375d4cbee26/icon-professional-office-services.svg",
+       "alt": "icon-professional-office-services",
+       "w": 150,
+       "h": 150
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/7sTkcOae52Px5uhP18WEtu/f962a9815aa17cae67446b75450ba68f/icon-health-professional-services.svg",
+       "alt": "icon-health-professional-services",
+       "w": 150,
+       "h": 150
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/3VGBFgz4OlzmzPm700an1Q/6e2dfcb3ce9b39ce2d737bc17d6d9d5d/icon-home-services.svg",
+       "alt": "icon-home-services",
+       "w": 150,
+       "h": 150
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 1,
+     "cls": "mAZF70It--MultiPanelModule_multiple-panel-module__VcoFd",
+     "heading": "Every Clover system has business built-in tools",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Every Clover system has business built-in tools Learn more about accepting payments Get paid faster Ready to go and simple to use, start taking payments in person, over the phone, online–which ever way your customers want to pay. Payments Learn more about accepting payments Discover tracking and reporting tools Run your business Stay on top of your performance with analytics tools that deliver real-time reports, track key metrics, and provide insights. Tracking & reporting Discover tracking and reporting tools Explore customer loyalty for your business Engage your customers Bring customers back with more of what they love–inspiring rewards, valuable promotions, and open lines of communication. Customer loyalty Explore customer loyalty for your business",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/5mn3xGDFoqLhQm3u6sHZ80/23acf2f4b8a91fcc9e6e4d379a88fd68/Clover_Payments_01.jpg",
+       "alt": "Clover Payments 01",
+       "w": 850,
+       "h": 500
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/4DAjYJqYHgyh88Lic4qHca/31dfa861c10f4317d3ab56a037339eb7/Clover_Payments_02.jpg",
+       "alt": "Clover Payments 02",
+       "w": 850,
+       "h": 500
+      },
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/5WJZLFu1mWpfzgGkuVIqzE/676165c22c850321c4ddeca48dfb2f4b/Clover_Payments_03.jpg",
+       "alt": "Clover Payments 03",
+       "w": 850,
+       "h": 500
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 2,
+     "cls": "mAZF70It--SalesContactModule_sales-contact-module__gZIXa",
+     "heading": "Let’s work together to find the right system for your business",
+     "bg": "rgb(248, 248, 248)",
+     "eyebrow": null,
+     "text": "Let’s work together to find the right system for your business Our business consultants are available in person or by phone to help you find the right system. We’ll help you get up and running, and then we’re available 24/7/365 for troubleshooting and support. We’re here to help—always. Call now (844) 290-4721 Connect with a sales team professional Schedule a call Connect with a sales team professional",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/2CjVR3eI8lMT9w2B53OmuJ/6970386a2df8875adf840f7f42e83eda/woman-on-phone-and-laptop.webp",
+       "alt": "Women-at-counter-on-phone-with-laptop",
+       "w": 1400,
+       "h": 950
+      }
+     ],
+     "cssBgs": []
+    },
+    {
+     "i": 3,
+     "cls": "mAZF70It--FaqModule_faq-module__4co+c mAZF70It--FaqModule_variant-arrow-icon__Pb2WJ",
+     "heading": "Frequently Asked Questions",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Frequently Asked Questions What is a Clover Subscription? Can I cancel my subscription? When do I get my first bill? What happens at the end of my subscription? What is included with full warranty vs. a limited warranty or Clover Care? What is a Clover system? What are the monthly fees and credit card processing rates? Why are you asking me to choose a business type above? I saw Clover for a different price. Can you match it? Are there any termination fees? How will Clover help my business grow? Can I still subscribe to Clover if I don’t have a device? View More FAQs",
+     "imgs": [],
+     "cssBgs": []
+    },
+    {
+     "i": 4,
+     "cls": "mAZF70It--TextMediaModule_module-wrapper__Avf0a mAZF70It--TextMediaModule_module-wrapper--",
+     "heading": "Want to purchase a device with Clover?",
+     "bg": "rgb(248, 248, 248)",
+     "eyebrow": null,
+     "text": "Want to purchase a device with Clover? It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready. Contact sales Explore POS offerings for your business",
+     "imgs": [
+      {
+       "src": "https://images.ctfassets.net/v6ivjcl8qjz2/6SVsJyQMqonv4zdPb19Uka/d5af135b24feaec679f4cc065bfe3b59/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_.png?fit=scale&fm=webp",
+       "alt": "Solo, Mini and Flex devices displaying the order and sale details on screen",
+       "w": 7040,
+       "h": 1798
+      }
+     ],
+     "cssBgs": []
+    }
+   ]
+  },
+  "contact": {
+   "url": "https://www.clover.com/contact",
+   "fetchedAt": "2026-07-26T15:47:32.718Z",
+   "renderedBy": "playwright",
+   "sections": [
+    {
+     "i": 0,
+     "cls": "mAZF70It--AccordionModule_module-wrapper__prgYE",
+     "heading": "Contact us",
+     "bg": "rgba(0, 0, 0, 0)",
+     "eyebrow": null,
+     "text": "Contact us Get sales help Where to buy Clover Get help with your existing system Support outside of the U.S. Installation support Make a suggestion Developers Partners Resellers Press",
+     "imgs": [],
+     "cssBgs": []
+    }
+   ]
+  }
+ },
+ "downloads": [
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/6zeUm5i0Lp4gA66ZFULcUO/9b1a89dd25367954d3e8ad7e891cc347/restaurant-all-in-one-payments-350x350-2x.jpg",
+   "localPath": "stardust/current/assets/media/restaurant-all-in-one-payments-350x350-2x.jpg"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/3xXJpJgDO4tM6uqdd0bapw/148df219371e6739e9beeac284a3fa3e/restaurant-all-in-one-tables-350x350-2x.jpg",
+   "localPath": "stardust/current/assets/media/restaurant-all-in-one-tables-350x350-2x.jpg"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/2Fw1AcxVz2k2x8KgS3uuss/0c383a98a3ca6e4ee2e904a49bbe7d26/restaurant-all-in-one-service-350x350-2x.jpg",
+   "localPath": "stardust/current/assets/media/restaurant-all-in-one-service-350x350-2x.jpg"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/4lF5nyPjbz2OThCbBNvmDX/2eef3c37eb2f76613237724b4d72392b/restaurant-all-in-one-menu-breakpoint-350x234-2x.jpg",
+   "localPath": "stardust/current/assets/media/restaurant-all-in-one-menu-breakpoint-350x234-2x.jpg"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/7gYRNMbss2hpS4IBaequYV/7fa036abf90274d9389d952adb8a7fbc/flex_pocket_carousel.webp",
+   "localPath": "stardust/current/assets/media/flex_pocket_carousel.webp"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/7pRwfxuMfFtSkEB9j22xZR/3c64d73a0aa20147267040ead7988af7/customize-your-hardware-flex-3-left-45-top-desktop-374x374-2x.png",
+   "localPath": "stardust/current/assets/media/customize-your-hardware-flex-3-left-45-top-desktop-374x374-2x.png"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/52fQbTBywzKXmO1Zdx9C9F/360ce2146ded8b1dede680e48a3560a0/kds-carousel.webp",
+   "localPath": "stardust/current/assets/media/kds-carousel.webp"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/7t5T3IHQi1GvzdUyloGrmd/37dfdbe9aba10f87c4db29515add5897/solo_carousel__2_.png",
+   "localPath": "stardust/current/assets/media/solo_carousel__2_.png"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/5knsGQRqJKVOOc5puk2yqY/329b83faa9883777576bbd5e274b0697/customize-your-hardware-duo-2022-customer-left-45-desktop-374x374-2x.png",
+   "localPath": "stardust/current/assets/media/customize-your-hardware-duo-2022-customer-left-45-desktop-374x374-2x.png"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/4nAZaAuWuWj8hrqMyTjpZI/c4b298fd2be6056f3d911915a1f27bad/hardware-carousel-mini-3-right-45-650x580.png",
+   "localPath": "stardust/current/assets/media/hardware-carousel-mini-3-right-45-650x580.png"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/4IHNGuYSvt21sR7OO08HSr/c3cdd99b677d593902249f420470df4e/customize-your-hardware-go-3-left-45-desktop-374x374-2x.png",
+   "localPath": "stardust/current/assets/media/customize-your-hardware-go-3-left-45-desktop-374x374-2x.png"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/1zbpShAaSthlLN110ca8xd/b83de079305feb1dadae216630a08f2d/kiosk-restaurant-image.webp",
+   "localPath": "stardust/current/assets/media/kiosk-restaurant-image.webp"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/2JjkvEbuMVeppDpfdPsoNT/0b2ca0560f76dab2ad379aa533d91c90/restaurant-fsr-540x352-2x.jpg",
+   "localPath": "stardust/current/assets/media/restaurant-fsr-540x352-2x.jpg"
+  },
+  {
+   "slug": "pos-solutions__restaurant",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/2bVY5t51Ei17mXcnCY4Afb/026ea66f467a683e58683fc6c41a6ad4/restaurant-qsr-540x352-2x.jpg",
+   "localPath": "stardust/current/assets/media/restaurant-qsr-540x352-2x.jpg"
+  },
+  {
+   "slug": "pricing",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/6Qa5ULroKEroOt7Nl1YiYC/0ec98fd86354ada7db83981ed1f023db/icon-full-service-dining.svg",
+   "localPath": "stardust/current/assets/media/icon-full-service-dining.svg"
+  },
+  {
+   "slug": "pricing",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/6LReGASKropJPTMbWTcI0f/fb79e2b08b56659ef5c65160c999373d/icon-quick-service-dining.svg",
+   "localPath": "stardust/current/assets/media/icon-quick-service-dining.svg"
+  },
+  {
+   "slug": "pricing",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/4zJUNY0rYmLPN8ju8nU5PF/aa6fdcc2587f2b0e62c4fef85d4bcd65/icon-retail-shops.svg",
+   "localPath": "stardust/current/assets/media/icon-retail-shops.svg"
+  },
+  {
+   "slug": "pricing",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/1xMep3GD2A2hJMxuF1ih2Y/364c58af0e9f506a73baa375d4cbee26/icon-professional-office-services.svg",
+   "localPath": "stardust/current/assets/media/icon-professional-office-services.svg"
+  },
+  {
+   "slug": "pricing",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/7sTkcOae52Px5uhP18WEtu/f962a9815aa17cae67446b75450ba68f/icon-health-professional-services.svg",
+   "localPath": "stardust/current/assets/media/icon-health-professional-services.svg"
+  },
+  {
+   "slug": "pricing",
+   "url": "https://images.ctfassets.net/v6ivjcl8qjz2/3VGBFgz4OlzmzPm700an1Q/6e2dfcb3ce9b39ce2d737bc17d6d9d5d/icon-home-services.svg",
+   "localPath": "stardust/current/assets/media/icon-home-services.svg"
+  }
+ ]
+}

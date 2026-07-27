@@ -1,0 +1,87 @@
+{
+  "discovery": {
+    "fetchTechnique": "headless",
+    "count": 5,
+    "concurrency": 4
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "crawl": {
+    "startedAt": "2026-07-23T06:21:43.089Z",
+    "failures": [],
+    "finishedAt": "2026-07-23T06:22:09.650Z",
+    "successes": 5
+  },
+  "fonts": {
+    "https://cloverstatic.com/content/fonts/graphik/Graphik-Semibold-Cy-Gr-Web.woff2": "stardust/current/assets/fonts/Graphik-Semibold-Cy-Gr-Web-5a49d3.woff2",
+    "https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2": "stardust/current/assets/fonts/Graphik-Regular-Cy-Gr-Web-c8b94e.woff2",
+    "https://cloverstatic.com/content/fonts/graphik/Graphik-Light-Cy-Gr-Web.woff2": "stardust/current/assets/fonts/Graphik-Light-Cy-Gr-Web-bbc8d3.woff2",
+    "https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2": "stardust/current/assets/fonts/Graphik-Medium-Cy-Gr-Web-59a557.woff2",
+    "https://cloverstatic.com/content/fonts/altform/Altform-Light.woff2": "stardust/current/assets/fonts/Altform-Light-55bf24.woff2",
+    "https://cloverstatic.com/content/fonts/altform/Altform-Regular.woff2": "stardust/current/assets/fonts/Altform-Regular-8c191c.woff2",
+    "https://cloverstatic.com/content/fonts/formula/PPFormula-CondensedBlack.woff2": "stardust/current/assets/fonts/PPFormula-CondensedBlack-645804.woff2",
+    "https://cloverstatic.com/content/fonts/altform/Altform-SemiBold.woff2": "stardust/current/assets/fonts/Altform-SemiBold-cf6aa2.woff2",
+    "https://cloverstatic.com/content/fonts/altform/Altform-Bold.woff2": "stardust/current/assets/fonts/Altform-Bold-1dce51.woff2",
+    "https://fonts.gstatic.com/s/materialicons/v145/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2": "stardust/current/assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ-08e4f0.woff2",
+    "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2": "stardust/current/assets/fonts/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ-1500b8.woff2"
+  },
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-07-23T05:50:03.514Z",
+    "stardustVersion": "0.10.0"
+  },
+  "visionCheck": [
+    {
+      "slug": "home",
+      "verdict": "recaptured",
+      "notes": "run 1: custom consent modal (\"We need your choice to proceed\") overlaid hero and leaked into headings[]; mid-page sections blank (scroll-reveal opacity). Fixed via text-based consent dismissal + force-reveal + wait slow; run 2 clean."
+    },
+    {
+      "slug": "pricing",
+      "verdict": "recaptured",
+      "notes": "run 1: plan-cards region and lower sections rendered blank (opacity-reveal not settled). Run 2 with force-reveal renders all sections; DOM record had the content in both runs."
+    },
+    {
+      "slug": "pos-systems",
+      "verdict": "ok",
+      "notes": "hero, feature sections, apps band match record; 7 css backgrounds present."
+    },
+    {
+      "slug": "pos-solutions__restaurant",
+      "verdict": "ok",
+      "notes": "photo hero + kitchen/back-office sections + integration logos + device carousel all match record; 16 css backgrounds."
+    },
+    {
+      "slug": "contact",
+      "verdict": "ok",
+      "notes": "disclosure-list page renders fully; cssBackgrounds:[] is believable (flat white utility page); qa[] captured via aria-controls textContent."
+    }
+  ],
+  "siblingCandidates": [
+    {
+      "origin": "https://blog.clover.com",
+      "confidence": "high",
+      "evidence": "footer/nav links on 5/5 pages; same brand + wordmark",
+      "decision": "proposed (not crawled — awaiting user opt-in as --brand-source)"
+    },
+    {
+      "origin": "https://sales.clover.com",
+      "confidence": "high",
+      "evidence": "11 links across pages (Shop systems / commerce funnel)",
+      "decision": "proposed (not crawled)"
+    },
+    {
+      "origin": "https://integrate.clover.com",
+      "confidence": "medium",
+      "evidence": "developer/docs links on 5/5 pages",
+      "decision": "proposed (not crawled)"
+    },
+    {
+      "origin": "https://referrals.clover.com",
+      "confidence": "medium",
+      "evidence": "links on 5/5 pages",
+      "decision": "proposed (not crawled)"
+    }
+  ]
+}

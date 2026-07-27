@@ -1,0 +1,180 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype",
+    "writtenAt": "2026-07-26T16:05:54.150Z",
+    "stardustVersion": "0.10.0"
+  },
+  "site": {
+    "originUrl": "https://www.clover.com",
+    "deployUrl": null,
+    "extractedAt": "2026-07-23T06:32:00.825Z",
+    "pageCap": 5,
+    "totalDiscovered": 158,
+    "crawled": 5
+  },
+  "direction": {
+    "resolvedAt": "2026-07-26T09:00:00Z",
+    "phrase": "keep the original design per page — Altform headings on interior pages, all sections/images/cinematics reproduced; fix issues proactively (re-direct; F-002 overridden)",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim",
+    "mode": "brand-faithful (Mode A)",
+    "density": "balanced",
+    "targetSystem": "per-page-captured (home: new-generation; interior: classic)"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "url": "https://www.clover.com/",
+      "title": "POS Solutions for Food & Beverage Businesses | Clover",
+      "type": null,
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-07-23T06:22:01.154Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-07-23T08:28:49.483Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-23T10:59:27.416Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-07-23T12:46:52.180Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/home.json",
+      "prototypePath": "stardust/prototypes/home-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "pos-systems",
+      "url": "https://www.clover.com/pos-systems",
+      "title": "POS System & Software - Point of Sale Terminal",
+      "type": null,
+      "status": "prototyped",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-07-23T06:22:01.128Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-07-23T08:28:49.483Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-24T21:00:57.193Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-26T16:05:54.159Z",
+          "note": "re-rendered under re-direct 2026-07-26 (per-page captured generation)"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/pos-systems.json",
+      "prototypePath": "stardust/prototypes/pos-systems-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "pos-solutions__restaurant",
+      "url": "https://www.clover.com/pos-solutions/restaurant",
+      "title": "Restaurant POS System & Software - POS for Restaurants",
+      "type": null,
+      "status": "prototyped",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-07-23T06:22:01.226Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-07-23T08:28:49.483Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-24T21:00:57.193Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-26T16:05:54.159Z",
+          "note": "re-rendered under re-direct 2026-07-26 (per-page captured generation)"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/pos-solutions__restaurant.json",
+      "prototypePath": "stardust/prototypes/pos-solutions__restaurant-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "pricing",
+      "url": "https://www.clover.com/pricing",
+      "title": "Clover POS System Pricing and Cost",
+      "type": null,
+      "status": "prototyped",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-07-23T06:21:55.290Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-07-23T08:28:49.483Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-23T13:55:44.357Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-26T16:05:54.159Z",
+          "note": "re-rendered under re-direct 2026-07-26 (per-page captured generation)"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/pricing.json",
+      "prototypePath": "stardust/prototypes/pricing-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "contact",
+      "url": "https://www.clover.com/contact",
+      "title": "Contact us | Clover",
+      "type": null,
+      "status": "prototyped",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-07-23T06:22:09.612Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-07-23T08:28:49.483Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-24T21:00:57.193Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-07-26T16:05:54.159Z",
+          "note": "re-rendered under re-direct 2026-07-26 (per-page captured generation)"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/contact.json",
+      "prototypePath": "stardust/prototypes/contact-proposed.html",
+      "migratedPath": null
+    }
+  ]
+}
