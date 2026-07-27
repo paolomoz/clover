@@ -22,7 +22,10 @@ export default async function decorate(block) {
   q.textContent = quoteText || '';
   bq.append(q);
 
-  const footer = document.createElement('footer');
+  // NOT a <footer> element — the runtime's loadFooter targets the document's
+  // first <footer>, and one inside the blockquote would swallow the chrome
+  const footer = document.createElement('div');
+  footer.className = 'quote-attribution';
   const chip = document.createElement('div');
   chip.className = 'merchant-chip';
   if (avatar) chip.append(avatar.closest('picture') || avatar);

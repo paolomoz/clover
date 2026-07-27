@@ -52,7 +52,7 @@ main .section > .quote-wrapper {
   text-transform: uppercase;
 }
 
-.quote footer {
+.quote .quote-attribution {
   margin-top: 32px;
 }
 
