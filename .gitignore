@@ -17,3 +17,4 @@ drafts/
 .env
 .env.*
 content/.deploy-ledger.json
+content/.deploy-log.jsonl
