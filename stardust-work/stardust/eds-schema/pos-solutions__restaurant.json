@@ -1,0 +1,436 @@
+{
+ "source": "http://127.0.0.1:8791/stardust/prototypes/pos-solutions__restaurant-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Clover for restaurants"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "You bring the flavor, Clover powers the pay"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Improve efficiencies, reduce costs, and do what you do better with a Clover restaurant pos system."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Get started with Clover",
+     "href": "/build-your-own?step=BUSINESS_OFFERING"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Contact sales",
+     "href": "https://sales.clover.com/connect"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "ops-carousel",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Manage it all from one system built for restaurants"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Take and modify orders"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Fire orders to the kitchen"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Accept payments"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Map your tables"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Speed up service"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Create menu categories"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "‹",
+     "href": "#ops-slide-1"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "›",
+     "href": "#ops-slide-6"
+    }
+   ],
+   "imgCount": 6,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide-card",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "everything-intro",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Everything your restaurant needs in one place"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": []
+  },
+  {
+   "section": "front-of-house",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Front of house"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "From the restaurant floor…"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Control coursing, menu modifications, seating, and more with ordering and payment solutions at the counter or tableside."
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "back-of-house",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Back of house"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "To the kitchen…"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Connect the front of house to the back to maintain smooth, efficient service with timed order routing, inventory tracking, and real-time order display."
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "back-office",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Back office"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "And everything in‑between"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Boost operational efficiencies, optimize team performance, manage finances, and more—all from a single dashboard designed for restaurant owners and operators."
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "online-ordering",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Online ordering made easy with eCommerce solutions"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Boost revenue and expand your offerings with commission-free online ordering, delivery management, and seamless integration with third-party delivery apps."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Online ordering",
+     "href": "/pos-systems/online-ordering"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "image-stage",
+   "items": [],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "kiosk",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Meet the future of restaurant ordering"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "In quick service restaurants, improving efficiency is a key ingredient. The Clover Kiosk promotes faster service by letting customers place their own orders."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Grow your average ticket value"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Kiosks give customers more freedom and flexibility to browse and customize, leading to higher order values, in addition to cross selling and upselling options within the kiosk software."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Streamline operations"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Front-of-house tasks no longer need as much attention, saving money on labor costs."
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Integrated workflow"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Menus are automatically imported and synced across all devices. Easily add pick-up and dine in orders, all while ensuring accuracy and reducing food wastage."
+    }
+   ],
+   "imgCount": 1,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "tools",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Customize your restaurant tools"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Flex Pocket"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "This mobile POS is built with a user-friendly interface, robust operations tools, full-day battery life, and digital receipts."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Flex"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Take orders tableside or payments on the go with our handheld, 100% mobile POS device."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "KDS"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Connect front-of-house service, online orders, and kitchen staff with a Kitchen Display System that serves up everything seamlessly."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Station Solo"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "The easy-to-use POS that keeps your whole team on the same page from the front of house to the back of the bar."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Station Duo"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "With a dual-screen terminal perfect for high-volume counters, you’ll accept payments and make faster customer transactions."
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Mini"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "The small-but-mighty Mini is a compact POS that doesn’t need a lot of counter space to take care of business."
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Go"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Turn any smartphone into a totally portable point-of-sale system with the Go card reader and Clover Go App."
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Kiosk"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Our self-ordering kiosk features a commercial display and payment terminal that gives customers more control over their order."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "‹",
+     "href": "#tool-1"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "›",
+     "href": "#tool-8"
+    }
+   ],
+   "imgCount": 8,
+   "repeats": [
+    {
+     "unitSelector": "DIV.slide-card",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "segment-cards",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Take your restaurant to the next level with Clover"
+    }
+   ],
+   "imgCount": 2,
+   "repeats": [
+    {
+     "unitSelector": "A.segment-card",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "device-band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Want to purchase a device with Clover?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Contact sales — Explore POS offerings for your business",
+     "href": "https://sales.clover.com/connect"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  }
+ ]
+}

@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><!-- stardust:provenance
+  writtenBy:         stardust:prototype (re-render under re-direct 2026-07-26: per-page captured generation)
+  writtenAt:         2026-07-26T10:00:00Z
+  page:              pos-solutions__restaurant
+  pageUrl:           https://www.clover.com/pos-solutions/restaurant
+  againstDirection:  stardust/direction.md (Active 2026-07-26T09:00:00Z — per-page captured generation; F-002 user-overridden)
+  readArtifacts:
+    - stardust/prototypes/pos-solutions__restaurant-shape.md (+ re-direct addendum)
+    - DESIGN.md
+    - DESIGN.json
+    - stardust/current/pages/pos-solutions__restaurant.json
+    - stardust/current/_brand-extraction.json
+    - stardust/current/_media-gapfill.json
+    - stardust/current/assets/screenshots/pos-solutions__restaurant.png
+  divergenceVersion: v1.0 (stardust v2)
+  fontDeck:          brand-inherited (classic generation: Altform headings local woff2 + Graphik)
+  paletteSource:     inherited from _brand-extraction.json (captured classic grounds restored: #f8f8f8 alt, #228800 buttons)
+  unsourcedContent:  []
+  fidelity:          quick
+  mediaGapfill:      stardust/current/_media-gapfill.json (playwright 2026-07-26) — ops-carousel card images x6, tools device images x8, segment card photos x2, per-section copy for slides/cards the extract missed
+  signatureElements:
+    - { kind: "photo-hero with overlay panel", capturedSource: "restaurant-hero-desktop-1440x520 + captured dark overlay panel with eyebrow CLOVER FOR RESTAURANTS", mechanism: "captured photo hero + opaque dark poster panel (Poster Rule >=4.5:1)", fallback: "static CSS — identical in all states" }
+    - { kind: "full-page image stage", capturedSource: "section[7] full-bleed Restaurant_video_thumbnail band", mechanism: "edge-to-edge image stage reproduced; no chevrons/play affordance (single captured frame, no captured video URL)", fallback: "static image" }
+    - { kind: "scroll-reveal entrances", capturedSource: "captured FadeToastUp module reveals", mechanism: "CSS animation-timeline: view() (progressive @supports; reduced-motion off)", fallback: "content visible by default" }
+  designHookNotes:   font-size literals 13/15/18/20px are captured-classic values (brand-extraction type.bodyFamily sizes + captured tile labels) under the 2026-07-26 per-page-generation direction; classic ramp 16 -> 20 -> clamp(32,40) -> clamp(40,56) holds >=1.25 steps. flat-type-hierarchy FP rationale carries over.
+  stardustVersion:   0.10.0
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Restaurant POS System &amp; Software - POS for Restaurants | Clover</title>
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<meta name="description" content="Deliver a premier dining experience and keep restaurant operations running smoothly with Clover&rsquo;s POS systems for full and quick-service restaurants.">
+<meta property="og:title" content="Restaurant POS System &amp; Software - POS for Restaurants | Clover">
+<meta property="og:description" content="Deliver a premier dining experience and keep restaurant operations running smoothly with Clover&rsquo;s POS systems for full and quick-service restaurants.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.clover.com/pos-solutions/restaurant">
+<meta property="og:site_name" content="Clover">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "name": "Clover Network, LLC",
+   "url": "https://www.clover.com",
+   "logo": "https://cloverstatic.com/content/icons/web/favicons/android-chrome-192x192.png",
+   "sameAs": [
+    "https://www.facebook.com/CloverPOS",
+    "https://x.com/clover",
+    "https://www.instagram.com/clover",
+    "https://www.youtube.com/clover",
+    "https://www.linkedin.com/company/clover-network"
+   ]
+  },
+  {
+   "@type": "WebSite",
+   "name": "Clover",
+   "url": "https://www.clover.com/"
+  }
+ ]
+}
+</script>
+<style>
+:root {
+  /* Classic-generation type deck (captured interior surface): Altform headings / Graphik workhorse */
+  --heading-font-family: altform, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --body-font-family: Graphik, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --heading-xl: 56px;
+  --heading-lg: 40px;
+  --heading-md: 24px;
+  --heading-sm: 20px;
+  --body: 16px;
+  --body-sm: 15px;
+  --line-height-heading: 1.1;
+  --line-height-body: 1.5;
+  --color-bg: #ffffff;      /* counter-white */
+  --color-fg: #000000;      /* receipt-ink */
+  --color-accent: #228800;  /* clover-green — classic primary button + links */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 96px;
+  --section-padding: 64px;
+  --max-width: 1158px;      /* captured classic container */
+  --radius: 8px;
+  --content-pad: max(24px, calc((100vw - 1158px) / 2)); /* aligns copy to the container while media bleeds to the window edge */
+  /* Brand extras */
+  --color-forest: #004400;
+  --color-pine: #004422;    /* captured classic heading ink */
+  --color-green: #228800;
+  --color-alt: #f8f8f8;     /* captured classic alt ground */
+  --color-back-office: #333333;
+  --color-hairline: #dcdcdc; /* fine-border cards (captured) */
+  --color-poster: #0d2314;  /* opaque poster panel over hero photography (Poster Rule) */
+}
+
+/* Fonts — captured private cuts; Altform served from the local mirror, Graphik from cloverstatic */
+@font-face { font-family: altform; font-weight: 400; font-style: normal; font-display: swap; src: url('../current/assets/fonts/Altform-Regular-8c191c.woff2') format('woff2'); }
+@font-face { font-family: altform; font-weight: 600; font-style: normal; font-display: swap; src: url('../current/assets/fonts/Altform-SemiBold-cf6aa2.woff2') format('woff2'); }
+@font-face { font-family: altform; font-weight: 700; font-style: normal; font-display: swap; src: url('../current/assets/fonts/Altform-Bold-1dce51.woff2') format('woff2'); }
+@font-face { font-family: 'Graphik'; font-weight: 400; font-style: normal; font-display: swap; src: url('https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2') format('woff2'); }
+@font-face { font-family: 'Graphik'; font-weight: 500; font-style: normal; font-display: swap; src: url('https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2') format('woff2'); }
+
+/* ============ Base ============ */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--body);
+  line-height: var(--line-height-body);
+  color: var(--color-fg);
+  background: var(--color-bg);
+}
+img, video { display: block; max-width: 100%; }
+img { height: auto; }
+a { color: inherit; }
+p { margin: 0; }
+ul, ol { margin: 0; padding: 0; list-style: none; }
+h1, h2, h3 { margin: 0; }
+
+.container { max-width: var(--max-width); margin-inline: auto; padding-inline: var(--spacing-lg); }
+
+.skip-link { position: absolute; left: -9999px; top: 0; background: var(--color-bg); color: var(--color-fg); padding: var(--spacing-sm) var(--spacing-md); z-index: 100; }
+.skip-link:focus { left: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Classic heading roles: Altform, sentence case, pine ink */
+.h-display { font-family: var(--heading-font-family); font-weight: 400; font-size: clamp(40px, 5vw, var(--heading-xl)); line-height: var(--line-height-heading); }
+.h-section { font-family: var(--heading-font-family); font-weight: 400; font-size: clamp(32px, 4vw, var(--heading-lg)); line-height: var(--line-height-heading); color: var(--color-pine); }
+.h-card { font-family: var(--heading-font-family); font-weight: 400; font-size: var(--heading-sm); line-height: 1.25; color: var(--color-green); }
+.eyebrow { font-family: var(--body-font-family); font-size: 12px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-back-office); }
+
+/* Classic buttons — captured green pair */
+.btn { display: inline-block; font-family: var(--body-font-family); font-size: var(--body); font-weight: 500; line-height: 1.2; text-decoration: none; border-radius: var(--radius); padding: 14px 28px; }
+.btn-primary { background: var(--color-green); color: #ffffff; }
+.btn-primary:hover { background: var(--color-forest); }
+.btn-secondary { background: #ffffff; color: var(--color-green); border: 1px solid var(--color-green); }
+.btn-secondary:hover { background: var(--color-alt); }
+.btn-on-photo { background: #ffffff; color: var(--color-pine); }
+.btn-compact { padding: 10px 18px; font-size: var(--body-sm); }
+.btn:focus-visible { outline: 2px solid var(--color-forest); outline-offset: 2px; }
+
+/* ============ Offer strip — captured cross-promo (F-012 key-terms adjacency) ============ */
+.offer-strip { background: var(--color-green); color: #ffffff; }
+.offer-strip .container { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--spacing-xs) var(--spacing-lg); padding-block: var(--spacing-sm); }
+.offer-strip .offer { font-size: var(--body-sm); }
+.offer-strip .offer b { font-weight: 600; }
+.offer-strip .key-terms { font-size: 13px; color: #ffffff; }
+
+/* ============ Header — canon structure, classic commercial pair (F-008 kept) ============ */
+header[data-section="header"] { position: sticky; top: 0; z-index: 50; }
+.site-header { background: var(--color-bg); }
+.site-header .container { display: flex; align-items: center; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-lg); min-height: 72px; padding-block: var(--spacing-sm); }
+.site-header .logo-link { display: inline-flex; margin-right: var(--spacing-sm); }
+.nav-primary, .nav-utility { display: flex; align-items: center; flex-wrap: wrap; gap: var(--spacing-xs) var(--spacing-lg); }
+.nav-primary a, .nav-utility a:not(.btn) { font-size: var(--body-sm); font-weight: 500; text-decoration: none; color: var(--color-fg); padding-block: var(--spacing-xs); }
+.nav-primary a:hover, .nav-utility a:not(.btn):hover { color: var(--color-green); }
+.nav-utility { margin-left: auto; }
+.commercial-pair { display: flex; align-items: center; gap: var(--spacing-sm); }
+
+/* ============ Hero — captured chef photo + dark overlay panel with eyebrow ============ */
+.photo-hero { position: relative; background: var(--color-poster); }
+.photo-hero .hero-media { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.photo-hero .container { position: relative; display: flex; align-items: center; min-height: 520px; padding-block: var(--spacing-xl); }
+.photo-hero .hero-panel { background: var(--color-poster); color: #ffffff; border-radius: var(--radius); padding: var(--spacing-xl); max-width: 560px; }
+.photo-hero .eyebrow { color: rgba(255, 255, 255, 0.85); margin-bottom: var(--spacing-md); }
+.photo-hero h1 { text-wrap: balance; }
+.photo-hero .lede { margin-top: var(--spacing-md); font-size: 18px; }
+.photo-hero .cta-row { margin-top: var(--spacing-lg); display: flex; flex-wrap: wrap; gap: var(--spacing-md); }
+
+/* ============ Carousels — fine-border image cards, CSS scroll-snap (captured chevron carousel) ============ */
+.card-carousel { padding-block: var(--section-padding); background: var(--color-bg); }
+.card-carousel .container { max-width: none; padding: 0; }
+.card-carousel > .container > h2 { max-width: 22ch; margin-bottom: var(--spacing-xl); margin-left: var(--content-pad); }
+.carousel-track { display: grid; grid-auto-flow: column; grid-auto-columns: 272px; gap: var(--spacing-lg); overflow-x: auto; scroll-snap-type: x proximity; scroll-behavior: smooth; padding: 2px 0 var(--spacing-md) var(--content-pad); scroll-padding-inline: var(--content-pad); }
+@media (prefers-reduced-motion: reduce) { .carousel-track { scroll-behavior: auto; } }
+.slide-card { scroll-snap-align: start; background: #ffffff; border: 1px solid var(--color-hairline); border-radius: var(--radius); overflow: hidden; display: grid; align-content: start; }
+.slide-card img { width: 100%; aspect-ratio: 1; object-fit: cover; }
+.slide-card.wide img { aspect-ratio: 350 / 234; }
+.slide-card .slide-copy { padding: var(--spacing-md); display: grid; gap: var(--spacing-sm); }
+.slide-card h3 { font-family: var(--heading-font-family); font-weight: 400; font-size: 18px; line-height: 1.25; color: var(--color-pine); }
+.slide-card p { font-size: var(--body-sm); color: var(--color-back-office); }
+.carousel-nav { display: flex; gap: var(--spacing-sm); margin-top: var(--spacing-md); margin-left: var(--content-pad); }
+.carousel-nav a { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--color-hairline); background: #ffffff; color: var(--color-green); text-decoration: none; font-size: 20px; line-height: 1; }
+.carousel-nav a:hover { border-color: var(--color-green); }
+
+/* ============ Section intro (centered, captured) ============ */
+.section-intro-band { padding-block: var(--section-padding) 0; background: var(--color-bg); text-align: center; }
+.section-intro-band h2 { color: var(--color-green); margin-inline: auto; max-width: 22ch; }
+
+/* ============ Front-to-back trio — captured eyebrowed splits + full-width kitchen image ============ */
+.feature-split { padding-block: var(--section-padding); background: var(--color-bg); }
+.feature-split .container { max-width: none; padding: 0; }
+.feature-split .split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(min(600px, 50%), 1fr); gap: var(--spacing-xl); align-items: center; }
+.feature-split .feature-copy { padding-left: var(--content-pad); }
+.feature-split .split.media-left { grid-template-columns: minmax(min(600px, 50%), 1fr) minmax(0, 1fr); }
+.feature-split .split.media-left > .feature-copy { order: 2; padding-left: 0; padding-right: var(--content-pad); }
+.feature-split h2 { max-width: 18ch; margin-bottom: var(--spacing-md); }
+.feature-split .eyebrow { display: block; margin-bottom: var(--spacing-md); }
+.feature-split .single-copy { color: var(--color-back-office); max-width: 52ch; }
+.feature-split .cta-row { margin-top: var(--spacing-lg); }
+.feature-split img { border-radius: var(--radius) 0 0 var(--radius); width: 100%; object-fit: cover; }
+.feature-split .split.media-left img { border-radius: 0 var(--radius) var(--radius) 0; }
+.feature-split.stacked { padding-block: var(--section-padding); }
+.feature-split.stacked .stack-copy { max-width: 640px; margin-bottom: var(--spacing-xl); padding-left: var(--content-pad); }
+.feature-split.stacked img { width: 100%; border-radius: 0; }
+
+/* ============ Full-page image stage (captured full-bleed band) ============ */
+.image-stage { padding: 0; }
+.image-stage img { width: 100%; min-height: 420px; max-height: 640px; object-fit: cover; }
+
+/* ============ Kiosk — captured white split, kiosk device left, green feature heads ============ */
+.kiosk { padding-block: var(--section-padding); background: var(--color-bg); }
+.kiosk .container { max-width: none; padding: 0; }
+.kiosk .split { display: grid; grid-template-columns: minmax(min(600px, 50%), 1fr) minmax(0, 1fr); gap: var(--spacing-xl); align-items: center; }
+.kiosk .split > div { padding-right: var(--content-pad); }
+.kiosk img { border-radius: 0 var(--radius) var(--radius) 0; width: 100%; object-fit: cover; }
+.kiosk h2 { margin-bottom: var(--spacing-md); }
+.kiosk .kiosk-intro { color: var(--color-back-office); max-width: 52ch; margin-bottom: var(--spacing-lg); }
+.kiosk .kiosk-features { display: grid; gap: var(--spacing-lg); }
+.kiosk .kiosk-features h3 { font-family: var(--heading-font-family); font-weight: 400; font-size: var(--heading-sm); line-height: 1.25; color: var(--color-green); margin-bottom: var(--spacing-xs); }
+.kiosk .kiosk-features p { font-size: var(--body-sm); color: var(--color-back-office); max-width: 52ch; }
+
+/* ============ Segment cards — captured image-top fine-border cards ============ */
+.segment-cards { padding-block: var(--section-padding); background: var(--color-bg); }
+.segment-cards h2 { max-width: 22ch; margin-bottom: var(--spacing-xl); }
+.segment-cards .card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--spacing-lg); }
+.segment-card { display: grid; align-content: start; background: #ffffff; border: 1px solid var(--color-hairline); border-radius: var(--radius); overflow: hidden; text-decoration: none; }
+.segment-card img { width: 100%; aspect-ratio: 540 / 352; object-fit: cover; }
+.segment-card .card-copy { padding: var(--spacing-lg); display: grid; gap: var(--spacing-sm); }
+.segment-card h3 { font-family: var(--heading-font-family); font-weight: 400; font-size: var(--heading-md); line-height: 1.25; color: var(--color-pine); }
+.segment-card p { font-size: var(--body-sm); color: var(--color-back-office); }
+.segment-card .card-go { font-size: var(--body-sm); font-weight: 500; color: var(--color-green); text-decoration: underline; text-underline-offset: 3px; }
+.segment-card:hover, .segment-card:focus-visible { outline: 2px solid var(--color-green); outline-offset: 2px; }
+
+/* ============ Device band — captured alt ground ============ */
+.device-band { background: var(--color-alt); padding-block: var(--section-padding) 0; }
+.device-band .band-copy { text-align: center; display: grid; gap: var(--spacing-lg); justify-items: center; margin-bottom: var(--spacing-xl); }
+.device-band h2 { max-width: 18ch; }
+.device-band .band-copy p { color: var(--color-back-office); max-width: 52ch; }
+.device-band .band-media img { width: 100%; }
+
+/* ============ Footer — classic generation (large green Altform column heads, captured) ============ */
+.site-footer { background: var(--color-bg); padding-block: var(--section-padding) var(--spacing-xl); }
+.site-footer .wordmark { margin-bottom: var(--spacing-xl); display: inline-flex; }
+.footer-columns { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--spacing-xl) var(--spacing-lg); }
+.footer-columns h2 { font-family: var(--heading-font-family); font-weight: 400; font-size: var(--heading-md); line-height: 1.25; color: var(--color-green); margin-bottom: var(--spacing-md); }
+.footer-columns li { margin-bottom: var(--spacing-sm); }
+.footer-columns a { font-size: var(--body-sm); color: var(--color-back-office); text-decoration: none; }
+.footer-columns a:hover { color: var(--color-green); text-decoration: underline; }
+.footer-meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--spacing-md) var(--spacing-lg); margin-top: var(--spacing-2xl); }
+.footer-meta .locale { font-size: var(--body-sm); color: var(--color-back-office); }
+.footer-social { display: flex; align-items: center; gap: var(--spacing-md); margin-left: auto; }
+.footer-legal { margin-top: var(--spacing-xl); }
+.footer-legal p { font-size: 13px; line-height: 1.6; max-width: 76em; color: var(--color-back-office); margin-bottom: var(--spacing-md); }
+.footer-legal .legal-links { display: flex; flex-wrap: wrap; gap: var(--spacing-sm) var(--spacing-lg); margin-top: var(--spacing-lg); }
+.footer-legal .legal-links a { font-size: 13px; color: var(--color-back-office); text-decoration: underline; text-underline-offset: 3px; }
+
+/* ============ Cinematics — captured entrance reveals, CSS scroll-driven, progressive ============ */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .card-carousel > .container > h2,
+    .section-intro-band h2,
+    .feature-split h2,
+    .kiosk h2,
+    .segment-cards h2,
+    .device-band h2,
+    .slide-card,
+    .segment-card {
+      animation: rise linear both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+    .segment-cards .card-grid > :nth-child(2) { animation-range: entry 10% entry 70%; }
+    @keyframes rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+  }
+}
+
+/* ============ Responsive ============ */
+@media (max-width: 1024px) {
+  .feature-split .split, .feature-split .split.media-left, .kiosk .split { grid-template-columns: 1fr; }
+  .feature-split .split.media-left > .feature-copy { order: 0; }
+  .feature-split .feature-copy, .feature-split .split.media-left > .feature-copy, .feature-split.stacked .stack-copy, .kiosk .split > div { padding-inline: var(--spacing-lg); }
+  .feature-split img, .feature-split .split.media-left img, .kiosk img { border-radius: 0; }
+  .segment-cards .card-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 640px) {
+  header[data-section="header"] { position: static; }
+  .photo-hero .container { min-height: 420px; }
+  .photo-hero .hero-panel { padding: var(--spacing-lg); }
+  .carousel-track { grid-auto-columns: 78%; }
+  .footer-columns { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .footer-social { margin-left: 0; }
+}
+</style>
+</head>
+<body data-template="program">
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<section class="offer-strip" data-section="offer-strip" data-intent="cross-promo" data-layout="edge-to-edge">
+  <div class="container">
+    <p class="offer"><b>ONLINE ONLY OFFER:</b> Get $450 statement credit when you buy Station, Mini or Flex*</p>
+    <p class="key-terms">Key terms: subject to approval, including credit approval; requires a 3-year contract*</p>
+  </div>
+</section>
+
+<header data-section="header" data-intent="navigate + commercial pair" data-layout="full-width" data-canon>
+  <div class="site-header">
+    <div class="container">
+      <a class="logo-link" href="/" aria-label="Clover">
+        <img src="../current/assets/logo.svg" alt="Clover" width="164" height="40" style="height:32px;width:auto" loading="eager" fetchpriority="high">
+      </a>
+      <nav class="nav-primary" aria-label="Vertical markets">
+        <a href="#">Restaurants</a>
+        <a href="#">Services</a>
+        <a href="#">Retail</a>
+        <a href="#">Healthcare</a>
+        <a href="#">Products</a>
+        <a href="#">Resources</a>
+      </nav>
+      <nav class="nav-utility" aria-label="Utility">
+        <a href="/dashboard/login">Log In</a>
+        <a href="/en-US/help">Help Center</a>
+        <a href="/pricing">Pricing</a>
+        <span class="commercial-pair">
+          <a class="btn btn-secondary btn-compact" href="/shop">Shop systems</a>
+          <a class="btn btn-primary btn-compact" href="https://sales.clover.com/connect">Contact sales</a>
+        </span>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="photo-hero" data-section="hero" data-intent="value proposition" data-layout="edge-to-edge">
+    <img class="hero-media" src="../current/assets/media/restaurant-hero-desktop-1440x520-5c8369.jpg" alt="Chef in a kitchen wearing a dark green apron while cooking food on a flat top griddle" width="1440" height="520" loading="eager" fetchpriority="high">
+    <div class="container">
+      <div class="hero-panel">
+        <p class="eyebrow">Clover for restaurants</p>
+        <h1 class="h-display">You bring the flavor, Clover powers the pay</h1>
+        <p class="lede">Improve efficiencies, reduce costs, and do what you do better with a Clover restaurant pos system.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="/build-your-own?step=BUSINESS_OFFERING">Get started with Clover</a>
+          <a class="btn btn-on-photo" href="https://sales.clover.com/connect">Contact sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card-carousel" data-section="ops-carousel" data-intent="value proposition" data-layout="carousel" data-items="6" data-interactive="carousel">
+    <div class="container">
+      <h2 class="h-section">Manage it all from one system built for restaurants</h2>
+      <div class="carousel-track" tabindex="0" aria-label="Restaurant operations carousel — scroll horizontally">
+        <div class="slide-card" id="ops-slide-1">
+          <img src="../current/assets/media/carousel_1__1_-90d377.webp" alt="Server taking an order tableside with a Clover Flex" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Take and modify orders</h3></div>
+        </div>
+        <div class="slide-card" id="ops-slide-2">
+          <img src="../current/assets/media/restaurant-all-in-one-kitchen-350x350-2x-ba0b48.jpg" alt="Kitchen staff reading orders on a screen" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Fire orders to the kitchen</h3></div>
+        </div>
+        <div class="slide-card" id="ops-slide-3">
+          <img src="../current/assets/media/restaurant-all-in-one-payments-350x350-2x.jpg" alt="Customer paying with a card on a Clover device" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Accept payments</h3></div>
+        </div>
+        <div class="slide-card" id="ops-slide-4">
+          <img src="../current/assets/media/restaurant-all-in-one-tables-350x350-2x.jpg" alt="Table map on a Clover screen" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Map your tables</h3></div>
+        </div>
+        <div class="slide-card" id="ops-slide-5">
+          <img src="../current/assets/media/restaurant-all-in-one-service-350x350-2x.jpg" alt="Server delivering food quickly" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Speed up service</h3></div>
+        </div>
+        <div class="slide-card wide" id="ops-slide-6">
+          <img src="../current/assets/media/restaurant-all-in-one-menu-breakpoint-350x234-2x.jpg" alt="Menu categories on a Clover screen" width="700" height="468" loading="lazy">
+          <div class="slide-copy"><h3>Create menu categories</h3></div>
+        </div>
+      </div>
+      <div class="carousel-nav">
+        <a href="#ops-slide-1" aria-label="Go to first slide">&#8249;</a>
+        <a href="#ops-slide-6" aria-label="Go to last slide">&#8250;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-intro-band" data-section="everything-intro" data-intent="orientation" data-layout="stack">
+    <div class="container">
+      <h2 class="h-section">Everything your restaurant needs in one place</h2>
+    </div>
+  </section>
+
+  <section class="feature-split" data-section="front-of-house" data-intent="value proposition" data-layout="split-media">
+    <div class="container">
+      <div class="split">
+        <div class="feature-copy">
+          <p class="eyebrow">Front of house</p>
+          <h2 class="h-section">From the restaurant floor&hellip;</h2>
+          <p class="single-copy">Control coursing, menu modifications, seating, and more with ordering and payment solutions at the counter or tableside.</p>
+        </div>
+        <img src="../current/assets/media/restaurant-front-of-house-ba7f47.webp" alt="Server with drinks and a Flex talking to a customer" width="1080" height="1114" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-split stacked" data-section="back-of-house" data-intent="value proposition" data-layout="stack-media">
+    <div class="container">
+      <div class="stack-copy">
+        <p class="eyebrow">Back of house</p>
+        <h2 class="h-section">To the kitchen&hellip;</h2>
+        <p class="single-copy">Connect the front of house to the back to maintain smooth, efficient service with timed order routing, inventory tracking, and real-time order display.</p>
+      </div>
+      <img src="../current/assets/media/restaurant-to-the-kitchen-880x410-1x-a1b07e.png" alt="Server putting a take-out container into a paper bag with a Kitchen Display System in the background" width="880" height="410" loading="lazy">
+    </div>
+  </section>
+
+  <section class="feature-split" data-section="back-office" data-intent="value proposition" data-layout="split-media">
+    <div class="container">
+      <div class="split media-left">
+        <div class="feature-copy">
+          <p class="eyebrow">Back office</p>
+          <h2 class="h-section">And everything in&#8209;between</h2>
+          <p class="single-copy">Boost operational efficiencies, optimize team performance, manage finances, and more&mdash;all from a single dashboard designed for restaurant owners and operators.</p>
+        </div>
+        <img src="../current/assets/media/restaurant-tablet-back-office-desktop-620x514-2x-6ef36f.png" alt="Clover dashboard graphic on a tablet showing a restaurant's daily operations" width="1240" height="1028" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-split" data-section="online-ordering" data-intent="value proposition" data-layout="split-media">
+    <div class="container">
+      <div class="split media-left">
+        <div class="feature-copy">
+          <h2 class="h-section">Online ordering made easy with eCommerce solutions</h2>
+          <p class="single-copy">Boost revenue and expand your offerings with commission-free online ordering, delivery management, and seamless integration with third-party delivery apps.</p>
+          <div class="cta-row">
+            <a class="btn btn-secondary" href="/pos-systems/online-ordering">Online ordering</a>
+          </div>
+        </div>
+        <img src="../current/assets/media/Restaurant_-_Online_Ordering-41d357.png" alt="Food delivery service icons: Uber Eats, Google Restaurants, and more surrounding a Clover logo" width="1080" height="1080" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="image-stage" data-section="image-stage" data-intent="atmosphere" data-layout="edge-to-edge">
+    <img src="../current/assets/media/Restaurant_video_thumbnail-ce3664.png" alt="Chef plating dishes in a busy restaurant kitchen" width="1200" height="619" loading="lazy">
+  </section>
+
+  <section class="kiosk" data-section="kiosk" data-intent="value proposition" data-layout="split-media" data-items="3">
+    <div class="container">
+      <div class="split">
+        <img src="../current/assets/media/kiosk-qsr-restaurant-image__1_-432b89.webp" alt="Kiosk ordering screen with menu item pictures, descriptions, and prices" width="2520" height="2000" loading="lazy">
+        <div>
+          <h2 class="h-section">Meet the future of restaurant ordering</h2>
+          <p class="kiosk-intro">In quick service restaurants, improving efficiency is a key ingredient. The Clover Kiosk promotes faster service by letting customers place their own orders.</p>
+          <div class="kiosk-features">
+            <div>
+              <h3>Grow your average ticket value</h3>
+              <p>Kiosks give customers more freedom and flexibility to browse and customize, leading to higher order values, in addition to cross selling and upselling options within the kiosk software.</p>
+            </div>
+            <div>
+              <h3>Streamline operations</h3>
+              <p>Front-of-house tasks no longer need as much attention, saving money on labor costs.</p>
+            </div>
+            <div>
+              <h3>Integrated workflow</h3>
+              <p>Menus are automatically imported and synced across all devices. Easily add pick-up and dine in orders, all while ensuring accuracy and reducing food wastage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card-carousel" data-section="tools" data-intent="value proposition" data-layout="carousel" data-items="8" data-interactive="carousel">
+    <div class="container">
+      <h2 class="h-section">Customize your restaurant tools</h2>
+      <div class="carousel-track" tabindex="0" aria-label="Restaurant hardware carousel — scroll horizontally">
+        <div class="slide-card" id="tool-1">
+          <img src="../current/assets/media/flex_pocket_carousel.webp" alt="Clover Flex Pocket" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Flex Pocket</h3><p>This mobile POS is built with a user-friendly interface, robust operations tools, full-day battery life, and digital receipts.</p></div>
+        </div>
+        <div class="slide-card" id="tool-2">
+          <img src="../current/assets/media/customize-your-hardware-flex-3-left-45-top-desktop-374x374-2x.png" alt="Clover Flex" width="748" height="748" loading="lazy">
+          <div class="slide-copy"><h3>Flex</h3><p>Take orders tableside or payments on the go with our handheld, 100% mobile POS device.</p></div>
+        </div>
+        <div class="slide-card" id="tool-3">
+          <img src="../current/assets/media/kds-carousel.webp" alt="Clover Kitchen Display System" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>KDS</h3><p>Connect front-of-house service, online orders, and kitchen staff with a Kitchen Display System that serves up everything seamlessly.</p></div>
+        </div>
+        <div class="slide-card" id="tool-4">
+          <img src="../current/assets/media/solo_carousel__2_.png" alt="Clover Station Solo" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Station Solo</h3><p>The easy-to-use POS that keeps your whole team on the same page from the front of house to the back of the bar.</p></div>
+        </div>
+        <div class="slide-card" id="tool-5">
+          <img src="../current/assets/media/customize-your-hardware-duo-2022-customer-left-45-desktop-374x374-2x.png" alt="Clover Station Duo" width="748" height="748" loading="lazy">
+          <div class="slide-copy"><h3>Station Duo</h3><p>With a dual-screen terminal perfect for high-volume counters, you&rsquo;ll accept payments and make faster customer transactions.</p></div>
+        </div>
+        <div class="slide-card" id="tool-6">
+          <img src="../current/assets/media/hardware-carousel-mini-3-right-45-650x580.png" alt="Clover Mini" width="650" height="580" loading="lazy">
+          <div class="slide-copy"><h3>Mini</h3><p>The small-but-mighty Mini is a compact POS that doesn&rsquo;t need a lot of counter space to take care of business.</p></div>
+        </div>
+        <div class="slide-card" id="tool-7">
+          <img src="../current/assets/media/customize-your-hardware-go-3-left-45-desktop-374x374-2x.png" alt="Clover Go card reader" width="748" height="748" loading="lazy">
+          <div class="slide-copy"><h3>Go</h3><p>Turn any smartphone into a totally portable point-of-sale system with the Go card reader and Clover Go App.</p></div>
+        </div>
+        <div class="slide-card" id="tool-8">
+          <img src="../current/assets/media/kiosk-restaurant-image.webp" alt="Clover Kiosk" width="700" height="700" loading="lazy">
+          <div class="slide-copy"><h3>Kiosk</h3><p>Our self-ordering kiosk features a commercial display and payment terminal that gives customers more control over their order.</p></div>
+        </div>
+      </div>
+      <div class="carousel-nav">
+        <a href="#tool-1" aria-label="Go to first slide">&#8249;</a>
+        <a href="#tool-8" aria-label="Go to last slide">&#8250;</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="segment-cards" data-section="segment-cards" data-intent="drive action + self-qualification" data-layout="grid" data-items="2">
+    <div class="container">
+      <h2 class="h-section">Take your restaurant to the next level with Clover</h2>
+      <div class="card-grid">
+        <a class="segment-card" href="/pos-solutions/full-service-restaurant">
+          <img src="../current/assets/media/restaurant-fsr-540x352-2x.jpg" alt="Full-service restaurant staff at work" width="1080" height="704" loading="lazy">
+          <div class="card-copy">
+            <h3>Full&#8209;service restaurant</h3>
+            <p>Running a restaurant or bar calls for a tailored, full-service system to keep operations running smoothly.</p>
+            <span class="card-go">Full&#8209;service restaurants<span class="sr-only"> — Explore Clover for full-service restaurants</span></span>
+          </div>
+        </a>
+        <a class="segment-card" href="/pos-solutions/quick-service-restaurant">
+          <img src="../current/assets/media/restaurant-qsr-540x352-2x.jpg" alt="Quick-service restaurant counter" width="1080" height="704" loading="lazy">
+          <div class="card-copy">
+            <h3>Quick&#8209;service restaurant</h3>
+            <p>With high-volume service, speed matters. Keep your queue moving with a quick service solution for your cafe, food truck, or coffee cart.</p>
+            <span class="card-go">Quick&#8209;service restaurants<span class="sr-only"> — Explore Clover for quick-service restaurants</span></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="device-band" data-section="device-band" data-intent="drive action" data-layout="split-media">
+    <div class="container">
+      <div class="band-copy">
+        <h2 class="h-section">Want to purchase a device with Clover?</h2>
+        <p>It&rsquo;s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you&rsquo;re ready.</p>
+        <a class="btn btn-primary" href="https://sales.clover.com/connect">Contact sales<span class="sr-only"> — Explore POS offerings for your business</span></a>
+      </div>
+      <div class="band-media">
+        <img src="../current/assets/media/Clover.com_Desktop_Footer_-_7040x1798_-_v2_-_max_72dpi__1_-c33740.webp" alt="Solo, Mini and Flex devices displaying the order and sale details on the screens" width="1760" height="450" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer data-section="footer" data-intent="navigate" data-layout="mega" data-canon>
+  <div class="site-footer">
+    <div class="container">
+      <a class="wordmark" href="/" aria-label="Clover">
+        <!-- inlined stardust/current/assets/logo-dark-green.svg (dark-green wordmark) -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="115" height="28" viewBox="0 0 115 28" role="img" aria-label="Clover">
+          <g fill="#004400">
+            <path d="M47.3,18.9c-2.2,2.6-4.8,3.6-7.4,3.6-4.9,0-8.8-3.5-8.8-8.1s3.7-8.1,8.6-8.1,5.2,1,7.4,3.6l-3.3,2.3c-1.2-1.7-2.5-2.3-4.1-2.3-2.5,0-4.6,2-4.6,4.5s2.2,4.5,4.8,4.5,3-.7,4.2-2.2l3.2,2.2Z"/>
+            <path d="M49.1,0h4.1v22.2h-4.1V0Z"/>
+            <path d="M64,6.3c4.9,0,8.8,3.5,8.8,8.1s-3.9,8.1-8.8,8.1-8.9-3.5-8.9-8.1,3.9-8.1,8.9-8.1ZM64,19.1c2.6,0,4.9-2.1,4.9-4.7s-2.3-4.7-4.9-4.7-4.9,2.1-4.9,4.7,2.3,4.7,4.9,4.7Z"/>
+            <path d="M72.2,6.6h4.8l3.9,8.3,4.2-8.3h4.4l-8.6,16.5-8.7-16.5Z"/>
+            <path d="M103.7,20.4c-1.6,1.3-3.7,2.1-6,2.1-4.9,0-8.9-3.5-8.9-8.1s3.6-8.1,8.5-8.1,8.1,3.5,8.1,8.1v1.2h-12.5c.6,2.1,2.6,3.5,4.8,3.5s2.5-.4,3.6-1.5l2.4,2.9ZM101.2,12.3c-.6-1.4-2-2.5-3.8-2.5s-3.3,1-4.1,2.5h7.9Z"/>
+            <path d="M107.5,13.5c0-3.7,2.8-6.8,7.5-6.8v3.6c-2,0-3.4,1.2-3.4,3.7v8.2h-4.1v-8.7Z"/>
+            <path d="M12.7,7.3c0-3.5-2.8-6.3-6.3-6.3S0,3.8,0,7.3s2.8,6.3,6.3,6.3h6.3v-6.3Z"/>
+            <path d="M14.4,7.3c0-3.5,2.8-6.3,6.3-6.3s6.3,2.8,6.3,6.3-2.8,6.3-6.3,6.3h-6.3v-6.3Z"/>
+            <path d="M14.4,21.6c0,3.5,2.8,6.3,6.3,6.3s6.3-2.8,6.3-6.3-2.8-6.3-6.3-6.3h-6.3v6.3Z"/>
+            <path d="M12.7,21.6c0,3.5-2.8,6.3-6.3,6.3S0,25.1,0,21.6s2.8-6.3,6.3-6.3h6.3v6.3ZM6.3,26.2c2.5,0,4.6-2,4.6-4.5v-4.5h-4.6c-2.5,0-4.6,2-4.6,4.5s2,4.5,4.6,4.5Z"/>
+          </g>
+        </svg>
+      </a>
+      <div class="footer-columns">
+        <nav aria-labelledby="footer-take-payments">
+          <h2 id="footer-take-payments">Take payments</h2>
+          <ul>
+            <li><a href="/shop">Card readers and POS devices</a></li>
+            <li><a href="/pos-systems">Point of sale system</a></li>
+            <li><a href="/pos-systems/ecommerce">Online ordering and sales</a></li>
+            <li><a href="/pos-systems/accept-payments">Payment processing</a></li>
+            <li><a href="/pos-solutions/invoicing">Invoicing</a></li>
+            <li><a href="/pos-systems/virtual-terminal">Virtual Terminal</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-run-your-business">
+          <h2 id="footer-run-your-business">Run your business</h2>
+          <ul>
+            <li><a href="/pos-systems/business-tracking-reporting">Tracking and reporting</a></li>
+            <li><a href="/pos-systems/online-ordering-inventory">Inventory management</a></li>
+            <li><a href="/financial-solutions/clover-capital">Clover Capital</a></li>
+            <li><a href="/financial-solutions/rapid-deposit">Rapid Deposit</a></li>
+            <li><a href="/pos-systems/employees">Employee management</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-sell-more">
+          <h2 id="footer-sell-more">Sell more</h2>
+          <ul>
+            <li><a href="/pos-systems/customer-engagement">Customer engagement</a></li>
+            <li><a href="/pos-systems/gift-cards">Gift cards</a></li>
+            <li><a href="/pos-systems/apps">Apps and integrations</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-business-types">
+          <h2 id="footer-business-types">Business types</h2>
+          <ul>
+            <li><a href="/pos-solutions/food-beverage/m/full-service">Restaurants</a></li>
+            <li><a href="/pos-solutions/retail">Retail stores</a></li>
+            <li><a href="/pos-solutions/service-businesses">Service businesses</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-hardware-devices">
+          <h2 id="footer-hardware-devices">Hardware devices</h2>
+          <ul>
+            <li><a href="/go">Go</a></li>
+            <li><a href="/compact">Compact</a></li>
+            <li><a href="/flex-pocket">Flex Pocket</a></li>
+            <li><a href="/flex">Flex</a></li>
+            <li><a href="/mini">Mini</a></li>
+            <li><a href="/station-solo">Station Solo</a></li>
+            <li><a href="/station-duo">Station Duo</a></li>
+            <li><a href="/kiosk">Kiosk</a></li>
+            <li><a href="/kitchen-display-system">Kitchen Display System</a></li>
+            <li><a href="/pos/accessories">Accessories</a></li>
+            <li><a href="/pricing">Pricing</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-help">
+          <h2 id="footer-help">Help</h2>
+          <ul>
+            <li><a href="/help">Help center</a></li>
+            <li><a href="/resources/faqs">FAQ</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/pos-systems/clover-care">Clover Care</a></li>
+            <li><a href="https://sales.clover.com/connect">Contact sales</a></li>
+            <li><a href="/small-business-resources">Small Business Resources</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-about">
+          <h2 id="footer-about">About</h2>
+          <ul>
+            <li><a href="https://blog.clover.com/">Blog</a></li>
+            <li><a href="/case-studies">Case studies</a></li>
+            <li><a href="https://careers.fiserv.com/">Careers</a></li>
+            <li><a href="/resources/intellectual-property">Intellectual property</a></li>
+            <li><a href="https://referrals.clover.com/refer-to-clover/">Referrals</a></li>
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-integrations">
+          <h2 id="footer-integrations">Integrations</h2>
+          <ul>
+            <li><a href="/developers">Developers</a></li>
+            <li><a href="/appmarket">App market</a></li>
+            <li><a href="https://integrate.clover.com/">Clover Connect</a></li>
+            <li><a href="/pos/integration-services">Integration services</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-meta">
+        <span class="locale">United States (English)</span>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/clovercommerce"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/3su4eO3VkW4IRyy5kBLZuj/9adc96c4fa1ebfb63c869ce6137282c3/Vector__1_.svg" alt="Facebook green icon" width="21" height="21" loading="lazy"></a>
+          <a href="https://x.com/clovercommerce"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/j7RTGINxoqhE9qnFwzPN1/f0227859a2c8901345253c87b5f1a4a1/Vector__3_.svg" alt="X icon green" width="22" height="21" loading="lazy"></a>
+          <a href="https://www.instagram.com/clovercommerce/"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/4953Bl9xV483Rnn6e4MAdX/fcd48acdf8252602ef4c83f76d0bbe94/Vector.svg" alt="Instagram icon green" width="21" height="21" loading="lazy"></a>
+          <a href="https://www.youtube.com/c/clover/featured"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/6Tigq10tY4qhDBN2AZ4V1J/a83250d62e6863944764d2397dbd0d59/icon-youtube.svg" alt="youtube icon green" width="22" height="15" loading="lazy"></a>
+          <a href="https://www.linkedin.com/company/clovernetwork"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/p9QjeEJvsXEgD9d446pNn/0be807b59d96dabc94571b69ffb28297/Vector__5_.svg" alt="Linkedin icon green" width="22" height="21" loading="lazy"></a>
+          <a href="https://github.com/clover"><img src="https://images.ctfassets.net/v6ivjcl8qjz2/1fnjDnnAWbN1awAbi2A053/a99c60cff770f4fccba48c5301a32cfd/Vector__4_.svg" alt="Github icon green" width="22" height="21" loading="lazy"></a>
+        </div>
+      </div>
+      <div class="footer-legal">
+        <p>&copy; 2026 Clover Network, LLC</p>
+        <p>*Clover Hardware Promotion available for new Clover Business Solutions merchants who have not previously had a Clover account or processed with First Data Merchant Solutions LLC. Clover accounts are subject to approval, including credit approval. Selecting a Clover point-of-sale credit card processing device does not convey or guarantee approval. Offer is valid only for purchases that include at least one of the following devices: Flex, Flex Pocket, Mini, Station Solo, or Station Duo. Clover devices are only shipped after the application is approved. To be eligible, merchant must: (1) apply for the account through our the online Clover website shopping experience, (2) purchase a Clover Hardware or Software Subscription, (3) be credit approved no later than 1/31/27, (4) activate account by submitting a batch of $25 or more in sales within 30 calendar days from approval date, (5) Processing $10,000 or greater in card transactions within the first four billing cycles. Additional fees may apply to certain Clover apps, services or activated accounts. Promotional offer excludes Payeezy. Eligibility is determined at our sole discretion. Limit of one reward per business relationship, regardless of the number of business locations. Offer is not valid with any other offer and is subject to change without notice. Requires a 3-year contract. All other terms and conditions apply. Offer expires December 31, 2026.</p>
+        <p>&dagger;Clover Software Promotional offer valid from 3/5/2026 through 9/5/2026 for qualified merchants of selected business types. New accounts require standard credit approval and underwriting. Eligible merchants receive no SaaS subscription fees during the 90-day trial of the Clover Essentials or Services Growth plan. The trial runs for 90 consecutive calendar days and cannot be paused or extended. After the 90-day trial, standard Essentials or Services Growth plans monthly fees apply. If the trial ends mid&#8209;month, billing will be prorated, and any unused charges will be credited if the service is canceled before the trial ends. A merchant is eligible for only one free trial during their lifecycle. Limit one offer per business tax ID. Eligibility is determined solely by First Data Merchant Services LLC.</p>
+        <p>HIPAA compliance applies to Clover PracticePay&trade; powered by Rectangle Health.</p>
+        <p>The Clover name and logo are registered trademarks owned by Clover Network, LLC. All trademarks, service marks, and trade names referenced in this material are the property of their respective owners.</p>
+        <ul class="legal-links">
+          <li><a href="/terms">Terms</a></li>
+          <li><a href="/privacy-policy">Privacy Policy</a></li>
+          <li><a href="/accessibility">Accessibility</a></li>
+          <li><a href="/">Do Not Sell My Information</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

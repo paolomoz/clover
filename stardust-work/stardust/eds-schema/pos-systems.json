@@ -1,0 +1,933 @@
+{
+ "source": "http://127.0.0.1:8791/stardust/prototypes/pos-systems-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Win the daily race against the clock with a Clover POS System."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "With a Clover point of sale (POS) system, you’ll feel like you can handle it all. Have a restaurant, retail, eCommerce, or service business? Our solutions help you manage daily tasks, regardless of where your business is at. From accepting payments to organizing inventory (and so much more), it’s all at your fingertips — anytime, anywhere. Might have you wondering why you didn’t get it sooner."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Get started",
+     "href": "/build-your-own?step=BUSINESS_OFFERING"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "quick-benefits",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Why Clover"
+    },
+    {
+     "role": "eyebrow",
+     "order": 1,
+     "text": "Packed with power"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Clover POS systems come with many built-in features so you can set up your business right away and right-size it for your needs."
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Any time anywhere"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Cloud-based for good reason. Track your sales, refunds, deposits, and run reports, wherever you are or need to be."
+    },
+    {
+     "role": "eyebrow",
+     "order": 5,
+     "text": "Completely customizable"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Your system, your needs. Tailored to scale with your business with devices, apps, and accessories that make sense when your timing says so."
+    },
+    {
+     "role": "eyebrow",
+     "order": 7,
+     "text": "Real‑time reporting"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Live and trending sales data helps track your business’s performance via customizable reports in your Clover dashboard. It can really be that easy."
+    }
+   ],
+   "imgCount": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tile",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "moving-parts",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "A POS that can manage all your moving parts"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Customize your system"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "01"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Start with software"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Pick a plan with features to fit your business – payments, inventory and everything in between."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "02"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Hand-pick your hardware"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Select a POS device for your business – countertop, portable or no device at all!"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "03"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Add accessories and apps"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Get Clover-approved accessories and third-party apps from our App Market to maximize your system."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Shop now — Shop Clover devices",
+     "href": "/shop"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Process more payments"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Get paid in all kinds of ways"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Tap, dip, swipe, are all welcome here. Accept all major credit/debit cards to mobile wallet and contactless payments - and even scan checks, safely and securely."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Tackle transactions with ease"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Offer one-touch tipping and digital receipts. And, complete refunds, returns, and exchanges efficiently."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Say hello to efficiency"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Enable online ordering so customers can make the most of their time - and you, yours."
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Take care of the rest"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Automatically apply service or delivery charges."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Payments — Learn more about accepting payments",
+     "href": "/pos-systems/accept-payments"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Optimize ordering"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Take ’em any way they want"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Get in-house, pickup, or delivery orders."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Make all orders easy"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Open tabs, split bills, and combine multiple orders easier."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Delve into the details"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Track item level sales, discounts, taxes, and more."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Online ordering",
+     "href": "/pos-systems/online-ordering"
+    },
+    {
+     "role": "heading",
+     "order": 30,
+     "text": "Expand your audience"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "Keep track of customers"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Keep your favorite customers top of mind remembering birthdays, order histories and contact info."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Get valuable feedback"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Get private feedback from customers that helps elevate future experiences."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Reward your regulars"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Make and manage your loyalty program directly through our built-in customer engagement app to keep your customers coming back."
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Make marketing magic"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Send announcements, custom promotions and marketing campaigns to your customers via email, text, or the free Clover mobile app."
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Customer Relationship Management — Learn more about Customer Relationship Management software",
+     "href": "/pos-systems/small-business-crm"
+    },
+    {
+     "role": "heading",
+     "order": 40,
+     "text": "Teaming made simple"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Set shifts and schedules"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Manage your entire staff and their schedules in one place."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Adjust your admin success"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Set individual employee permissions based on your team’s structure and responsibilities."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Assess your activity"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Track employees’ sales, tips, and refunds to identify top sales performers."
+    },
+    {
+     "role": "cta",
+     "order": 47,
+     "text": "Employee management",
+     "href": "/pos-systems/employee-management"
+    }
+   ],
+   "imgCount": 5,
+   "repeats": [
+    {
+     "unitSelector": "DIV.stage",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 12
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "setup-support",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Faster, stress‑free set‑up – with a little help from our team"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Convenient, concierge-style set-up support from experts who understand your unique business."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Contact sales — Connect to a sales team professional",
+     "href": "/contact/connect-to-sales"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "more-features",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More POS features, more for your business"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Offer and accept gift cards"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Get feedback directly from your customers"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Better manage customers and employees"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Launch and promote deals and discounts"
+    }
+   ],
+   "imgCount": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tile",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "virtual-terminal",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Take payments anywhere, anytime with Virtual Terminal"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Accept payments anytime, anywhere with your computer, tablet, or smartphone using Virtual Terminal on your Clover Web Dashboard. No POS device needed!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Virtual Terminal — Learn more about virtual terminal",
+     "href": "/pos-systems/virtual-terminal"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "payment-options",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Get paid in more ways ‑ ’cause we all like options."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "In partnership with our parent company, Fiserv, we provide even more solutions and resources for businesses of all types and sizes. There’s something for everyone!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Learn more — Explore small business resources",
+     "href": "https://merchants.fiserv.com/en-us/products/small-business/"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "apps",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Access to all kinds of apps to help you do things better"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Customize your Clover POS system with apps that are right for your business like Yelp, Homebase, MailChimp, QuickBooks… and the list goes on!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Apps — Explore apps to pair with your POS system",
+     "href": "/pos-systems/apps"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": []
+  },
+  {
+   "section": "peace-of-mind",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Peace of mind with your system"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Free overnight shipping*"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Once you’re approved, your system will arrive in one business day. *Online orders only."
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Quick and easy set up"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Set up your business and start taking payments all in the same day with the Clover Dashboard."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Consistent rates"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "All cards, including AMEX and rewards cards, feature the same low rates."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Help when you need it"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ready to assist you with everything from setting up to troubleshooting."
+    }
+   ],
+   "imgCount": 4,
+   "repeats": [
+    {
+     "unitSelector": "DIV.tile",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "faq",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Got questions? We got answers."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "What is a POS system?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "A POS system, or point-of-sale system, is a tool used by businesses to accept payments. It typically includes hardware, such as a cash register, barcode scanner, and receipt printer, as well as software to manage sales, inventory, customer data, and employees."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "POS systems help streamline the checkout process, making it faster and more accurate. They also provide valuable insights into sales trends and inventory levels, helping businesses make informed decisions. Whether in , , or industries, a Clover POS system is an essential tool for efficient and effective business management."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "retail",
+     "href": "/pos-solutions/retail"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "restaurants",
+     "href": "https://www.clover.com/pos-solutions/restaurant"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "service",
+     "href": "/pos-solutions/personal-services"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Are Clover POS systems suitable for my business?"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Clover POS systems are versatile and can be tailored to suit a wide range of businesses, such as retail, restaurants, and service industries. Clover offers different models and a variety of apps, allowing customization to meet specific business needs. Businesses of all sizes can benefit from Clover’s user-friendly interface, robust features, and seamless integration options."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "To determine if Clover is right for your business, consider your industry, the scale of your operations, and the specific features you require, then for personalized assistance."
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "consult with a Clover representative",
+     "href": "https://connect.clover.com/get-started"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "What kind of customer support does Clover offer?"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Clover Customer Support ensures your business runs smoothly by providing several avenues for assistance, including:"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Phone support: You can for immediate assistance with technical issues or inquiries."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "reach Clover’s customer support team by phone",
+     "href": "/en-US/help/contact-us"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Online resources: Clover provides a comprehensive online knowledge base, , and tutorials to help you troubleshoot and find solutions independently."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "FAQs",
+     "href": "/resources/faqs"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Clover’s commitment to customer support ensures that you have the resources and assistance you need to maximize the potential of your retail POS system 24/7/365."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Can I integrate third‑party POS apps and accessories with my Clover point‑of‑sale system?"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Yes. Clover offers extensive compatibility with third-party peripherals, such as POS apps and POS accessories, making it highly adaptable to your business needs. You can expand functionality by integrating apps for accounting, marketing, and more from the . Additionally, Clover’s open platform allows for , such as barcode scanners, scales, and kitchen printers to enhance your operations. This flexibility enables your Clover POS system to be customized to suit your unique requirements, helping your business run more smoothly and efficiently."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Clover App Market",
+     "href": "/appmarket"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "hardware accessories",
+     "href": "/pos/accessories"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Here are the printers compatible with Clover's POS system:"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Thermal Label Printers: Epson TM-L90"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Thermal Receipt Printers: Star TSP143IIIU, Epson TM-20*, Epson TM-30*"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Impact Receipt/Kitchen Printers: Star SP742ML, Epson TM-U220B*"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "* Not sold on clover.com or by Clover"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Can I use Clover without having a POS system?"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Yes. While Clover is designed as a comprehensive POS system, it also offers the option of using its feature independently. This feature allows you to accept payments using a web-based interface on your computer, tablet or smartphone, making it a practical solution for businesses that don’t require a full POS system but still need to process transactions securely. Whether you’re a service provider or need to accept payments remotely, Clover’s Virtual Terminal provides flexibility, convenience, and the reliability of a trusted payment processing solution."
+    },
+    {
+     "role": "cta",
+     "order": 29,
+     "text": "Virtual Terminal Payment Processing",
+     "href": "/pos-systems/virtual-terminal"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Buy or lease a device when you need it. Our point-of-sale software is also compatible with a wide range of third-party POS terminals."
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "How do I transfer money from Clover to my bank account?"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "All merchants who want to accept credit cards and other electronic payments need to set up a merchant account with their payment processor. A merchant account acts as an intermediary between your business and the individual card-issuing banks that offer your customers the credit or debit cards they use to pay for your goods or services. You cannot directly access or transfer funds from this account. This means that the funds acquired from the issuing banks during transactions are automatically settled and transferred to your business bank account on average within 1-3 business days."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "However, if you need funds sooner than that, can help you get your deposit in minutes for a minimal fee."
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Clover Rapid Deposit",
+     "href": "/financial-solutions/rapid-deposit"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "What are the key features and benefits of Clover’s POS hardware and software?"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Clover POS hardware and software offer a wide range of features and benefits, including:"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "User-friendly interface: Enjoy an intuitive and easy-to-use interface, and reduce training time for your team."
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Customization: Tailor the software to your business needs with various apps and add-ons, ensuring it aligns with your operations."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Inventory management: Track and manage inventory levels, reducing waste and improving efficiency."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Payment processing: Accept a variety of payment methods, including credit cards, mobile payments, and contactless options."
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Analytics: Access real-time sales data and reports, aiding in informed decision-making."
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Customer management: Build and maintain customer relationships with loyalty programs and CRM features."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Security: Help safeguard sensitive customer information with Clover’s data security tools and features."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Integration: Integrate seamlessly with other business tools and platforms."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "These features combine to enhance operational efficiency, boost sales, and improve the overall customer experience, making Clover a compelling choice for businesses of all sizes and industries."
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Which payment options does Clover support?"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Clover supports a wide array of payment options to cater to diverse customer preferences, which include:"
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Credit and debit cards: Accept all of the major credit and debit cards, such as Visa, Mastercard, American Express, and Discover."
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Mobile payments: Enable popular mobile wallet options, such as Apple Pay® and Google Wallet™ for quick, contactless transactions."
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "EMV chip cards: Help safeguard transactions with chip card technology, reducing the risk of fraud."
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Contactless payments: Allow customers to pay by simply tapping their cards or waving devices over the terminal."
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Gift cards: Process and redeem gift cards easily, enhancing customer engagement and loyalty."
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Cash transactions: Take traditional cash payments, too."
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Clover’s versatility in payment processing helps ensure you can accommodate your customers’ preferred payment methods seamlessly."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "How much does a Clover POS system cost?"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "can vary based on your specific needs. It typically involves several components, including hardware, software, and payment processing fees."
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Clover POS system pricing",
+     "href": "/pricing"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "To get an accurate cost estimate, it’s best to to assess your business requirements and provide a tailored pricing quote."
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "contact Clover directly",
+     "href": "https://connect.clover.com/get-started"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "How much does Clover charge per transaction?"
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Clover’s transaction fees can vary depending on your specific monthly plan and the terms of your agreement. Typically, Clover charges a percentage of each transaction’s total, alongside a small fixed fee per transaction."
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "These rates can be influenced by factors such as your business type, transaction volume, and the types of cards you accept (credit, debit, etc.), but they typically net out to be ."
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "as low as 2.3% plus 10¢ per transaction",
+     "href": "/pricing"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": [
+    {
+     "unitSelector": "DETAILS.",
+     "count": 10,
+     "unit": {
+      "headings": 0,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "device-band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Want to purchase a device with Clover?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "It’s never been easier. Set up your Clover POS system with the right mix of devices and apps for your business. Add more devices or apps when you’re ready."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Contact sales — Explore POS offerings for your business",
+     "href": "https://sales.clover.com/connect"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  }
+ ]
+}

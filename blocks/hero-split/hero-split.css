@@ -1,0 +1,73 @@
+/* hero-split — white ground, ink display heading, product photo bleeds right */
+main .section > .hero-split-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.hero-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+  padding-block: 48px;
+}
+
+@media (width >= 900px) {
+  .hero-split {
+    grid-template-columns: minmax(0, 1fr) minmax(min(600px, 50%), 1fr);
+    gap: 48px;
+    padding-block: 96px 64px;
+  }
+}
+
+.hero-split .hero-copy {
+  padding-inline: 24px;
+}
+
+@media (width >= 900px) {
+  .hero-split .hero-copy {
+    padding-left: var(--content-pad);
+    padding-right: 0;
+  }
+}
+
+.hero-split h1 {
+  margin: 0;
+  font-size: clamp(40px, 5vw, 56px);
+  color: var(--receipt-ink);
+  text-wrap: balance;
+}
+
+.hero-split .lede {
+  max-width: 58ch;
+  margin-top: 24px;
+  font-size: var(--body-font-size-lede);
+  color: var(--back-office);
+}
+
+.hero-split .actions {
+  margin-top: 24px;
+}
+
+.hero-split .hero-media img {
+  width: 100%;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .hero-split .hero-media img {
+    border-radius: var(--radius) 0 0 var(--radius);
+  }
+}
+
+/* min-height reservation for the LCP media slot (#100) */
+.hero-split .hero-media {
+  min-height: 40vw;
+}
+
+@media (width >= 900px) {
+  .hero-split .hero-media {
+    min-height: 420px;
+  }
+}

@@ -1,0 +1,736 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:audit",
+    "writtenAt": "2026-07-23T07:04:42.702Z",
+    "againstInput": "clover.com",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/brand-review.html",
+      "stardust/current/pages/home.json",
+      "stardust/current/pages/pos-systems.json",
+      "stardust/current/pages/pos-solutions__restaurant.json",
+      "stardust/current/pages/pricing.json",
+      "stardust/current/pages/contact.json",
+      "stardust/current/_crawl-log.json",
+      ".impeccable/critique/2026-07-23T07-00-58Z__www-clover-com.md"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0"
+  },
+  "site": {
+    "url": "https://www.clover.com",
+    "domainSlug": "clover-com",
+    "pagesAudited": [
+      "home",
+      "pos-systems",
+      "pos-solutions__restaurant",
+      "pricing",
+      "contact"
+    ],
+    "extraction": {
+      "reused": true,
+      "extractedAt": "2026-07-23T06:10:00Z",
+      "pageCount": 5
+    }
+  },
+  "assumptions": [
+    "Primary conversion action assumed to be assisted sales (\"Contact sales\" — the most repeated CTA, 11 occurrences on all 5 pages) with self-serve \"Shop systems\" as the secondary path.",
+    "A same-day 5-page extraction was reused instead of re-crawling at the default 8-page audit cap; the 5 pages cover five distinct templates (landing, product pillar, solution, pricing, contact).",
+    "The home page <title> targeting the Food & Beverage vertical is assumed to be the default state of a personalization system; the audit assesses the page as served to a first-time visitor.",
+    "impeccable audit-arm checks (contrast, responsive overflow, reduced-motion, alt coverage, CWV) were computed directly with the same detector bundle + Playwright instead of a second sub-skill invocation; the critique arm ran as the mandated dual-agent pass (26/40)."
+  ],
+  "scorecard": {
+    "overall": 57,
+    "scoredWeight": 100,
+    "dimensions": {
+      "brand-expression": {
+        "score": 72,
+        "weight": 10,
+        "evidence": [
+          "measurements.brandColorShare",
+          "measurements.radiusSprawl",
+          "T-color-imbalance",
+          "T-no-tokens",
+          "F-002",
+          "benchmarks.references"
+        ],
+        "notMeasured": []
+      },
+      "visual-hierarchy-craft": {
+        "score": 55,
+        "weight": 15,
+        "evidence": [
+          "measurements.typeScale",
+          "measurements.heuristicScore",
+          "F-002",
+          "F-007",
+          "F-012"
+        ],
+        "notMeasured": []
+      },
+      "conversion-focus": {
+        "score": 62,
+        "weight": 20,
+        "evidence": [
+          "measurements.ctaFragmentation",
+          "T-nav-conflict",
+          "F-001",
+          "F-008"
+        ],
+        "notMeasured": []
+      },
+      "accessibility": {
+        "score": 65,
+        "weight": 10,
+        "evidence": [
+          "measurements.contrast",
+          "measurements.altCoverage",
+          "measurements.h1Counts",
+          "F-007",
+          "F-009"
+        ],
+        "notMeasured": []
+      },
+      "technical-seo": {
+        "score": 62,
+        "weight": 15,
+        "evidence": [
+          "measurements.jsonldTypes",
+          "measurements.ogCompleteness",
+          "measurements.sitemapValid",
+          "F-004",
+          "F-005",
+          "F-006"
+        ],
+        "notMeasured": []
+      },
+      "content-llm-visibility": {
+        "score": 48,
+        "weight": 15,
+        "evidence": [
+          "measurements.llmsTxt",
+          "measurements.jsonldTypes",
+          "measurements.extractableProseWords",
+          "measurements.headingQuestionCoverage",
+          "F-010"
+        ],
+        "notMeasured": []
+      },
+      "performance": {
+        "score": 40,
+        "weight": 15,
+        "evidence": [
+          "measurements.cwv",
+          "F-003"
+        ],
+        "notMeasured": []
+      }
+    }
+  },
+  "measurements": {
+    "brandColorShare": {
+      "value": 0.314,
+      "unit": "share-of-painted-pixels",
+      "status": "measured",
+      "method": "pixel-sample",
+      "detail": {
+        "screenshot": "stardust/current/assets/screenshots/home.png",
+        "grid": "every 8th px at 1200px-wide downscale",
+        "paintedPixels": 338072,
+        "brandPixels": 106106,
+        "byColor": {
+          "#b6fb6f": 94405,
+          "#004400": 10082,
+          "#004422": 1177,
+          "#228800": 442
+        },
+        "note": "the acid-lime stat band and lime CTAs dominate the brand share; the measurement is home-page only"
+      }
+    },
+    "ctaFragmentation": {
+      "value": 1,
+      "unit": "max-distinct-labels-per-bucket",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "buckets": {
+          "see-more": {
+            "learn more": 1
+          },
+          "start": {
+            "get started": 1
+          }
+        },
+        "note": "CTA voice is unusually unified — \"Contact sales\" is canonical (11× on 5 pages). Residual variance: three \"Explore <thing>\" labels on home and Get Clover / Get started drift between templates."
+      }
+    },
+    "typeScale": {
+      "value": "ad-hoc",
+      "unit": "scale-kind",
+      "status": "measured",
+      "method": "brand-extraction",
+      "detail": {
+        "headingSizes": [
+          92,
+          56,
+          40,
+          18
+        ],
+        "ratios": [
+          1.643,
+          1.4,
+          2.222
+        ],
+        "matchedScale": null
+      }
+    },
+    "radiusSprawl": {
+      "value": 4,
+      "unit": "distinct-radii",
+      "status": "measured",
+      "method": "brand-extraction",
+      "detail": {
+        "occurrences": {
+          "8px": 31,
+          "4px": 8,
+          "5px": 5,
+          "16px": 2
+        },
+        "note": "8px dominant; 4/5px live on classic-template small buttons"
+      }
+    },
+    "contrast": {
+      "status": "measured",
+      "method": "wcag-computed",
+      "detail": {
+        "pairs": [
+          {
+            "fg": "#000000",
+            "bg": "#ffffff",
+            "role": "body text",
+            "ratio": 21,
+            "passesAA": true
+          },
+          {
+            "fg": "#ffffff",
+            "bg": "#228800",
+            "role": "classic primary button label",
+            "ratio": 4.58,
+            "passesAA": true
+          },
+          {
+            "fg": "#ffffff",
+            "bg": "#004400",
+            "role": "dark-green section text (pricing hero, footer wordmark ground)",
+            "ratio": 11.5,
+            "passesAA": true
+          },
+          {
+            "fg": "#000000",
+            "bg": "#b6fb6f",
+            "role": "new-template lime button label / stat headline",
+            "ratio": 17.02,
+            "passesAA": true
+          },
+          {
+            "fg": "#4b4b4b",
+            "bg": "#b6fb6f",
+            "role": "stat-band caption text (detector gray-on-color hit)",
+            "ratio": 7.07,
+            "passesAA": true
+          },
+          {
+            "fg": "#333333",
+            "bg": "#ffffff",
+            "role": "card headlines (home)",
+            "ratio": 12.63,
+            "passesAA": true
+          }
+        ]
+      }
+    },
+    "altCoverage": {
+      "value": 0.938,
+      "unit": "share-of-images-with-meaningful-alt",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "images": 80,
+        "emptyAlt": 5,
+        "genericAlt": 0
+      }
+    },
+    "cwv": {
+      "status": "measured",
+      "method": "playwright-lab",
+      "detail": {
+        "mobile": {
+          "lcp": {
+            "value": 2.87,
+            "unit": "s",
+            "class": "needs-improvement"
+          },
+          "cls": {
+            "value": 0.212,
+            "unit": "score",
+            "class": "needs-improvement"
+          },
+          "tbt": {
+            "value": 1124,
+            "unit": "ms",
+            "class": "poor"
+          }
+        },
+        "desktop": {
+          "lcp": {
+            "value": 1.45,
+            "unit": "s",
+            "class": "good"
+          },
+          "cls": {
+            "value": 0.091,
+            "unit": "score",
+            "class": "good"
+          },
+          "tbt": {
+            "value": 111,
+            "unit": "ms",
+            "class": "good"
+          }
+        },
+        "note": "Lab metrics (chromium, mobile 375×667 with 4× CPU throttle, desktop 1440×900); lab TBT is a proxy for INP — PSI field data unreachable (API quota 429)."
+      }
+    },
+    "heuristicScore": {
+      "value": 26,
+      "unit": "nielsen-total-of-40",
+      "status": "measured",
+      "method": "impeccable-critique-dual-agent",
+      "detail": {
+        "worst": {
+          "consistency-and-standards": 1,
+          "recognition-rather-than-recall": 2,
+          "aesthetic-and-minimalist-design": 2
+        },
+        "snapshot": ".impeccable/critique/2026-07-23T07-00-58Z__www-clover-com.md"
+      }
+    },
+    "sitemapValid": {
+      "value": "valid-with-defects",
+      "unit": "classification",
+      "status": "measured",
+      "method": "curl+parse",
+      "detail": {
+        "discovered": 158,
+        "malformedLocs": 18,
+        "example": "https://www.clover.compos-systems/employees (missing slash — invalid host)",
+        "junkEntries": [
+          "/test-bundle-issue",
+          "/pos-systems/employee-management-old"
+        ],
+        "sitemapIndex": "per-locale (us/en, ca/en, ca/fr, au/en, sg/en)",
+        "robotsSitemapDirective": false
+      }
+    },
+    "jsonldTypes": {
+      "value": 0,
+      "unit": "pages-with-json-ld-of-5",
+      "status": "measured",
+      "method": "playwright-dom",
+      "detail": {
+        "perPage": {
+          "home": [],
+          "pos-systems": [],
+          "pos-solutions__restaurant": [],
+          "pricing": [],
+          "contact": []
+        }
+      }
+    },
+    "ogCompleteness": {
+      "value": 0,
+      "unit": "og-tags-rendered-of-5-core",
+      "status": "measured",
+      "method": "playwright-dom",
+      "detail": {
+        "checked": [
+          "og:title",
+          "og:description",
+          "og:image",
+          "og:type",
+          "og:url"
+        ],
+        "found": "none on any audited page"
+      }
+    },
+    "llmsTxt": {
+      "value": false,
+      "unit": "present",
+      "status": "measured",
+      "method": "curl",
+      "detail": {
+        "response": "HTTP 200 soft-404 — /llms.txt returns the SPA shell HTML (content-type text/html), i.e. the origin soft-200s unknown paths"
+      }
+    },
+    "headingQuestionCoverage": {
+      "value": 0.188,
+      "unit": "share-of-h2-h3",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "h2h3": 48,
+        "questionShaped": 9
+      }
+    },
+    "extractableProseWords": {
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "home": 250,
+        "pos-systems": 1770,
+        "pos-solutions__restaurant": 530,
+        "pricing": 1226,
+        "contact": 321,
+        "noJsCheck": "home serves 1730 words in raw HTML (server-rendered; the SPA shell appears only on unknown routes)"
+      }
+    },
+    "redirectChain": {
+      "value": 1,
+      "unit": "hops-to-canonical",
+      "status": "measured",
+      "method": "curl",
+      "detail": {
+        "http://clover.com": "301 → https://www.clover.com/",
+        "https://clover.com": "301 → https://www.clover.com/",
+        "http://www.clover.com": "301 → https://www.clover.com/"
+      }
+    },
+    "canonicals": {
+      "value": 5,
+      "unit": "pages-with-self-referential-canonical-of-5",
+      "status": "measured",
+      "method": "playwright-dom",
+      "detail": {
+        "metaRobots": "absent (indexable) on all 5",
+        "hreflang": "present (5-12 alternates per page)"
+      }
+    },
+    "h1Counts": {
+      "status": "measured",
+      "method": "playwright-dom+pages-json",
+      "detail": {
+        "home": 2,
+        "pos-systems": 1,
+        "pos-solutions__restaurant": "1 per capture; 0 per live critique probe (flaky under template hybrid)",
+        "pricing": 1,
+        "contact": 1,
+        "headingSkips": "level-skips on all 5 pages (7 distinct skipped pairs per detector)"
+      }
+    },
+    "titleQuality": {
+      "status": "measured",
+      "method": "playwright-dom",
+      "detail": {
+        "home": {
+          "title": "POS Solutions for Food & Beverage Businesses | Clover",
+          "issue": "home title targets the F&B vertical page, not the brand home; near-duplicates the F&B solution page query"
+        },
+        "others": "unique, intent-bearing, ≤60 chars"
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "F-001",
+      "severity": "P1",
+      "dimension": "conversion-focus",
+      "title": "The pricing page withholds prices at the moment of maximum anxiety",
+      "evidence": {
+        "type": "screenshot",
+        "ref": "stardust/current/assets/screenshots/pricing.png, hero + router region",
+        "observed": "One teaser rate (\"Pay as little as 2.3% + 10¢ per transaction\") and a 6-way business-type self-classification; no device costs, no plan table on the page. Buyer must self-classify before seeing any number."
+      },
+      "businessImpact": "Comparison shoppers bounce to Square, whose pricing page answers in one screen; the highest-intent visitors hit the least reassuring page.",
+      "fix": "Surface a representative anchor price per segment on /pricing (e.g. \"Full-service dining from $X/mo + hardware from $Y\"), keep the router for refinement, and move the phone + \"Schedule a call\" block above the feature cards.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-002",
+      "severity": "P1",
+      "dimension": "visual-hierarchy-craft",
+      "title": "Two visual template generations ship simultaneously on the core purchase path",
+      "evidence": {
+        "type": "screenshot",
+        "ref": "home.png vs pos-systems.png/pricing.png (headers, buttons, H1 typography)",
+        "observed": "Home: PP Formula Condensed 92px uppercase display, acid-lime/black buttons, 1280-1392px container, mark-only logo. Pricing/pos-systems: Altform sentence-case H1s, #228800 buttons, 1158px container, wordmark logo. Critique heuristic \"Consistency & standards\" scored 1/4."
+      },
+      "businessImpact": "A high-stakes buyer doing 10-tab comparison shopping reads the inconsistency as organizational churn exactly where money changes hands; it also splits the design system into two maintenance targets.",
+      "fix": "Port the new-template header/CTA/footer tokens site-wide as a skin before migrating layouts; sequence full migration by funnel order (pricing and pos-systems first — one click from the hero CTAs).",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-003",
+      "severity": "P1",
+      "dimension": "performance",
+      "title": "Mobile main-thread blocking is poor: lab TBT 1,124 ms (threshold: 600 ms)",
+      "evidence": {
+        "type": "measurement",
+        "ref": "measurements.cwv",
+        "observed": "Mobile (4× CPU throttle): TBT 1,124 ms (poor), CLS 0.212 (needs-improvement), LCP 2.87 s (needs-improvement). Desktop all good. 8 long tasks on mobile load; heavy third-party layer (OneTrust, Adobe Target, Qualtrics, heap, Intercom)."
+      },
+      "businessImpact": "Mobile visitors — the restaurant/retail owners the copy targets — get a sluggish first interaction; INP-class failures correlate directly with bounce and lost sign-ups.",
+      "fix": "Defer/gate the third-party stack (consent-manager, analytics, survey, chat) until after first interaction; split the hydration bundle; keep hero video but set poster + explicit dimensions to cut CLS.",
+      "guides": [
+        "mwg:optimize-script-priority",
+        "mwg:identify-heavy-scripts",
+        "mwg:performance"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-004",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "No structured data anywhere: zero JSON-LD on all five audited pages",
+      "evidence": {
+        "type": "check",
+        "ref": "check:jsonld",
+        "observed": "No Organization, Product, FAQPage, or BreadcrumbList entities; pricing and pos-systems render FAQ accordions with no FAQPage markup."
+      },
+      "businessImpact": "Search and answer engines cannot build an entity model of Clover; rich results (FAQ, product, org knowledge panel) are forfeited to competitors.",
+      "fix": "Ship Organization + WebSite JSON-LD site-wide, Product on device pages, FAQPage on pricing/pos-systems FAQs, BreadcrumbList on solution pages.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-005",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "Home <title> targets the Food & Beverage vertical; Open Graph absent site-wide",
+      "evidence": {
+        "type": "check",
+        "ref": "check:title-missing",
+        "observed": "\"POS Solutions for Food & Beverage Businesses | Clover\" on https://www.clover.com/ — the brand home competes with its own F&B solution page. og:title/description/image/type/url: none rendered on any audited page."
+      },
+      "businessImpact": "The most-linked page on the domain mis-declares its topic; every social/chat share of any page renders as a bare link with no card.",
+      "fix": "Set the home title to the brand + category head term (\"Clover | POS Systems & Payments for Small Business\"); emit the five core OG tags (+ twitter:card) per page from the CMS layer.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-006",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "Public sitemap ships 18 malformed URLs plus test/legacy pages",
+      "evidence": {
+        "type": "measurement",
+        "ref": "measurements.sitemapValid",
+        "observed": "18 <loc> values missing the path slash (e.g. https://www.clover.compos-systems/employees — an invalid host), plus /test-bundle-issue and /pos-systems/employee-management-old in the us/en sitemap; robots.txt declares no Sitemap directive."
+      },
+      "businessImpact": "Crawl budget burns on 404-class fetches and junk pages; the malformed hosts are dead ends that erode sitemap trust.",
+      "fix": "Fix the URL-join bug in sitemap generation, drop test/-old pages, add a Sitemap: directive to robots.txt.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-007",
+      "severity": "P2",
+      "dimension": "accessibility",
+      "title": "Heading semantics broken in both directions across the site",
+      "evidence": {
+        "type": "check",
+        "ref": "check:single-h1",
+        "observed": "Home renders 2 H1s (\"A Clover for every small business\" + \"Restaurant-grade hardware…\"); a testimonial pull-quote is an H2; heading level-skips on all 5 pages (7 distinct skipped pairs: h1→h3, h2→h4, h1→h5, h2→h5)."
+      },
+      "businessImpact": "Screen-reader heading navigation is unreliable (a quote announces as a section); document outline signals to search engines are noisy.",
+      "fix": "One H1 per page; demote the hardware section heading to H2; mark quotes as <blockquote>; close the h_→h_+2 skips in both template systems.",
+      "guides": [
+        "mwg:html"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-008",
+      "severity": "P2",
+      "dimension": "conversion-focus",
+      "title": "Three unexplained purchase paths compete in one header",
+      "evidence": {
+        "type": "tension",
+        "ref": "T-nav-conflict",
+        "observed": "\"Pricing\", \"Shop systems\", a cart icon, and \"Contact sales\" coexist in the header (plus \"Get Clover\" in the hero) with no signal of which path suits whom; \"Pricing\" and \"Shop systems\" lead to different numbers."
+      },
+      "businessImpact": "Self-serve vs assisted-sales confusion adds a decision cost at every page view; first-timers cannot predict where the money question gets answered.",
+      "fix": "Collapse to one commercial CTA pair — \"Shop\" (self-serve, with prices) and \"Talk to sales\" — and make Pricing a first-class nav peer rather than a utility link.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-009",
+      "severity": "P2",
+      "dimension": "accessibility",
+      "title": "Video-backed sections have no legible fallback state",
+      "evidence": {
+        "type": "screenshot",
+        "ref": "home.png, testimonial + hardware sections (~y 6,100-8,300 on the 2880px capture)",
+        "observed": "White uppercase display text renders over a gray-to-white ground when the background video has not loaded — the captured fallback state dissolves the quote's third line into white-on-white. Detector: contrast indeterminate over video (media ignored by resolver). Note: the stat-band gray-on-lime pair the detector flagged as washed-out actually computes 7.07:1 and passes AA — aesthetic only, not a failure."
+      },
+      "businessImpact": "Reduced-motion users, slow connections, and data-saver mobile see exactly this state; the brand's loudest sections become unreadable for them.",
+      "fix": "Give every video section an opaque dark poster/background-color matched to the video's luminance so text contrast never depends on the stream; verify the reduced-motion state renders the same scrim.",
+      "guides": [
+        "mwg:visually-stable-font-fallbacks"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-010",
+      "severity": "P2",
+      "dimension": "content-llm-visibility",
+      "title": "Answer-engine surface is thin: no llms.txt, soft-200 unknown routes, 250-word home, slogan headings",
+      "evidence": {
+        "type": "measurement",
+        "ref": "measurements.llmsTxt",
+        "observed": "/llms.txt returns the SPA shell as HTTP 200 (soft-404). Home carries 250 words of extractable prose; 18.8% of h2/h3 are question/topic-shaped — the rest are slogans (\"Run the numbers\", \"You bring the flavor…\"). No structured data (F-004) compounds this."
+      },
+      "businessImpact": "AI answer engines summarizing \"best POS for restaurants\" have little citable Clover text to work with; competitors with FAQ schema and question-shaped headings get quoted instead.",
+      "fix": "Publish llms.txt; return real 404s on unknown paths; add an extractable what-it-is/who-it's-for/pricing-anchor block to home; reshape section headings on commercial pages toward askable questions (keep slogans as display sublines).",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-011",
+      "severity": "P3",
+      "dimension": "brand-expression",
+      "title": "Logo variant set is partial and two palette colors are single-context",
+      "evidence": {
+        "type": "tension",
+        "ref": "T-logo-variants",
+        "observed": "No white/knockout wordmark captured for dark grounds; #004422 and #333333 appear as text only (T-color-imbalance ×2)."
+      },
+      "businessImpact": "Dark-ground surfaces (footer, video heroes) improvise logo treatment; the palette carries dead weight.",
+      "fix": "Produce the knockout wordmark; decide drop-vs-expand for the two single-context colors in the redesign token layer.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-012",
+      "severity": "P3",
+      "dimension": "visual-hierarchy-craft",
+      "title": "Footer legal text is set below readability floors",
+      "evidence": {
+        "type": "check",
+        "ref": "detector:tight-leading+line-length",
+        "observed": "Footer legal paragraphs at 1.29× line-height and 104-111 characters per line on every page (detector, 3 pages)."
+      },
+      "businessImpact": "The disclosure text that qualifies the $450 offer (3-year contract) is effectively unreadable — a compliance-adjacent trust issue.",
+      "fix": "Set legal text at ≥1.5 line-height, ≤75ch measure; consider a \"key terms\" summary line next to promoted offers.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-013",
+      "severity": "P3",
+      "dimension": "brand-expression",
+      "title": "Design-token layer is vestigial (one custom property site-wide)",
+      "evidence": {
+        "type": "tension",
+        "ref": "T-no-tokens",
+        "observed": "One CSS custom property across five pages; the visual system lives in compiled CSS-module class hashes (mAZF70It--…)."
+      },
+      "businessImpact": "Every brand decision (like the template migration) is a rebuild instead of a token flip; slows the very consolidation F-002 needs.",
+      "fix": "Introduce a :root token layer (colors, type, radius, spacing) as part of the template consolidation.",
+      "guides": [],
+      "ledgerId": null
+    }
+  ],
+  "benchmarks": {
+    "status": "run",
+    "reason": null,
+    "references": [
+      {
+        "title": "Square — squareup.com",
+        "url": "https://squareup.com",
+        "note": "Same vertical, one system: a single accent (#006aff) reserved exclusively for CTAs/active states, one type family pair held from hero to footer, and a disciplined radius set — the consistency Clover splits across two template generations. Pricing answers in one screen."
+      },
+      {
+        "title": "GlossGenius — glossgenius.com",
+        "url": "https://glossgenius.com",
+        "note": "Adjacent vertical (salon commerce). Also shadow-free and accent-led like Clover, but with a coherent 13→144px type scale and accent reserved almost exclusively for the one ask — proof the flat/acid-accent strategy works when the scale and CTA discipline hold."
+      },
+      {
+        "title": "refero style corpus (fintech/commerce)",
+        "url": "https://refero.design",
+        "note": "Across best-in-class payment-platform sites, the recurring pattern is one hue + one display register + prices visible within one screen of the pricing URL — Clover has the first, half of the second, and not the third."
+      }
+    ]
+  },
+  "upliftDirections": [
+    {
+      "id": "A",
+      "pitch": "Tomorrow's version of the site you have today.",
+      "summary": "Same IA, the new-template system finished site-wide: header/CTA/footer tokens ported to pricing and pos-systems, one H1 per page, anchor prices on /pricing, JSON-LD + OG shipped, third-party scripts deferred (mobile TBT under 600ms).",
+      "addressesFindings": [
+        "F-001",
+        "F-002",
+        "F-003",
+        "F-004",
+        "F-005",
+        "F-007",
+        "F-008"
+      ]
+    },
+    {
+      "id": "B",
+      "pitch": "What if the whole site ran the numbers?",
+      "summary": "Amplify the captured signature — the acid-lime stat band, Formula Condensed display, and real product-UI vignettes — into the compositional spine of every commercial page: stats, proof, and prices rendered as the brand's own loud, flat, green system.",
+      "addressesFindings": [
+        "F-002",
+        "F-001",
+        "F-011",
+        "F-013"
+      ]
+    },
+    {
+      "id": "C",
+      "pitch": "What if motion was part of the identity?",
+      "register": "kinetic-display",
+      "summary": "Same IA as A; the brand's existing ambient video language graduated into a kinetic-display register — condensed type that moves like the stat band reads, video always behind an opaque luminance-matched scrim (fixing the fallback failure), full prefers-reduced-motion fallback.",
+      "addressesFindings": [
+        "F-009"
+      ]
+    }
+  ],
+  "degradations": [
+    {
+      "capability": "refero-mcp",
+      "status": "available",
+      "effect": null
+    },
+    {
+      "capability": "marketing-skills",
+      "status": "absent",
+      "effect": "SEO/LLM checks run directly (curl + Playwright, tabled methodology)"
+    },
+    {
+      "capability": "modern-web-guidance",
+      "status": "available",
+      "effect": "guide ids cited on performance/a11y findings; no SEO-schema guides exist in its catalog (guides: [] there)"
+    },
+    {
+      "capability": "pagespeed-insights",
+      "status": "unreachable",
+      "effect": "API quota 429 — Playwright-only lab metrics; lab TBT proxies INP"
+    },
+    {
+      "capability": "rollout-ledger",
+      "status": "absent",
+      "effect": "no findings.mjs recording; ledgerId null on every finding"
+    },
+    {
+      "capability": "impeccable",
+      "status": "available",
+      "effect": "critique ran dual-agent (26/40); audit-arm checks computed directly with the same detector bundle (recorded in assumptions)"
+    }
+  ]
+}

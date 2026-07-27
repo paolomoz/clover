@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon60_rates</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icon60_rates" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Group" transform="translate(10.000000, 10.000000)" stroke-width="1.5">
+            <g id="common-file-text-search">
+                <circle id="Oval" stroke="#44B02B" cx="28.3816667" cy="28.3816667" r="7.54833333"></circle>
+                <path d="M39.1666667,39.1666667 L33.7533333,33.7533333" id="Shape" stroke="#44B02B"></path>
+                <path d="M7.5,14.1666667 L23.3333333,14.1666667" id="Shape" stroke="#000000"></path>
+                <path d="M7.5,19.1666667 L17.5,19.1666667" id="Shape" stroke="#000000"></path>
+                <path d="M7.5,9.16666667 L19.1666667,9.16666667" id="Shape" stroke="#000000"></path>
+                <path d="M7.5,24.1666667 L14.1666667,24.1666667" id="Shape" stroke="#000000"></path>
+                <path d="M7.5,29.1666667 L14.1666667,29.1666667" id="Shape" stroke="#000000"></path>
+                <path d="M20.8333333,39.1666667 L2.5,39.1666667 C1.57952542,39.1666667 0.833333333,38.4204746 0.833333333,37.5 L0.833333333,2.5 C0.833333333,1.57952542 1.57952542,0.833333333 2.5,0.833333333 L24.655,0.833333333 C25.0969914,0.833427729 25.5208454,1.00908438 25.8333333,1.32166667 L32.0116667,7.5 C32.324249,7.81248789 32.4999056,8.23634198 32.5,8.67833333 L32.5,15.8333333" id="Shape" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

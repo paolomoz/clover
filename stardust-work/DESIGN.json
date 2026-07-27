@@ -1,0 +1,496 @@
+{
+ "schemaVersion": 2,
+ "generatedAt": "2026-07-26T15:46:13.131Z",
+ "title": "Design System: Clover (target)",
+ "_provenance": {
+  "writtenBy": "stardust:direct",
+  "writtenAt": "2026-07-26T15:46:13.132Z",
+  "readArtifacts": [
+   "stardust/current/_brand-extraction.json",
+   "stardust/audit/clover-com/audit.json",
+   "stardust/current/pages/home.json",
+   "stardust/direction.md"
+  ],
+  "synthesizedInputs": [],
+  "stardustVersion": "0.10.0",
+  "note": "re-directed 2026-07-26: per-page captured generation (F-002 user-overridden)"
+ },
+ "extensions": {
+  "colorMeta": {
+   "fresh-lime": {
+    "role": "signature/CTA",
+    "displayName": "Fresh Lime",
+    "canonical": "#b6fb6f"
+   },
+   "clover-green": {
+    "role": "link/wordmark",
+    "displayName": "Clover Green",
+    "canonical": "#228800"
+   },
+   "forest": {
+    "role": "dark section ground",
+    "displayName": "Forest",
+    "canonical": "#004400"
+   },
+   "pine": {
+    "role": "deep text accent",
+    "displayName": "Pine",
+    "canonical": "#004422"
+   },
+   "receipt-ink": {
+    "role": "text / dark CTA",
+    "displayName": "Receipt Ink",
+    "canonical": "#000000"
+   },
+   "back-office": {
+    "role": "secondary text",
+    "displayName": "Back Office",
+    "canonical": "#333333"
+   },
+   "countertop": {
+    "role": "alt ground",
+    "displayName": "Countertop",
+    "canonical": "#ededed"
+   },
+   "counter-white": {
+    "role": "page ground",
+    "displayName": "Counter White",
+    "canonical": "#ffffff"
+   },
+   "countertop-classic": {
+    "role": "interior alt section ground (captured classic)",
+    "displayName": "Countertop Classic",
+    "canonical": "#f8f8f8"
+   },
+   "hairline": {
+    "role": "fine-border card stroke (captured classic)",
+    "displayName": "Hairline",
+    "canonical": "#dcdcdc"
+   }
+  },
+  "typographyMeta": {
+   "display": {
+    "displayName": "Display",
+    "purpose": "Hero headlines only; PP Formula Condensed Black, uppercase via CSS."
+   },
+   "headline": {
+    "displayName": "Headline",
+    "purpose": "Section headlines; same face, one step down."
+   },
+   "title": {
+    "displayName": "Title",
+    "purpose": "Card/sub-section heads; Graphik 500, mixed case."
+   },
+   "body": {
+    "displayName": "Body",
+    "purpose": "Prose at 16/24 (18/27 feature paragraphs); <=75ch."
+   },
+   "label": {
+    "displayName": "Label",
+    "purpose": "Nav, buttons, captions."
+   },
+   "headline-classic": {
+    "displayName": "Headline (classic)",
+    "purpose": "Interior-page section headlines; Altform Regular 400 (low weight \u2014 user-pinned trait), sentence case, forest/clover-green ink."
+   },
+   "title-classic": {
+    "displayName": "Title (classic)",
+    "purpose": "Interior card heads; Altform Regular 400 20px."
+   },
+   "lede": {
+    "displayName": "Lede",
+    "purpose": "Hero ledes / feature paragraphs / accordion summaries / tile labels; Graphik 18px (captured step)."
+   },
+   "eyebrow": {
+    "displayName": "Eyebrow",
+    "purpose": "Uppercase kickers; Graphik 500 12px, 0.1em tracking (captured classic convention)."
+   },
+   "caption": {
+    "displayName": "Caption",
+    "purpose": "Footer legal / offer key-terms / card meta; Graphik 13px (captured step)."
+   },
+   "glyph-marker": {
+    "displayName": "Glyph marker",
+    "purpose": "Decorative accordion +/- glyphs only, 28px; never running text."
+   }
+  },
+  "shadows": [],
+  "motion": {
+   "register": null,
+   "note": "Variant A is static-plus-signature: captured ambient video preserved per intent-dimensions \u00a78b with poster/scrim/reduced-motion hygiene (audit F-009). No added cinematic register under ia-fidelity: verbatim. If cinematic is layered later, the PRODUCT.md traits (signage-led, display-typography-signature) select register: kinetic-display per motion-registers.md."
+  },
+  "breakpoints": [
+   {
+    "name": "mobile",
+    "value": "390px"
+   },
+   {
+    "name": "tablet",
+    "value": "768px"
+   },
+   {
+    "name": "desktop",
+    "value": "1440px"
+   }
+  ],
+  "componentStyle": {
+   "buttons": {
+    "primary": {
+     "background": "#b6fb6f",
+     "color": "#000000",
+     "borderRadius": "8px",
+     "padding": "16px 28px",
+     "fontWeight": 500
+    },
+    "secondary": {
+     "background": "#000000",
+     "color": "#ffffff",
+     "borderRadius": "8px",
+     "padding": "16px 28px",
+     "fontWeight": 500
+    },
+    "onDark": {
+     "background": "#b6fb6f",
+     "color": "#004400",
+     "borderRadius": "8px",
+     "padding": "16px 28px",
+     "fontWeight": 500
+    }
+   },
+   "dualCTAPattern": "primary-then-secondary (captured home hero: Get Clover + Contact sales)",
+   "cards": {
+    "background": "#ffffff",
+    "borderRadius": "8px",
+    "padding": "24px",
+    "shadow": null,
+    "border": null
+   },
+   "inputs": {
+    "borderRadius": "8px",
+    "searchRadius": "50px",
+    "border": "1px solid #707070",
+    "padding": "8px 16px"
+   },
+   "buttonsClassic": {
+    "primary": {
+     "background": "#228800",
+     "color": "#ffffff",
+     "borderRadius": "8px",
+     "padding": "14px 28px",
+     "fontWeight": 500,
+     "hover": "#004400"
+    },
+    "secondary": {
+     "background": "#ffffff",
+     "color": "#228800",
+     "border": "1px solid #228800",
+     "borderRadius": "8px",
+     "padding": "14px 28px",
+     "fontWeight": 500,
+     "hover": "#f8f8f8"
+    },
+    "note": "interior pages; captured classic pair. fontWeight raised 300->500 (proactive fix: 300 white-on-green at 15px is sub-AA legibility)"
+   },
+   "cardClassic": {
+    "background": "#ffffff",
+    "border": "1px solid #dcdcdc",
+    "borderRadius": "8px",
+    "padding": "24px",
+    "shadow": null,
+    "note": "fine-border card \u2014 captured interior convention"
+   }
+  },
+  "systemComponentRoles": {
+   "header": {
+    "purpose": "vertical-market nav + the commercial pair (Shop + Contact sales)",
+    "positionClass": "sticky-top",
+    "constraint": "exactly two commercial doors (audit F-008); full wordmark >=32px height"
+   },
+   "footer": {
+    "purpose": "8-column mega-footer, carried verbatim",
+    "positionClass": "contentinfo",
+    "constraint": "legal text >=1.5 line-height, <=75ch (audit F-012)"
+   },
+   "stat-band": {
+    "purpose": "signature lime stat section with real captured numbers",
+    "positionClass": "in-flow section",
+    "constraint": "captured numbers only; Formula Condensed uppercase headline"
+   },
+   "offer-strip": {
+    "purpose": "promo utility strip (captured cross-promo)",
+    "positionClass": "above-header",
+    "constraint": "key-terms summary adjacent to any promoted offer"
+   },
+   "video-section": {
+    "purpose": "ambient-video ground (hero / testimonial / hardware)",
+    "positionClass": "in-flow section",
+    "constraint": "Poster Rule: opaque luminance-matched poster + scrim >=4.5:1 in all states incl. prefers-reduced-motion (audit F-009, \u00a78b)"
+   }
+  },
+  "iaPriorities": [
+   {
+    "signal": "commercial-conversion",
+    "evidence": "pages/home.json#ctas \u2014 Get Clover + Contact sales above the fold; header Shop systems + cart; voiceTable.ctaFrequency Contact sales 11x/5 pages",
+    "preserveAs": "first-viewport",
+    "scope": "site-wide",
+    "mutability": "locked"
+   },
+   {
+    "signal": "audience-routing",
+    "evidence": "pages/*.json#landmarks[banner] \u2014 vertical nav Restaurants/Services/Retail/Healthcare on all 5 pages; home segment band (Food & beverage / Retail / Services)",
+    "preserveAs": "first-viewport",
+    "scope": "site-wide",
+    "mutability": "locked"
+   },
+   {
+    "signal": "signature-hero-medium",
+    "evidence": "_brand-extraction.json#voice.heroMedium \u2014 background video (videos.ctfassets.net mp4, 1440x900 hero rect), autoplay/loop/muted",
+    "preserveAs": "first-viewport",
+    "scope": "home (and captured video sections)",
+    "mutability": "locked"
+   }
+  ],
+  "voice": {
+   "do": [
+    "Short, second-person, benefit-led heroes: \"A Clover for every small business\" / \"You bring the flavor, Clover powers the pay\" (captured)",
+    "Real numbers, stated plainly: \"4M+ devices shipped\", \"B+ annualized processing volume\" (captured)",
+    "Physical verbs: bring, run, win, hustle (captured register)"
+   ],
+   "dont": [
+    "Enterprise-fintech jargon (omnichannel, leverage, seamless) \u2014 absent from the captured surface; keep it absent",
+    "A third CTA verb where the captured pair (Shop / Contact sales) serves",
+    "Invented stats or testimonials \u2014 every claim traces to captured pages"
+   ]
+  },
+  "metadata": {
+   "siteName": "Clover",
+   "defaultOgImage": null,
+   "themeColor": "#228800",
+   "organization": {
+    "@type": "Organization",
+    "name": "Clover Network, LLC",
+    "url": "https://www.clover.com",
+    "logo": "https://cloverstatic.com/content/icons/web/favicons/android-chrome-192x192.png",
+    "sameAs": [
+     "https://www.facebook.com/CloverPOS",
+     "https://x.com/clover",
+     "https://www.instagram.com/clover",
+     "https://www.youtube.com/clover",
+     "https://www.linkedin.com/company/clover-network"
+    ]
+   },
+   "locale": "en-US",
+   "keyFacts": [
+    "what Clover is (POS systems + payments for small business)",
+    "starting rate: as low as 2.3% + 10c per transaction (captured pricing teaser)",
+    "who it is for: restaurants, retail, services, healthcare"
+   ]
+  },
+  "divergence": {
+   "toolkit_version": "v1.0 (stardust v2)",
+   "seed": {
+    "input": "Clover|2026-07-23",
+    "decade": "2025-now",
+    "craft": "Terrazzo",
+    "register": "Travel agency brochure",
+    "ground_family": "dark",
+    "picked_by": "deterministic",
+    "overrides": [],
+    "ground_family_override": {
+     "winner": "stark-white (brand-native #ffffff)",
+     "reason": "brand-faithful",
+     "note": "the rolled dark ground informs the alt-section surface \u2014 the brand already deploys forest #004400 full-bleed sections; retained as the dark-block rhythm"
+    },
+    "teeth_note": "decade 2025-now aligns with the new-generation target; craft and register are inert under ia-fidelity: verbatim (recorded for audit completeness, no visual moves derive from them)"
+   },
+   "font_deck": {
+    "name": "brand-inherited",
+    "picked_by": "user-constraint"
+   },
+   "palette_source": {
+    "source": "inherited from _brand-extraction.json",
+    "picked_by": "user-constraint",
+    "role_renaming": "brand-native roles applied (Counter White / Receipt Ink / Fresh Lime / Forest / Countertop / Back Office) per toolkit \u00a74"
+   },
+   "anti_toolbox_count": 3,
+   "anti_toolbox_hits": [
+    {
+     "move": "Sticky top navigation",
+     "justification": "inherited site convention \u2014 the captured header is sticky (z-index 200, header-container) on all 5 pages; retention is brand fidelity, not a default reach"
+    },
+    {
+     "move": "UPPERCASE condensed sans as the primary display register",
+     "justification": "the captured brand display IS PP Formula Condensed Black uppercased via CSS (home hero, stat band) \u2014 inherited under Mode A pins, not chosen by the agent"
+    },
+    {
+     "move": "Stat-callout bar",
+     "justification": "the \"Run the numbers\" lime stat band is the captured signature block with real captured numbers (4M+/#1/B+) and is the system's named north star \u2014 reproduction is \u00a78b signature preservation"
+    }
+   ],
+   "off_toolbox_moves": [],
+   "audit_adjustments": [],
+   "references_used": [
+    {
+     "source": "stardust/audit/clover-com/audit.json#benchmarks",
+     "trend": "Square: single accent reserved to CTAs, one type system site-wide",
+     "tag": "off-toolbox (consistency discipline, not a visual move)"
+    }
+   ],
+   "brand_faithful_inversions": [
+    {
+     "inversion": "pure-white retention",
+     "line": "#ffffff retained as page ground (existing brand decision; counter-white is canonical for Clover). The no-pure-white impeccable rule is inverted per brand-faithful direction."
+    },
+    {
+     "inversion": "pure-black retention",
+     "line": "#000000 retained as primary text and dark-CTA fill (existing brand decision). The no-pure-black rule is inverted per brand-faithful direction."
+    },
+    {
+     "inversion": "hex format retention",
+     "line": "Color tokens retained in hex (matches captured surface and Stitch frontmatter convention). OKLCH applies to new authoring; this is inheritance."
+    },
+    {
+     "inversion": "saturated color retention",
+     "line": "Saturated #228800 / #b6fb6f retained as the brand voice (captured canonical greens). The tinted-neutral reflex is inverted per brand-faithful direction."
+    },
+    {
+     "inversion": "css-uppercase display retention",
+     "line": "CSS text-transform uppercase retained on Formula Condensed display/headline roles (captured signature; 0% of heading text content is uppercase \u2014 the transform is presentation). The sentence-case reflex is inverted per brand-faithful direction, scoped to display/headline roles only."
+    }
+   ]
+  },
+  "generationRule": {
+   "rule": "per-page captured generation",
+   "home": "new-generation (PP Formula Condensed, lime/ink CTA pair)",
+   "interior": "classic (Altform headings, #228800 primary buttons, fine-border cards, captured green bands, full-page image stages, captured cinematics reproduced CSS-first)",
+   "f002": "user-overridden 2026-07-26 \u2014 dual-generation surface is the brief"
+  }
+ },
+ "components": [
+  {
+   "name": "Primary Button",
+   "kind": "button",
+   "refersTo": "button-primary",
+   "description": "Fresh Lime commercial CTA on light grounds.",
+   "html": "<a class=\"ds-btn-primary\" href=\"#\">Contact sales</a>",
+   "css": ".ds-btn-primary { display:inline-block; background:#b6fb6f; color:#000; padding:16px 28px; border-radius:8px; font:500 16px/1.2 Graphik, -apple-system, sans-serif; text-decoration:none; transition: background .15s ease-out; } .ds-btn-primary:hover { background:#a3ef55; } .ds-btn-primary:focus-visible { outline:2px solid #004400; outline-offset:2px; }"
+  },
+  {
+   "name": "Secondary Button",
+   "kind": "button",
+   "refersTo": "button-secondary",
+   "description": "Ink pair-partner in dual-CTA heroes.",
+   "html": "<a class=\"ds-btn-secondary\" href=\"#\">Get Clover</a>",
+   "css": ".ds-btn-secondary { display:inline-block; background:#000; color:#fff; padding:16px 28px; border-radius:8px; font:500 16px/1.2 Graphik, -apple-system, sans-serif; text-decoration:none; transition: background .15s ease-out; } .ds-btn-secondary:hover { background:#222; } .ds-btn-secondary:focus-visible { outline:2px solid #228800; outline-offset:2px; }"
+  },
+  {
+   "name": "Stat Band",
+   "kind": "custom",
+   "refersTo": "stat-band",
+   "description": "Signature lime stat section; captured numbers only.",
+   "html": "<section class=\"ds-stat-band\"><h2 class=\"ds-stat-head\">Run the numbers</h2><div class=\"ds-stats\"><div><span class=\"ds-stat-n\">4M+</span><span class=\"ds-stat-l\">Devices shipped</span></div><div><span class=\"ds-stat-n\">#1</span><span class=\"ds-stat-l\">POS provider</span></div><div><span class=\"ds-stat-n\">$337B+</span><span class=\"ds-stat-l\">Annualized processing volume</span></div></div></section>",
+   "css": ".ds-stat-band { background:#b6fb6f; color:#000; padding:64px 40px; text-align:center; } .ds-stat-head { font:900 40px/0.95 \"PP Formula Condensed\", altform, sans-serif; text-transform:uppercase; margin:0 0 32px; } .ds-stats { display:flex; gap:40px; justify-content:center; flex-wrap:wrap; } .ds-stat-n { display:block; font:900 56px/1 \"PP Formula Condensed\", altform, sans-serif; } .ds-stat-l { display:block; font:400 16px/1.5 Graphik, sans-serif; margin-top:8px; }"
+  },
+  {
+   "name": "Card",
+   "kind": "card",
+   "refersTo": "card",
+   "description": "Flat white card on countertop/forest grounds.",
+   "html": "<div class=\"ds-card\"><h4 class=\"ds-card-h\">Keep online orders on one platform</h4><p class=\"ds-card-p\">Manage orders, payments, and staff from one dashboard.</p></div>",
+   "css": ".ds-card { background:#fff; border-radius:8px; padding:24px; } .ds-card-h { font:500 20px/1.25 Graphik, sans-serif; color:#333; margin:0 0 8px; } .ds-card-p { font:400 16px/1.5 Graphik, sans-serif; color:#000; margin:0; }"
+  },
+  {
+   "name": "Search Input",
+   "kind": "input",
+   "refersTo": "input-search",
+   "description": "Pill search \u2014 the only stroked, only pill element.",
+   "html": "<input class=\"ds-input-search\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">",
+   "css": ".ds-input-search { border:1px solid #707070; border-radius:50px; padding:8px 16px; font:400 15px/1.2 Graphik, sans-serif; } .ds-input-search:focus-visible { outline:2px solid #228800; outline-offset:1px; }"
+  },
+  {
+   "name": "Classic Primary Button",
+   "kind": "button",
+   "refersTo": "button-classic-primary",
+   "description": "Interior-page green CTA (captured classic pair).",
+   "html": "<a class=\"ds-btn-classic\" href=\"#\">Get started</a>",
+   "css": ".ds-btn-classic { display:inline-block; background:#228800; color:#fff; padding:14px 28px; border-radius:8px; font:500 16px/1.2 Graphik, sans-serif; text-decoration:none; } .ds-btn-classic:hover { background:#1c7000; } .ds-btn-classic:focus-visible { outline:2px solid #004400; outline-offset:2px; }"
+  },
+  {
+   "name": "Fine-Border Card",
+   "kind": "card",
+   "refersTo": "card-classic",
+   "description": "Interior white card with 1px hairline border (captured).",
+   "html": "<div class=\"ds-card-classic\"><h4>Flex</h4><p>Take orders tableside or payments on the go.</p></div>",
+   "css": ".ds-card-classic { background:#fff; border:1px solid #d8d8d8; border-radius:8px; padding:24px; }"
+  }
+ ],
+ "narrative": {
+  "northStar": "Run the Numbers",
+  "overview": "The captured new-generation Clover surface finished site-wide: one green family in flat color blocks, condensed-black display over a Graphik workhorse, real-merchant video preserved with production hygiene, and the audit's thirteen findings closed without moving a single content beat.",
+  "keyCharacteristics": [
+   "single green family, no second hue",
+   "flat \u2014 separation is a ground change",
+   "Formula Condensed shout + Graphik calm",
+   "video signatures with poster/scrim/reduced-motion hygiene",
+   "8px radius; pill = search only",
+   "64px balanced section rhythm"
+  ],
+  "rules": [
+   {
+    "name": "The One-Hue Rule",
+    "body": "Every non-neutral surface is a green; a second hue is a defect.",
+    "section": "colors"
+   },
+   {
+    "name": "The Lime Ration",
+    "body": "One lime block and/or CTA pair per viewport; lime never carries body text.",
+    "section": "colors"
+   },
+   {
+    "name": "The Major-Third Rule",
+    "body": "Text steps at 1.25 (16/20/25/31); 56 and 92 are display-only jumps. Replaces the captured ad-hoc scale.",
+    "section": "typography"
+   },
+   {
+    "name": "The Case Split",
+    "body": "Uppercase belongs to Formula Condensed headline roles and short imperative labels only.",
+    "section": "typography"
+   },
+   {
+    "name": "The No-Shadow Rule",
+    "body": "Inherited: separation is a background change, never elevation.",
+    "section": "elevation"
+   },
+   {
+    "name": "The Poster Rule",
+    "body": "Text over video always sits on an opaque luminance-matched poster + scrim >=4.5:1, in every state including prefers-reduced-motion.",
+    "section": "elevation"
+   },
+   {
+    "name": "The Big-Image Rule",
+    "body": "Images with natural width >600px never render below 600px on desktop \u2014 an explicit Clover trait (user-pinned 2026-07-26).",
+    "section": "elevation"
+   },
+   {
+    "name": "The Edge-Bleed Rule",
+    "body": "Large section media has no border with the window: it bleeds to the viewport edge (square outer corners); copy stays on the 1158px container grid (user-pinned 2026-07-26).",
+    "section": "elevation"
+   }
+  ],
+  "dos": [
+   "render every target surface in the new-generation system (audit F-002)",
+   "carry captured copy, images, video verbatim at captured semantic positions",
+   "ship Organization/Product/FAQPage JSON-LD + five core OG tags + intent-true titles (F-004/F-005)",
+   "one H1 per page; quotes are blockquotes; no heading skips (F-007)",
+   "defer third-party scripts past first interaction; mobile TBT <=600ms ship gate (F-003)"
+  ],
+  "donts": [
+   "no box-shadows or gradients",
+   "no second hue, no new fonts, no colors outside the captured palette (Mode A pins)",
+   "no template-generation mixing (no Altform headings, no #228800 fills, no 1158px container)",
+   "no display text over un-postered video (F-009)",
+   "no enterprise-fintech register (navy, glassmorphism, jargon)",
+   "no fabricated stats, prices, names, or quotes \u2014 placeholders declare themselves"
+  ]
+ }
+}

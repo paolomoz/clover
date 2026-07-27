@@ -1,0 +1,304 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:prototype (accordion gap-fill)",
+    "writtenAt": "2026-07-24T20:35:52.008Z",
+    "renderedBy": "playwright",
+    "note": "extract did not expand accordions; live-sourced for verbatim content (pricing anchor-price precedent)"
+  },
+  "pages": {
+    "pos-systems": {
+      "url": "https://www.clover.com/pos-systems",
+      "fetchedAt": "2026-07-24T20:35:41.279Z",
+      "renderedBy": "playwright",
+      "items": [
+        {
+          "question": "What is a POS system?",
+          "answer": "A POS system, or point-of-sale system, is a tool used by businesses to accept payments. It typically includes hardware, such as a cash register, barcode scanner, and receipt printer, as well as software to manage sales, inventory, customer data, and employees.\n\nPOS systems help streamline the checkout process, making it faster and more accurate. They also provide valuable insights into sales trends and inventory levels, helping businesses make informed decisions. Whether in retail, restaurants, or service industries, a Clover POS system is an essential tool for efficient and effective business management.",
+          "links": [
+            {
+              "text": "retail",
+              "href": "/pos-solutions/retail"
+            },
+            {
+              "text": "restaurants",
+              "href": "https://www.clover.com/pos-solutions/restaurant"
+            },
+            {
+              "text": "service",
+              "href": "/pos-solutions/personal-services"
+            }
+          ]
+        },
+        {
+          "question": "Are Clover POS systems suitable for my business?",
+          "answer": "Clover POS systems are versatile and can be tailored to suit a wide range of businesses, such as retail, restaurants, and service industries. Clover offers different models and a variety of apps, allowing customization to meet specific business needs. Businesses of all sizes can benefit from Clover’s user-friendly interface, robust features, and seamless integration options.\n\nTo determine if Clover is right for your business, consider your industry, the scale of your operations, and the specific features you require, then consult with a Clover representative for personalized assistance.",
+          "links": [
+            {
+              "text": "consult with a Clover representative",
+              "href": "https://connect.clover.com/get-started"
+            }
+          ]
+        },
+        {
+          "question": "What kind of customer support does Clover offer?",
+          "answer": "Clover Customer Support ensures your business runs smoothly by providing several avenues for assistance, including:\n\nPhone support: You can reach Clover’s customer support team by phone for immediate assistance with technical issues or inquiries.\n\nOnline resources: Clover provides a comprehensive online knowledge base, FAQs, and tutorials to help you troubleshoot and find solutions independently.\n\nClover’s commitment to customer support ensures that you have the resources and assistance you need to maximize the potential of your retail POS system 24/7/365.",
+          "links": [
+            {
+              "text": "reach Clover’s customer support team by phone",
+              "href": "/en-US/help/contact-us"
+            },
+            {
+              "text": "FAQs",
+              "href": "/resources/faqs"
+            }
+          ]
+        },
+        {
+          "question": "Can I integrate third‑party POS apps and accessories with my Clover point‑of‑sale system?",
+          "answer": "Yes. Clover offers extensive compatibility with third-party peripherals, such as POS apps and POS accessories, making it highly adaptable to your business needs. You can expand functionality by integrating apps for accounting, marketing, and more from the Clover App Market. Additionally, Clover’s open platform allows for hardware accessories, such as barcode scanners, scales, and kitchen printers to enhance your operations. This flexibility enables your Clover POS system to be customized to suit your unique requirements, helping your business run more smoothly and efficiently.\n\nHere are the printers compatible with Clover's POS system:\n\nThermal Label Printers: Epson TM-L90\n\nThermal Receipt Printers: Star TSP143IIIU, Epson TM-20*, Epson TM-30*\n\nImpact Receipt/Kitchen Printers: Star SP742ML, Epson TM-U220B*\n\n* Not sold on clover.com or by Clover",
+          "links": [
+            {
+              "text": "Clover App Market",
+              "href": "/appmarket"
+            },
+            {
+              "text": "hardware accessories",
+              "href": "/pos/accessories"
+            }
+          ]
+        },
+        {
+          "question": "Can I use Clover without having a POS system?",
+          "answer": "Yes. While Clover is designed as a comprehensive POS system, it also offers the option of using its Virtual Terminal Payment Processing feature independently. This feature allows you to accept payments using a web-based interface on your computer, tablet or smartphone, making it a practical solution for businesses that don’t require a full POS system but still need to process transactions securely. Whether you’re a service provider or need to accept payments remotely, Clover’s Virtual Terminal provides flexibility, convenience, and the reliability of a trusted payment processing solution.\n\nBuy or lease a device when you need it. Our point-of-sale software is also compatible with a wide range of third-party POS terminals.",
+          "links": [
+            {
+              "text": "Virtual Terminal Payment Processing",
+              "href": "/pos-systems/virtual-terminal"
+            }
+          ]
+        },
+        {
+          "question": "How do I transfer money from Clover to my bank account?",
+          "answer": "All merchants who want to accept credit cards and other electronic payments need to set up a merchant account with their payment processor. A merchant account acts as an intermediary between your business and the individual card-issuing banks that offer your customers the credit or debit cards they use to pay for your goods or services. You cannot directly access or transfer funds from this account. This means that the funds acquired from the issuing banks during transactions are automatically settled and transferred to your business bank account on average within 1-3 business days.\n\nHowever, if you need funds sooner than that, Clover Rapid Deposit can help you get your deposit in minutes for a minimal fee.",
+          "links": [
+            {
+              "text": "Clover Rapid Deposit",
+              "href": "/financial-solutions/rapid-deposit"
+            }
+          ]
+        },
+        {
+          "question": "What are the key features and benefits of Clover’s POS hardware and software?",
+          "answer": "Clover POS hardware and software offer a wide range of features and benefits, including:\n\nUser-friendly interface: Enjoy an intuitive and easy-to-use interface, and reduce training time for your team.\n\nCustomization: Tailor the software to your business needs with various apps and add-ons, ensuring it aligns with your operations.\n\nInventory management: Track and manage inventory levels, reducing waste and improving efficiency.\n\nPayment processing: Accept a variety of payment methods, including credit cards, mobile payments, and contactless options.\n\nAnalytics: Access real-time sales data and reports, aiding in informed decision-making.\n\nCustomer management: Build and maintain customer relationships with loyalty programs and CRM features.\n\nSecurity: Help safeguard sensitive customer information with Clover’s data security tools and features.\n\nIntegration: Integrate seamlessly with other business tools and platforms.\n\nThese features combine to enhance operational efficiency, boost sales, and improve the overall customer experience, making Clover a compelling choice for businesses of all sizes and industries.",
+          "links": []
+        },
+        {
+          "question": "Which payment options does Clover support?",
+          "answer": "Clover supports a wide array of payment options to cater to diverse customer preferences, which include:\n\nCredit and debit cards: Accept all of the major credit and debit cards, such as Visa, Mastercard, American Express, and Discover.\n\nMobile payments: Enable popular mobile wallet options, such as Apple Pay® and Google Wallet™ for quick, contactless transactions.\n\nEMV chip cards: Help safeguard transactions with chip card technology, reducing the risk of fraud.\n\nContactless payments: Allow customers to pay by simply tapping their cards or waving devices over the terminal.\n\nGift cards: Process and redeem gift cards easily, enhancing customer engagement and loyalty.\n\nCash transactions: Take traditional cash payments, too.\n\nClover’s versatility in payment processing helps ensure you can accommodate your customers’ preferred payment methods seamlessly.",
+          "links": []
+        },
+        {
+          "question": "How much does a Clover POS system cost?",
+          "answer": "Clover POS system pricing can vary based on your specific needs. It typically involves several components, including hardware, software, and payment processing fees.\n\nTo get an accurate cost estimate, it’s best to contact Clover directly to assess your business requirements and provide a tailored pricing quote.",
+          "links": [
+            {
+              "text": "Clover POS system pricing",
+              "href": "/pricing"
+            },
+            {
+              "text": "contact Clover directly",
+              "href": "https://connect.clover.com/get-started"
+            }
+          ]
+        },
+        {
+          "question": "How much does Clover charge per transaction?",
+          "answer": "Clover’s transaction fees can vary depending on your specific monthly plan and the terms of your agreement. Typically, Clover charges a percentage of each transaction’s total, alongside a small fixed fee per transaction.\n\nThese rates can be influenced by factors such as your business type, transaction volume, and the types of cards you accept (credit, debit, etc.), but they typically net out to be as low as 2.3% plus 10¢ per transaction.",
+          "links": [
+            {
+              "text": "as low as 2.3% plus 10¢ per transaction",
+              "href": "/pricing"
+            }
+          ]
+        }
+      ],
+      "discovered": 10
+    },
+    "contact": {
+      "url": "https://www.clover.com/contact",
+      "fetchedAt": "2026-07-24T20:35:51.945Z",
+      "renderedBy": "playwright",
+      "items": [
+        {
+          "question": "Get sales help",
+          "answer": "We can help you choose the right system. Call (833) 318-0794\n\nContact sales\nConnect with a sales team professional",
+          "links": [
+            {
+              "text": "(833) 318-0794",
+              "href": "tel:+18333180794"
+            },
+            {
+              "text": "Contact sales\nConnect with a sales team professional",
+              "href": "https://sales.clover.com/connect"
+            }
+          ]
+        },
+        {
+          "question": "Where to buy Clover",
+          "answer": "Clover is sold by trusted partners including Citi, PNC and Wells Fargo.\n\nSee Clover in person at Restaurant Depot and Sam’s Club.\n\nShop now\nShop Clover devices",
+          "links": [
+            {
+              "text": "Citi",
+              "href": "https://citi.merchantservicesbyfirstdata.com/?utm_source=cloverdotcom-getstarted"
+            },
+            {
+              "text": "PNC",
+              "href": "https://www.pnc.com/en/small-business/payments-and-processing/pnc-merchant-services.html?utm_source=cloverdotcom-getstarted"
+            },
+            {
+              "text": "Wells Fargo",
+              "href": "https://www.wellsfargo.com/biz/merchant/clover-pos-systems/?utm_source=cloverdotcom-getstarted"
+            },
+            {
+              "text": "Restaurant Depot",
+              "href": "https://www.firstdatapartners.com/restaurant-depot/?utm_source=cloverdotcom-getstarted"
+            },
+            {
+              "text": "Sam’s Club",
+              "href": "https://www.samsclubms.com/content/samsclubms/home.html?utm_source=cloverdotcom-getstarted"
+            },
+            {
+              "text": "Shop now\nShop Clover devices",
+              "href": "/shop"
+            }
+          ]
+        },
+        {
+          "question": "Get help with your existing system",
+          "answer": "The fastest way to get help is to log in to Clover Help to access information that's personalized for the Clover system you have. We've upgraded Help to include relevant articles based on your system, including your device(s) and the features you use.\n\nOur agents are available to assist you when you're unable to resolve issues on your own. There are a few ways to reach live support:\n\nFrom a browser, log in to your Clover account and select Help at the top to access a range of support options.\nOn a Clover device, tap Help on the home screen.\nIn the Clover Go mobile app, open the menu and tap Help.\nFind your direct support phone number on your statement.",
+          "links": [
+            {
+              "text": "Clover Help",
+              "href": "https://www.clover.com/en-US/help"
+            },
+            {
+              "text": "Clover account",
+              "href": "https://www.clover.com/dashboard/login"
+            }
+          ]
+        },
+        {
+          "question": "Support outside of the U.S.",
+          "answer": "Austria: Call 43-800-005-680\nGermany: Call 49-180-6-22558800\nIreland: Call 353-818-021-062 (option 1 + option 1)\n\nUK:\n\n(Clover UK Merchant Services) Call 44-345-606-5055 (option 1 + option 1)\n(Lloyds Bank Cardnet) Call 44-1268-567-100 (option 1 + option 1)\n(Allied Irish Bank Merchant Services - GB) Call 44-371-200-1436 (option 1 + option 1)\n(Allied Irish Bank Merchant Services - Northern-Ireland) Call 44-371-200-1437 (option 1 + option 1)\n\nCanada: Call (888) 263-1938\n\nArgentina: Call 54-11-4340-9800x424",
+          "links": [
+            {
+              "text": "43-800-005-680",
+              "href": "tel:+43-800-005-680"
+            },
+            {
+              "text": "49-180-6-22558800",
+              "href": "tel:+49-180-6-22558800"
+            },
+            {
+              "text": "353-818-021-062",
+              "href": "tel:+18555714243"
+            },
+            {
+              "text": "44-345-606-5055",
+              "href": "tel:+18444902437"
+            },
+            {
+              "text": "44-1268-567-100",
+              "href": "tel:+44-1268-567-100"
+            },
+            {
+              "text": "44-371-200-1436",
+              "href": "tel:+44-371-200-1436"
+            },
+            {
+              "text": "44-371-200-1437",
+              "href": "tel:+44-371-200-1437"
+            },
+            {
+              "text": "(888) 263-1938",
+              "href": "tel:+18882631938"
+            },
+            {
+              "text": "54-11-4340-9800x424",
+              "href": "tel:+541143409800;ext424"
+            }
+          ]
+        },
+        {
+          "question": "Installation support",
+          "answer": "Clover is easy to set up yourself using our quick start guides. For hands-on help, contact SMB CompuCom, a trusted third-party installation and support services provider (additional fees apply).",
+          "links": [
+            {
+              "text": "quick start guides",
+              "href": "https://www.clover.com/setup"
+            },
+            {
+              "text": "contact SMB CompuCom",
+              "href": "https://www.clover.com/installation-support-services"
+            }
+          ]
+        },
+        {
+          "question": "Make a suggestion",
+          "answer": "Browse feature requests to see what features are in the works, or make a suggestion.",
+          "links": [
+            {
+              "text": "Browse feature requests",
+              "href": "https://clover.uservoice.com/forums/108337-all-other-suggestions"
+            }
+          ]
+        },
+        {
+          "question": "Developers",
+          "answer": "Interested in building apps and integrations for Clover? Check out our developer portal.",
+          "links": [
+            {
+              "text": "developer portal",
+              "href": "https://www.clover.com/developers"
+            }
+          ]
+        },
+        {
+          "question": "Partners",
+          "answer": "Interested in partnering with Clover? Send an email to business@clover.com",
+          "links": [
+            {
+              "text": "business@clover.com",
+              "href": "mailto:business@clover.com"
+            }
+          ]
+        },
+        {
+          "question": "Resellers",
+          "answer": "Interested in reselling Clover? Find out about First Data’s ISO partnerships and agent program.",
+          "links": [
+            {
+              "text": "ISO partnerships",
+              "href": "https://www.firstdata.com/en_us/first-data-partners/iso-partnerships.html"
+            },
+            {
+              "text": "agent program",
+              "href": "https://www.firstdata.com/en_us/first-data-partners/agent-partnerships.html"
+            }
+          ]
+        },
+        {
+          "question": "Press",
+          "answer": "For press inquiries, send an email to media@fiserv.com.",
+          "links": [
+            {
+              "text": "media@fiserv.com",
+              "href": "mailto:media@fiserv.com"
+            }
+          ]
+        }
+      ],
+      "discovered": 10
+    }
+  }
+}

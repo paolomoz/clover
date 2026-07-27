@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clover — current-state brand review</title>
+<style>
+@font-face { font-family: 'Graphik'; font-weight: 400; src: url('https://cloverstatic.com/content/fonts/graphik/Graphik-Regular-Cy-Gr-Web.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Graphik'; font-weight: 500; src: url('https://cloverstatic.com/content/fonts/graphik/Graphik-Medium-Cy-Gr-Web.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Altform'; font-weight: 400; src: url('https://cloverstatic.com/content/fonts/altform/Altform-Regular.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'Altform'; font-weight: 600; src: url('https://cloverstatic.com/content/fonts/altform/Altform-SemiBold.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'PP Formula Condensed'; font-weight: 900; src: url('https://cloverstatic.com/content/fonts/formula/PPFormula-CondensedBlack.woff2') format('woff2'); font-display: swap; }
+:root {
+  --primary: #004400;
+  --primary-dark: #003000;
+  --accent: #b6fb6f;
+  --secondary: #228800;
+  --text: #000000;
+  --text-muted: #555555;
+  --surface: #ffffff;
+  --surface-alt: #ededed;
+  --border: #d8d8d8;
+  --display: 'PP Formula Condensed', 'Altform', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --display-alt: 'Altform', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --body: 'Graphik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--body); color: var(--text); background: var(--surface); }
+nav.top { position: sticky; top: 0; z-index: 10; background: var(--primary-dark); color: #fff; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 10px; padding: 10px 20px; font-family: var(--display-alt); font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; }
+nav.top .brand { font-weight: 600; margin-right: 14px; }
+nav.top a { color: #fff; text-decoration: none; padding: 5px 12px; border-radius: 150px; }
+nav.top a:hover { background: rgba(255,255,255,0.18); }
+main { max-width: 1180px; margin: 0 auto; padding: 0 24px 80px; }
+section { padding: 44px 0 12px; border-bottom: 1px solid var(--border); }
+h2 { font-family: var(--display-alt); font-weight: 600; font-size: 30px; margin: 0 0 6px; }
+h4 { font-family: var(--display-alt); margin: 6px 0; }
+.badge { display: inline-block; font-family: var(--body); font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase; padding: 2px 9px; border-radius: 150px; margin-left: 8px; vertical-align: middle; }
+.b-observed, .b-cross-page { background: var(--primary-dark); color: #fff; }
+.b-home-only { background: var(--surface-alt); color: var(--text); }
+.b-inferred { background: var(--accent); color: #003000; }
+.b-synthesized { background: #333; color: #fff; }
+.muted { color: var(--text-muted); font-size: 13px; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 12.5px; }
+.masthead { padding: 56px 0 30px; border-bottom: 4px solid var(--primary); }
+.masthead img.logo { height: 40px; display: block; margin-bottom: 18px; }
+.masthead .hero-line { font-family: var(--display); font-size: clamp(34px, 6vw, 64px); font-weight: 900; text-transform: uppercase; line-height: .92; color: var(--primary-dark); margin: 8px 0 10px; }
+.masthead .tagline { max-width: 70ch; color: var(--text-muted); }
+.stats { display: flex; flex-wrap: wrap; gap: 14px; margin: 18px 0; }
+.stat { flex: 1; min-width: 220px; background: var(--surface-alt); border-radius: 8px; padding: 18px 20px; }
+.stat .n { font-family: var(--display); font-size: 34px; font-weight: 900; color: var(--primary-dark); text-transform: uppercase; }
+.stat.acid { background: var(--accent); }
+.shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.shot { margin: 0; }
+.shot img { width: 100%; aspect-ratio: 16/10; object-fit: cover; object-position: top; border: 1px solid var(--border); border-radius: 8px; }
+.shot figcaption { font-size: 13px; margin-top: 6px; }
+.palette { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.swatch { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 14px; }
+.chip { height: 96px; border-radius: 8px; margin-bottom: 10px; }
+.sw-role { font-family: var(--display-alt); font-weight: 600; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; }
+.sw-meta { font-size: 12.5px; color: var(--text-muted); margin-top: 6px; }
+.pill-sm { display: inline-block; background: var(--surface-alt); border-radius: 150px; padding: 1px 8px; font-size: 11px; }
+.type-row { padding: 14px 0; border-top: 1px dashed var(--border); }
+.type-label { color: var(--text-muted); display: block; margin-bottom: 8px; }
+.voice-cards { display: grid; gap: 12px; }
+.voice-card { background: var(--surface-alt); border-radius: 8px; padding: 22px 24px; }
+.voice-card .vc-tag { font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px; color: var(--text-muted); }
+.voice-card .vc-body { font-family: var(--display-alt); font-size: 22px; margin-top: 4px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+@media (max-width: 720px) { table { display: block; overflow-x: auto; } .bars { flex-wrap: wrap; } }
+img, svg { max-width: 100%; }
+.pill, code { overflow-wrap: anywhere; }
+td, th { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); }
+.pill { display: inline-block; background: var(--primary-dark); color: #fff; border-radius: 150px; padding: 3px 12px; font-size: 12.5px; }
+.tensions { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 720px) { .tensions { grid-template-columns: 1fr; } }
+.tension { border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 8px; padding: 14px 16px; }
+.tension .t-head code { background: var(--surface-alt); padding: 2px 7px; border-radius: 4px; }
+.tension p { font-size: 14px; margin: 6px 0; }
+.tension .t-src { font-size: 12px; color: var(--text-muted); }
+.motifs { display: flex; flex-wrap: wrap; gap: 16px; }
+.motif { text-align: center; }
+.m-demo { width: 84px; height: 84px; background: var(--primary); margin-bottom: 6px; }
+.complist li { border-left: 3px solid var(--primary); padding: 4px 0 4px 12px; list-style: none; margin: 6px 0; }
+.complist { padding-left: 0; }
+.sys { border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin: 10px 0; }
+.logo-row { display: flex; flex-wrap: wrap; gap: 28px; align-items: flex-start; }
+.logo-row .logo-box { background: var(--surface-alt); border-radius: 8px; padding: 24px; }
+.logo-row img { max-width: 240px; height: 56px; }
+.logo-row dl { font-size: 14px; }
+.logo-row dt { font-weight: 600; font-family: var(--display-alt); margin-top: 10px; }
+.bars { display: flex; align-items: flex-end; gap: 14px; margin: 14px 0; }
+.bar-wrap { text-align: center; }
+.bar { width: 34px; background: var(--primary); border-radius: 4px 4px 0 0; }
+footer.review { padding: 30px 0; font-size: 13px; color: var(--text-muted); }
+@media print { nav.top { position: static; } section { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<nav class="top">
+  <span class="brand">Clover · Current state</span>
+  <a href="#coverage">Coverage</a><a href="#pages">Pages</a><a href="#palette">Palette</a><a href="#type">Typography</a><a href="#voice">Voice</a><a href="#tensions">Tensions</a><a href="#motifs">Motifs</a><a href="#components">Components</a><a href="#system">System</a><a href="#logo">Logo</a><a href="#spacing">Spacing</a>
+</nav>
+<main>
+<header class="masthead">
+  <img class="logo" src="assets/logo.svg" alt="Clover logo">
+  <p class="hero-line" style="color: var(--primary-dark);">A Clover for every small business</p>
+  <p class="tagline">Run your restaurant with Clover’s food &amp; beverage POS solutions. Manage orders, payments, and staff for full-service, quick-service, and specialty dining.</p>
+  <code>https://www.clover.com · extracted 2026-07-23 · 5 of 158 discovered pages (us/en locale)</code>
+</header>
+
+<section id="coverage">
+  <h2>Coverage <span class="badge b-observed">observed</span></h2>
+  <div class="stats">
+    <div class="stat"><div class="n">5 / 158</div>pages extracted (default cap 5; template-variety selection). 1 junk-filtered, 18 malformed sitemap entries dropped.</div>
+    <div class="stat"><div class="n">slow · 9.8s</div>wait strategy (escalated from medium after the vision gate) · avg measured wait+scroll+reveal per page. Zero failures; all pages live-rendered (HTTP 200).</div>
+    <div class="stat acid"><div class="n">8 · 3 · 2</div>palette roles · type families (Formula / Altform / Graphik, all private cuts) · system components. Hero medium: background <strong>video</strong>.</div>
+  </div>
+  <p class="muted">Vision gate: home and pricing were re-captured (consent modal + scroll-reveal blanking); all five verdicts now ok. See <code>_crawl-log.json#visionCheck</code>.</p>
+</section>
+
+<section id="pages">
+  <h2>Pages <span class="badge b-observed">observed</span></h2>
+  <div class="shots">
+  <figure class="shot"><a href="assets/screenshots/contact.png"><img src="assets/screenshots/contact.png" alt="Contact us | Clover screenshot" loading="lazy"></a>
+  <figcaption>Contact us | Clover<br><code>/contact</code></figcaption></figure>
+  <figure class="shot"><a href="assets/screenshots/home.png"><img src="assets/screenshots/home.png" alt="POS Solutions for Food &amp; Beverage Businesses | Clover screenshot" loading="lazy"></a>
+  <figcaption>POS Solutions for Food &amp; Beverage Businesses | Clover<br><code>/</code></figcaption></figure>
+  <figure class="shot"><a href="assets/screenshots/pos-solutions__restaurant.png"><img src="assets/screenshots/pos-solutions__restaurant.png" alt="Restaurant POS System &amp; Software - POS for Restaurants screenshot" loading="lazy"></a>
+  <figcaption>Restaurant POS System &amp; Software - POS for Restaurants<br><code>/pos-solutions/restaurant</code></figcaption></figure>
+  <figure class="shot"><a href="assets/screenshots/pos-systems.png"><img src="assets/screenshots/pos-systems.png" alt="POS System &amp; Software - Point of Sale Terminal screenshot" loading="lazy"></a>
+  <figcaption>POS System &amp; Software - Point of Sale Terminal<br><code>/pos-systems</code></figcaption></figure>
+  <figure class="shot"><a href="assets/screenshots/pricing.png"><img src="assets/screenshots/pricing.png" alt="Clover POS System Pricing and Cost screenshot" loading="lazy"></a>
+  <figcaption>Clover POS System Pricing and Cost<br><code>/pricing</code></figcaption></figure></div>
+</section>
+
+<section id="palette">
+  <h2>Color palette <span class="badge b-cross-page">cross-page</span></h2>
+  <p class="muted">Aggregated across all 5 pages, element-weighted, ΔE&lt;5 clustered. Pure black/white kept verbatim. Source: <code>_brand-extraction.json § palette</code></p>
+  <div class="palette">
+  <div class="swatch"><div class="chip" style="background:#ffffff;border:1px solid #ddd;"></div>
+  <div class="sw-role">background</div><code>#ffffff</code>
+  <div class="sw-meta">133 weighted occurrences<br><span class="pill-sm">background</span> <span class="pill-sm">text</span><br><span class="muted">contact, home, pos-solutions__restaurant</span></div></div>
+  <div class="swatch"><div class="chip" style="background:#000000;"></div>
+  <div class="sw-role">text-primary</div><code>#000000</code>
+  <div class="sw-meta">103 weighted occurrences<br><span class="pill-sm">text</span> <span class="pill-sm">background</span><br><span class="muted">contact, home, pos-solutions__restaurant</span></div></div>
+  <div class="swatch"><div class="chip" style="background:#004400;"></div>
+  <div class="sw-role">secondary</div><code>#004400</code>
+  <div class="sw-meta">71 weighted occurrences<br><span class="pill-sm">text</span> <span class="pill-sm">background</span><br><span class="muted">contact, home, pos-solutions__restaurant</span></div></div>
+  <div class="swatch"><div class="chip" style="background:#228800;"></div>
+  <div class="sw-role">primary</div><code>#228800</code>
+  <div class="sw-meta">34 weighted occurrences<br><span class="pill-sm">background</span> <span class="pill-sm">text</span><br><span class="muted">contact, pos-solutions__restaurant, pos-systems</span></div></div>
+  <div class="swatch"><div class="chip" style="background:#004422;"></div>
+  <div class="sw-role">accent-1</div><code>#004422</code>
+  <div class="sw-meta">15 weighted occurrences<br><span class="pill-sm">text</span><br><span class="muted">pos-solutions__restaurant</span></div></div>
+  <div class="swatch"><div class="chip" style="background:#333333;"></div>
+  <div class="sw-role">accent-2</div><code>#333333</code>
+  <div class="sw-meta">14 weighted occurrences<br><span class="pill-sm">text</span><br><span class="muted">home</span></div></div>
+  <div class="swatch"><div class="chip" style="background:#b6fb6f;"></div>
+  <div class="sw-role">accent-3</div><code>#b6fb6f</code>
+  <div class="sw-meta">9 weighted occurrences<br><span class="pill-sm">background</span> <span class="pill-sm">text</span><br><span class="muted">home</span></div></div>
+  <div class="swatch"><div class="chip" style="background:#ededed;"></div>
+  <div class="sw-role">surface</div><code>#ededed</code>
+  <div class="sw-meta">8 weighted occurrences<br><span class="pill-sm">text</span> <span class="pill-sm">background</span><br><span class="muted">home</span></div></div></div>
+</section>
+
+<section id="type">
+  <h2>Typography <span class="badge b-cross-page">cross-page</span> <span class="badge b-synthesized">No modular scale</span></h2>
+  <p class="muted">Real captured sizes/weights; per-level representative picked by pixel-and-weight score. Families diverge by template generation (Altform on classic pages; PP Formula Condensed display on home). Source: <code>_brand-extraction.json § type</code></p>
+  <div class="type-row"><code class="type-label">Display · PP Formula Condensed Black 900 / 92px / 0.88</code><div style="font-family:"PP Formula Condensed", "Altform", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;font-weight:900;font-size:56px;line-height:.9;text-transform:uppercase;">Run the numbers</div></div><div class="type-row"><code class="type-label">Headline · Altform 400 / 56px / 1.1</code><div style="font-family:"Altform", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;font-weight:400;font-size:40px;line-height:1.1;">Find the right solution to power your business</div></div><div class="type-row"><code class="type-label">Title · Altform 400 / 40px / 1.1</code><div style="font-family:"Altform", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;font-weight:400;font-size:30px;line-height:1.1;">Every Clover system has business built-in tools</div></div><div class="type-row"><code class="type-label">Body · Graphik 400 / 16px / 1.5</code><div style="font-family:"Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;font-weight:400;font-size:16px;line-height:1.5;max-width:66ch;">Do what you do better with the world's smartest POS system.</div></div><div class="type-row"><code class="type-label">Label · Graphik 500 / 15px</code><div style="font-family:"Graphik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;font-weight:500;font-size:15px;">Restaurants · Services · Retail · Healthcare · Products · Resources</div></div>
+</section>
+
+<section id="voice">
+  <h2>Voice <span class="badge b-home-only">home-only</span> <span class="badge b-inferred">tone guess: bold-direct</span></h2>
+  <div class="voice-cards">
+    <div class="voice-card"><div class="vc-tag">Hero headline</div><div class="vc-body">A Clover for every small business</div></div>
+    <div class="voice-card"><div class="vc-tag">Hero lede</div><div class="vc-body">Do what you do better with the world's smartest POS system.</div></div>
+    <div class="voice-card"><div class="vc-tag">First paragraph</div><div class="vc-body" style="font-size:17px;">Do what you do better with the world's smartest POS system.</div></div>
+  </div>
+  <h4>CTA frequency <span class="badge b-cross-page">cross-page</span></h4>
+  <table><tr><th>Label</th><th>Total</th><th>Pages</th><th></th></tr><tr><td><span class="pill">Contact sales</span></td><td>11</td><td>5</td><td class="muted">contact, home, pos-solutions__restaurant, pos-systems, pricing</td></tr><tr><td><span class="pill">Online ordering</span></td><td>2</td><td>2</td><td class="muted">pos-solutions__restaurant, pos-systems</td></tr><tr><td><span class="pill">View More FAQs</span></td><td>2</td><td>2</td><td class="muted">pos-systems, pricing</td></tr><tr><td><span class="pill">Get sales help</span></td><td>1</td><td>1</td><td class="muted">contact</td></tr><tr><td><span class="pill">Where to buy Clover</span></td><td>1</td><td>1</td><td class="muted">contact</td></tr><tr><td><span class="pill">Get help with your existing system</span></td><td>1</td><td>1</td><td class="muted">contact</td></tr><tr><td><span class="pill">Support outside of the U.S.</span></td><td>1</td><td>1</td><td class="muted">contact</td></tr><tr><td><span class="pill">Installation support</span></td><td>1</td><td>1</td><td class="muted">contact</td></tr></table>
+  <p class="muted">Header-nav items, locale switcher, and skip-links were excluded from CTA aggregation (see <code>_brand-extraction.json#_provenance</code>).</p>
+  <h4>Repeated headings (≥3 pages)</h4>
+  <ul><li><strong>Want to purchase a device with Clover?</strong> — 3× on 3 pages (h2)</li></ul>
+  <div class="stats">
+    <div class="stat"><div class="n">0%</div>headings uppercase in text content (home displays are uppercased via CSS <code>text-transform</code>, not content)</div>
+    <div class="stat"><div class="n">86</div>distinct headings (88 total)</div>
+    <div class="stat"><div class="n">42</div>distinct CTA labels</div>
+  </div>
+</section>
+
+<section id="tensions">
+  <h2>Tensions <span class="badge b-observed">observed</span></h2>
+  <p class="muted">Descriptive contradictions in the current site — the decision agenda for <code>$stardust direct</code>. Not prescriptions.</p>
+  <div class="tensions">
+  <div class="tension"><div class="t-head"><code>T-scale</code> <span class="badge b-synthesized">synthesized</span></div>
+  <h4>Type scale is ad-hoc</h4><p>92px → 56px → 40px → 18px, ratios 1.643 / 1.4 / 2.222 — no consistent ratio. Direct will need to decide whether the target adopts a modular scale.</p><div class="t-src">Source: _brand-extraction.json § type.scaleAudit</div></div>
+  <div class="tension"><div class="t-head"><code>T-logo-variants</code> <span class="badge b-observed">observed</span></div>
+  <h4>Logo variant set is partial</h4><p>Primary capture is the img wordmark; 3 variants captured opportunistically (green, dark-green footer, standalone mark). A white/knockout variant for dark grounds was not captured — the redesign will need a complete variant set; direct should plan it.</p><div class="t-src">Source: _brand-extraction.json § logo</div></div>
+  <div class="tension"><div class="t-head"><code>T-color-imbalance</code> <span class="badge b-cross-page">cross-page</span></div>
+  <h4>Color #004422 (accent-1) used one way only</h4><p>Appears as text only — never as background/border/fill. Direct will need to decide: drop, expand, or keep as accent.</p><div class="t-src">Source: _brand-extraction.json § palette</div></div>
+  <div class="tension"><div class="t-head"><code>T-color-imbalance</code> <span class="badge b-cross-page">cross-page</span></div>
+  <h4>Color #333333 (accent-2) used one way only</h4><p>Appears as text only — never as background/border/fill. Direct will need to decide: drop, expand, or keep as accent.</p><div class="t-src">Source: _brand-extraction.json § palette</div></div>
+  <div class="tension"><div class="t-head"><code>T-no-tokens</code> <span class="badge b-cross-page">cross-page</span></div>
+  <h4>Design-token layer is vestigial</h4><p>Only 1 custom property defined across five pages (--font-stack). The visual system lives in compiled CSS-module classes, not tokens — the migration target will introduce a real token layer.</p><div class="t-src">Source: pages/*.json § cssCustomProperties</div></div>
+  <div class="tension"><div class="t-head"><code>T-nav-conflict</code> <span class="badge b-observed">observed</span></div>
+  <h4>Top-nav actions compete</h4><p>Top-nav contains both “Pricing” and “Contact sales” — self-serve vs assisted-sales paths competing for the same user moment. Direct should resolve which is primary.</p><div class="t-src">Source: pages/home.json § landmarks (banner/navigation)</div></div></div>
+</section>
+
+<section id="motifs">
+  <h2>Motifs <span class="badge b-cross-page">cross-page</span></h2>
+  <div class="motifs">
+  <div class="motif"><div class="m-demo" style="border-radius:8px;"></div><code>8px</code><span class="muted">31 occurrences</span></div>
+  <div class="motif"><div class="m-demo" style="border-radius:4px;"></div><code>4px</code><span class="muted">8 occurrences</span></div>
+  <div class="motif"><div class="m-demo" style="border-radius:5px;"></div><code>5px</code><span class="muted">5 occurrences</span></div>
+  <div class="motif"><div class="m-demo" style="border-radius:16px;"></div><code>16px</code><span class="muted">2 occurrences</span></div>
+    <div class="motif"><div class="m-demo" style="background:var(--surface);border:1px solid var(--border);"></div><code>shadows</code><span class="muted">none captured — flat system</span></div>
+  </div>
+  <ul class="complist"><li><strong>card-grid</strong> — <span class="muted">grids detected on 5/5 pages (contact, home, pos-solutions__restaurant, pos-systems, pricing)</span></li><li><strong>carousel</strong> — <span class="muted">carousels detected on 2/5 pages (home, pos-solutions__restaurant)</span></li><li><strong>footer-mega</strong> — <span class="muted">8-column footer nav (Take payments / Run your business / Sell more / Business types / Hardware devices / Help / About / Integrations) on all pages</span></li></ul>
+</section>
+
+<section id="components">
+  <h2>Components <span class="badge b-cross-page">cross-page</span></h2>
+  <ul class="complist"><li><strong>grids</strong> — 20 across 5 pages <span class="muted">(contact, home, pos-solutions__restaurant, pos-systems, pricing)</span></li><li><strong>cards</strong> — 73 across 2 pages <span class="muted">(home, pos-solutions__restaurant)</span></li><li><strong>carousels</strong> — 75 across 2 pages <span class="muted">(home, pos-solutions__restaurant)</span></li><li><strong>accordions</strong> — 16 across 3 pages <span class="muted">(contact, pos-systems, pricing)</span></li><li><strong>testimonialCards</strong> — 12 across 1 pages <span class="muted">(home)</span></li></ul>
+</section>
+
+<section id="system">
+  <h2>System components <span class="badge b-cross-page">cross-page</span></h2>
+  
+  <div class="sys"><span class="pill">header</span> <strong>site-header</strong> — 5/5 pages
+  <div class="muted">headings: Restaurants · Services · Retail · Healthcare · Products · Resources · CTAs: Contact sales, Log In, Help Center, Pricing, Shop systems</div></div>
+  <div class="sys"><span class="pill">footer</span> <strong>site-footer</strong> — 5/5 pages
+  <div class="muted">headings: Take payments · Run your business · Sell more · Business types · Hardware devices · Help · About · Integrations</div></div>
+</section>
+
+<section id="logo">
+  <h2>Logo &amp; favicons <span class="badge b-home-only">home-only</span></h2>
+  <div class="logo-row">
+    <div class="logo-box"><img src="assets/logo.svg" alt="Clover wordmark"></div>
+    <dl>
+      <dt>Source</dt><dd>header <code>img[alt="Clover"]</code> (cloverstatic.com CDN); rendered 90×22px — below the 32px chain threshold but unambiguously the wordmark (exception noted in provenance)</dd>
+      <dt>File</dt><dd>SVG, intrinsic 164×40 → <code>assets/logo.svg</code></dd>
+      <dt>Variants captured</dt><dd>green wordmark · dark-green wordmark (footer) · standalone clover mark · favicon (192px PNG)</dd>
+      <dt>Variants not captured</dt><dd>white/knockout for dark grounds (see tension T-logo-variants)</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="spacing">
+  <h2>Spacing &amp; shape <span class="badge b-cross-page">cross-page</span></h2>
+  <p>Base unit: <strong>8px</strong> · section padding mode <strong>48px</strong> · container <strong>1158px</strong> (classic template; home runs 1280–1392px)</p>
+  <div class="bars"><div class="bar-wrap"><div class="bar" style="height:24px"></div><code>24</code></div><div class="bar-wrap"><div class="bar" style="height:48px"></div><code>48</code></div><div class="bar-wrap"><div class="bar" style="height:64px"></div><code>64</code></div><div class="bar-wrap"><div class="bar" style="height:80px"></div><code>80</code></div><div class="bar-wrap"><div class="bar" style="height:120px"></div><code>120</code></div><div class="bar-wrap"><div class="bar" style="height:128px"></div><code>128</code></div></div>
+  <h4>Radii revisited</h4>
+  <p><span class="pill">8px</span> <span class="pill">4px</span> <span class="pill">5px</span> <span class="pill">16px</span> <span class="pill" style="background:var(--surface-alt);color:var(--text);">50px pill — search input only</span></p>
+</section>
+
+<footer class="review">
+  <p><strong>Provenance.</strong> Rendered by stardust:extract from <code>_brand-extraction.json</code>, <code>_crawl-log.json</code>, <code>pages/*.json</code> (5 live Playwright captures, wait mode slow), <code>PRODUCT.md</code>, <code>DESIGN.md</code>. Chrome colors are the captured palette: --primary #004400, --primary-dark #003000 (derived: no darker same-hue candidate), --accent #b6fb6f (site signature; no ≥60° hue candidate exists on this single-hue brand). No values invented.</p>
+  <p><strong>What's next:</strong> open this file, verify the extraction, then run <code>/stardust:direct</code> to resolve a redesign direction.</p>
+  <p><strong>Badge legend:</strong> <span class="badge b-observed">observed</span> frequency-counted <span class="badge b-cross-page">cross-page</span> aggregated across all pages <span class="badge b-home-only">home-only</span> single-page source <span class="badge b-inferred">inferred</span> agent judgment <span class="badge b-synthesized">synthesized</span> constructed claim</p>
+</footer>
+</main>
+</body>
+</html>

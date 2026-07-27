@@ -1,37 +1,74 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
+/* hero — home ambient-video hero (new generation) */
+main .section > .hero-wrapper {
+  max-width: none;
   padding: 0;
+}
+
+main .hero-container {
+  background: var(--poster);
 }
 
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
-}
-
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
+  overflow: hidden;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  background: var(--poster);
+  color: var(--counter-white);
 }
 
 @media (width >= 900px) {
   .hero {
-    padding: 40px 32px;
+    min-height: 86vh;
   }
+}
+
+.hero video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero video {
+    display: none;
+  }
+}
+
+.hero .scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgb(0 0 0 / 45%), rgb(0 0 0 / 35%));
+}
+
+.hero .hero-content {
+  position: relative;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 96px 24px;
+}
+
+.hero h1 {
+  max-width: 12ch;
+  margin: 0;
+  font-family: var(--display-font-family);
+  font-size: clamp(56px, 8vw, 92px);
+  font-weight: 900;
+  line-height: 0.9;
+  text-transform: uppercase;
+  color: var(--counter-white);
+}
+
+.hero .lede {
+  max-width: 44ch;
+  margin-top: 24px;
+  font-size: var(--body-font-size-lede);
+}
+
+.hero .actions {
+  margin-top: 24px;
 }

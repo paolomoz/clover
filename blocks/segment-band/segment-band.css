@@ -1,0 +1,55 @@
+/* segment-band — sticky routing pills under the home hero */
+.segment-band {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 24px;
+  padding: 16px 0;
+}
+
+main .section:has(.segment-band) {
+  background: var(--counter-white);
+  border-bottom: 1px solid var(--countertop);
+}
+
+.segment-band .band-label {
+  font-size: var(--body-font-size-xs);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--back-office);
+}
+
+.segment-band .pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.segment-band .pill {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--countertop);
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: var(--body-font-size-s);
+  font-weight: 500;
+  color: var(--receipt-ink);
+}
+
+.segment-band .pill[aria-current='true'],
+.segment-band .pill:hover {
+  border-color: var(--receipt-ink);
+  background: var(--receipt-ink);
+  color: var(--counter-white);
+  text-decoration: none;
+}
+
+.segment-band .specialists {
+  margin-left: auto;
+  font-size: var(--body-font-size-s);
+  font-weight: 500;
+  color: var(--receipt-ink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

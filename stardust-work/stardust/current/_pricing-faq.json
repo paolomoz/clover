@@ -1,0 +1,68 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:prototype (extracted from prior pricing-proposed.html FAQPage JSON-LD, itself captured verbatim from pricing page)",
+  "writtenAt": "2026-07-26T16:00:24.637Z"
+ },
+ "items": [
+  {
+   "question": "What is a Clover Subscription?",
+   "answer": "A subscription is a simple way to obtain the point-of-sale system you need to run your business with no money down, and it includes a warranty and easy upgrade options. Payment processing fees are not included and will be priced separately.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states.",
+   "links": []
+  },
+  {
+   "question": "Can I cancel my subscription?",
+   "answer": "Subscriptions are non-cancelable and ineligible for refunds. However, a subscription agreement can be broken during a buyout or upgrade situation. You have the option to upgrade to a different device or a newer version of the same device. Subscriptions can be paid off at any time.",
+   "links": []
+  },
+  {
+   "question": "When do I get my first bill?",
+   "answer": "You will have 30-60 days before your first payment is due. Any partial month that occurs before the first bill will be pro-rated to fit existing billing cycles.",
+   "links": []
+  },
+  {
+   "question": "What happens at the end of my subscription?",
+   "answer": "At the end of your subscription term, you have the option to purchase or return your equipment. If you do not choose one of these options, your subscription term will be extended at the same monthly charge.If you don’t want to continue to rent the equipment on a month-to-month basis after your subscription ends, you’ll need to inform Clover at least 30 days before the end of the subscription term and state whether you’ll be returning or purchasing your equipment (price will be provided upon receipt of the notification).",
+   "links": []
+  },
+  {
+   "question": "What is included with full warranty vs. a limited warranty or Clover Care?",
+   "answer": "A subscription comes with Equipment Protection Program, a full warranty covering a broad scope of defects and accidental damage.* Hardware and accessories are covered for theft or loss throughout the life of the subscription contract.If you purchase POS hardware without a subscription, it will come with a limited warranty covering manufacturer defects for one year. We recommend adding Clover Care for a low upfront cost to protect your hardware and have peace of mind against damages.*Warranty includes an Equipment Protection Program and Extended Manufacturer Warranty. Contact us for more information. EPP is not available in New York and Oregon but an extended warranty will apply in those states.",
+   "links": []
+  },
+  {
+   "question": "What is a Clover system?",
+   "answer": "With Clover, there is no “one size fits all” system. You select the right combination of hardware and software solutions to help you run your business better. All of our devices come with built-in software to help you accept payments, offer customer rewards, manage employee schedules, and more. You’ll also have access to hundreds of business management software apps in the Clover App Market that integrate seamlessly with your devices. We’re here to support you every step of the way – 24/7.",
+   "links": []
+  },
+  {
+   "question": "What are the monthly fees and credit card processing rates?",
+   "answer": "Clover merchants can expect to pay a monthly software fee plus processing rates per transaction. We offer Starter, Standard, and Advanced software/hardware plans. Fees vary depending on your business type. Click on the tile at the top of the page that best describes your business to view packages and pricing.Our credit card processing rates consist of a transaction fee, which is a percentage of the amount charged, and a flat fee per charge (for example: 1.0% + 10¢). Credit card processing rates also come in pairs, meaning there is an “in-person” fee where the card is presented at your POS card reader, and a slightly higher “typed-in” fee for transactions (for example: 2.0% + 10¢) where the card is not present, like an online sale or phone order.",
+   "links": []
+  },
+  {
+   "question": "Why are you asking me to choose a business type above?",
+   "answer": "Clover understands that each business is unique. That’s why we help you select the right combination of hardware and software solutions tailored to your individual business needs. Whether you need to accept payments, manage employees, track inventory, book appointments, and much more, Clover can help you run your business the way you need to.Not fitting into one of our defined business types? No problem. Contact sales to help you learn more about the solutions that works best for you.",
+   "links": []
+  },
+  {
+   "question": "I saw Clover for a different price. Can you match it?",
+   "answer": "Each one of our Clover partners strives to provide merchants with the best plans and pricing for their individual business needs. However, there are other entities, found on eBay and elsewhere, advertising Clover at low prices despite not being genuine Clover partners. Such offers should be approached with caution. While Clover POS devices may be purchased or leased from other entities, they cannot be used with other payment processors.Clover is sold by leading financial institutions such as Citi, PNC, and Wells Fargo. You can also find Clover hardware at trusted retailers including Restaurant Depot and Sam’s Club. More than 1,000 other financial institution partners also sell Clover solutions in the US.",
+   "links": []
+  },
+  {
+   "question": "Are there any termination fees?",
+   "answer": "Contract terms and any termination fees can vary based on your service provider, whether Clover Direct or among our trusted partners including Citi, PNC and Wells Fargo, or from more than 3,000 other financial institution partners that also sell Clover solutions in the US.",
+   "links": []
+  },
+  {
+   "question": "How will Clover help my business grow?",
+   "answer": "No matter the type or size of your business, Clover offers solutions that can grow alongside you. Whether you start off in a food truck and expand to several brick-and-mortar locations, or you take your goods from in-store to online, or you go from no employees to 10 team members, we have the hardware, software, and staff to support you along your journey to success.",
+   "links": []
+  },
+  {
+   "question": "Can I still subscribe to Clover if I don’t have a device?",
+   "answer": "Yes, the Clover Virtual Terminal gives you the convenience of processing payments – and refunds – by logging into your Clover Web Dashboard from a smartphone, tablet, or computer.",
+   "links": []
+  }
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "source": "http://127.0.0.1:8791/stardust/prototypes/home-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "A Clover for every small business"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Do what you do better with the world's smartest POS system."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Get Clover",
+     "href": "/build-your-own?step=BUSINESS_OFFERING"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Contact sales",
+     "href": "https://sales.clover.com/connect"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": []
+  },
+  {
+   "section": "segment-band",
+   "items": [
+    {
+     "role": "eyebrow",
+     "order": 0,
+     "text": "Customize by"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Food & beverage",
+     "href": "/m/food-beverage"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Retail",
+     "href": "/m/retail"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Services",
+     "href": "/m/service-businesses"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Shop one-on-one with our specialists",
+     "href": "https://sales.clover.com/connect"
+    }
+   ],
+   "imgCount": 0,
+   "repeats": []
+  },
+  {
+   "section": "flow-cards",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Keep things flowing with the all‑in‑one restaurant POS"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Transform your restaurant business with Clover's integrated software solution, designed to streamline operations, enhance guest experiences, and boost profitability through insights."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore Food & Beverage",
+     "href": "/pos-solutions/food-beverage"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "See top‑performing dishes"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Manage staff, payroll, and scheduling"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Keep online orders on one platform"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Turn first‑time guests into regulars"
+    }
+   ],
+   "imgCount": 4,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "hardware",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Restaurant-grade hardware that hustles as hard as you do"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Shop devices",
+     "href": "/shop"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore Mini",
+     "href": "/mini"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Mini"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "A small, efficient system made for countertops."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Clover Flex"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "A mobile POS for orders tableside."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Station Duo"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "A dual-screen point-of-sale system that does it all."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Kitchen Display System"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "A screen that seamlessly syncs back and front of house."
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Kiosk"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "An all-in-one device with display and payment terminal for self-ordering."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Mini"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Flex"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Station Duo"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "KDS"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Kiosk"
+    }
+   ],
+   "imgCount": 6,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.device-slide",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LABEL.device-thumb",
+     "count": 5,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "stat-band",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Run the numbers"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "4M+"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Devices shipped"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Used by small businesses across restaurants, retail, and the service industry."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "#1"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "POS provider"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Named \"Best in Class\" by Javelin’s 2025 Small-Business Point-of-Sale System Scorecard."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "$337B+"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Annualized processing volume"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "A testament to Clover’s robust and reliable processing capabilities."
+    }
+   ],
+   "imgCount": 0,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "testimonial",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "I consider clover our third arm ... allowing us to focus on business not paperwork."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Robert Cucco"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Table 87"
+    }
+   ],
+   "imgCount": 1,
+   "repeats": []
+  },
+  {
+   "section": "online-orders",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "All of your online orders, in one place"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Drive revenue and deliver more to customers with commission‑free online ordering, delivery management, and easy integration with third‑party delivery apps."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Explore Online Ordering",
+     "href": "/pos-solutions/online-ordering"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Third‑party integrations"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Connect to leading online ordering platforms and streamline your sales processes for maximum efficiency."
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Custom website"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Add online ordering to your website with zero hassle for integrated menu management, order processing, and inventory tracking."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Hosted checkout"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Power smooth transactions with a secure, customizable, and mobile‑friendly checkout page."
+    },
+    {
+     "role": "heading",
+     "order": 9,
+     "text": "Pickup and delivery"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Streamline operations with a single system for online ordering, menu management, and order processing."
+    }
+   ],
+   "imgCount": 4,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.card",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 1,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

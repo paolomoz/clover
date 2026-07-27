@@ -11,3 +11,10 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+
+qa/
+drafts/
+.env
+.env.*
+content/.deploy-ledger.json
+content/.deploy-log.jsonl

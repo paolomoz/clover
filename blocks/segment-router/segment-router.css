@@ -1,0 +1,115 @@
+/* segment-router — receipt tiles on the deep-green pricing hero */
+.segment-router {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  padding-bottom: var(--section-padding);
+  text-align: left;
+}
+
+@media (width >= 600px) {
+  .segment-router {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (width >= 900px) {
+  .segment-router {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.segment-router .router-card {
+  display: grid;
+  gap: 16px;
+  align-content: start;
+  padding: 24px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--counter-white);
+  color: var(--receipt-ink);
+  text-decoration: none;
+}
+
+.segment-router .router-card:hover,
+.segment-router .router-card:focus-visible {
+  outline: 2px solid var(--clover-green);
+  outline-offset: 2px;
+  text-decoration: none;
+}
+
+.segment-router .router-top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.segment-router .router-top img {
+  width: 40px;
+  height: 40px;
+}
+
+.segment-router .router-label {
+  font-family: var(--heading-font-family);
+  font-size: var(--body-font-size-lede);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--pine);
+}
+
+.segment-router .router-price {
+  display: block;
+  border-top: 1px dashed var(--hairline);
+  padding-top: 16px;
+}
+
+.segment-router .router-price b {
+  display: block;
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--forest);
+}
+
+.segment-router .router-price small {
+  display: block;
+  margin-top: 4px;
+  font-size: var(--body-font-size-xs);
+  line-height: 1.5;
+  color: var(--back-office);
+}
+
+/* the router's section IS the captured deep-green pricing hero (#012906):
+   the block paints its own section, default-content hero copy included */
+main .section.segment-router-container {
+  background-color: var(--hero-deep);
+  color: var(--counter-white);
+  text-align: center;
+}
+
+main .section.segment-router-container .default-content-wrapper {
+  padding-top: var(--section-padding);
+}
+
+main .section.segment-router-container h1 {
+  max-width: 900px;
+  margin-inline: auto;
+  color: var(--counter-white);
+  text-wrap: balance;
+}
+
+main .section.segment-router-container h1 + p {
+  font-size: clamp(18px, 2vw, 25px);
+  font-weight: 500;
+  color: var(--counter-white);
+}
+
+main .section.segment-router-container .default-content-wrapper p {
+  color: var(--counter-white);
+}
+
+main .section.segment-router-container em {
+  font-size: var(--body-font-size-s);
+  color: rgb(255 255 255 / 85%);
+}

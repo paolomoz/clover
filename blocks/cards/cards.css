@@ -1,27 +1,105 @@
-.cards > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/* cards — card grids; classic fine-border default, home new-gen flat */
+.cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
+  grid-template-columns: 1fr;
   gap: 24px;
+  padding-bottom: var(--section-padding);
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+@media (width >= 600px) {
+  .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+@media (width >= 900px) {
+  .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body.home .cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .cards.segments {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.cards .card {
+  display: grid;
+  align-content: start;
+  overflow: hidden;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--counter-white);
+  color: var(--receipt-ink);
+  text-decoration: none;
 }
 
-.cards > ul > li img {
+.cards .card img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 850 / 500;
   object-fit: cover;
+}
+
+.cards.segments .card img {
+  aspect-ratio: 540 / 352;
+}
+
+body.home .cards .card {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+body.home .cards .card img {
+  border-radius: var(--radius);
+  aspect-ratio: 672 / 840;
+}
+
+.cards .card .card-body {
+  display: grid;
+  gap: 8px;
+  padding: 24px;
+}
+
+body.home .cards .card .card-body {
+  padding: 16px 0 0;
+}
+
+.cards .card h3 {
+  margin: 0;
+  font-size: var(--heading-font-size-m);
+  line-height: 1.25;
+  color: var(--pine);
+}
+
+body.home .cards .card h3 {
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--receipt-ink);
+}
+
+.cards .card p {
+  margin: 0;
+  font-size: var(--body-font-size-s);
+  color: var(--back-office);
+}
+
+.cards .card a:not(.button),
+.cards .card .card-go {
+  font-size: var(--body-font-size-s);
+  font-weight: 500;
+  color: var(--clover-green);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cards.segments .card:hover,
+.cards.segments .card:focus-visible {
+  outline: 2px solid var(--clover-green);
+  outline-offset: 2px;
+  text-decoration: none;
 }
