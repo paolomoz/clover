@@ -109,7 +109,14 @@ function toggleMenu(nav, navSections, forceExpanded = null) {
 }
 
 /**
- * loads and decorates the header, mainly the nav
+ * Clover header — offer strip (optional first fragment section) + brand +
+ * vertical-market links + tools (utility links + the commercial pair,
+ * authored as <em><a> Shop / <strong><a> Contact sales — the emphasis
+ * survives here because the links live in <li>, not <p>, so the header CSS
+ * styles them; audit F-008: exactly two commercial doors).
+ *
+ * /nav sections: [offer-strip?] / brand / sections / tools.
+ * Home points at /nav-home (no strip) via `nav` page metadata.
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
@@ -124,17 +131,24 @@ export default async function decorate(block) {
   nav.id = 'nav';
   while (fragment.firstElementChild) nav.append(fragment.firstElementChild);
 
-  const classes = ['brand', 'sections', 'tools'];
+  // 4 sections = offer strip leads; 3 = no strip (home)
+  const classes = nav.children.length >= 4
+    ? ['strip', 'brand', 'sections', 'tools']
+    : ['brand', 'sections', 'tools'];
   classes.forEach((c, i) => {
     const section = nav.children[i];
     if (section) section.classList.add(`nav-${c}`);
   });
 
+  // the strip sits outside the nav bar row — move it above
+  const strip = nav.querySelector('.nav-strip');
+  if (strip) strip.remove();
+
   const navBrand = nav.querySelector('.nav-brand');
   const brandLink = navBrand.querySelector('.button');
   if (brandLink) {
     brandLink.className = '';
-    brandLink.closest('.button-container').className = '';
+    brandLink.closest('.button-wrapper, .button-container').className = '';
   }
 
   const navSections = nav.querySelector('.nav-sections');
@@ -166,6 +180,7 @@ export default async function decorate(block) {
 
   const navWrapper = document.createElement('div');
   navWrapper.className = 'nav-wrapper';
+  if (strip) navWrapper.append(strip);
   navWrapper.append(nav);
   block.append(navWrapper);
 }

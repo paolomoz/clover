@@ -1,0 +1,86 @@
+/* photo-hero — full-bleed chef photo + opaque poster panel (Poster Rule) */
+main .photo-hero-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.photo-hero {
+  position: relative;
+  background: var(--poster);
+  min-height: 420px;
+}
+
+.photo-hero .hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.photo-hero .hero-bg picture,
+.photo-hero .hero-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+}
+
+.photo-hero .hero-inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 420px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+@media (width >= 900px) {
+  .photo-hero .hero-inner {
+    min-height: 520px;
+  }
+}
+
+.photo-hero .hero-panel {
+  max-width: 560px;
+  border-radius: var(--radius);
+  padding: 24px;
+  background: var(--poster);
+  color: var(--counter-white);
+}
+
+@media (width >= 900px) {
+  .photo-hero .hero-panel {
+    padding: 48px;
+  }
+}
+
+.photo-hero .eyebrow {
+  margin: 0 0 16px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 85%);
+}
+
+.photo-hero h1 {
+  margin: 0;
+  font-size: clamp(40px, 5vw, 56px);
+  color: var(--counter-white);
+  text-wrap: balance;
+}
+
+.photo-hero .lede {
+  margin-top: 16px;
+  font-size: var(--body-font-size-lede);
+}
+
+.photo-hero .actions {
+  margin-top: 24px;
+}
+
+.photo-hero .actions a.button.secondary {
+  border-color: var(--counter-white);
+  background-color: var(--counter-white);
+  color: var(--pine);
+}

@@ -1,0 +1,96 @@
+/* carousel — fine-border card rails, track bleeds right (captured trait) */
+main .carousel-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.carousel {
+  padding-bottom: var(--section-padding);
+}
+
+.carousel .carousel-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 78%;
+  gap: 24px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding: 2px 0 16px 24px;
+}
+
+@media (width >= 900px) {
+  .carousel .carousel-track {
+    grid-auto-columns: 272px;
+    padding-left: var(--content-pad);
+    scroll-padding-inline: var(--content-pad);
+  }
+}
+
+.carousel .slide-card {
+  display: grid;
+  align-content: start;
+  overflow: hidden;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius);
+  background: var(--counter-white);
+  scroll-snap-align: start;
+}
+
+.carousel .slide-card img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.carousel .slide-card .slide-copy {
+  display: grid;
+  gap: 8px;
+  padding: 16px;
+}
+
+.carousel .slide-card h3 {
+  margin: 0;
+  font-family: var(--heading-font-family);
+  font-size: var(--body-font-size-lede);
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--pine);
+}
+
+.carousel .slide-card p {
+  margin: 0;
+  font-size: var(--body-font-size-s);
+  color: var(--back-office);
+}
+
+.carousel .carousel-nav {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  padding-left: 24px;
+}
+
+@media (width >= 900px) {
+  .carousel .carousel-nav {
+    padding-left: var(--content-pad);
+  }
+}
+
+.carousel .carousel-nav button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--hairline);
+  border-radius: 50%;
+  background: var(--counter-white);
+  color: var(--clover-green);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.carousel .carousel-nav button:hover {
+  border-color: var(--clover-green);
+}

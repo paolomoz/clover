@@ -1,0 +1,138 @@
+/* hardware — full-bleed device showcase with radio rail (home) */
+main .hardware-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.hardware {
+  position: relative;
+  overflow: hidden;
+  background: var(--poster);
+  color: var(--counter-white);
+}
+
+.hardware .hw-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+
+.hardware .device-thumb img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+
+.hardware picture.hw-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hardware .hw-media.active {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hardware video.hw-media {
+    display: none;
+  }
+
+  .hardware .hw-media {
+    transition: none;
+  }
+}
+
+.hardware .scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgb(0 0 0 / 55%), rgb(0 0 0 / 35%));
+}
+
+.hardware .hw-inner {
+  position: relative;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 64px 24px;
+}
+
+.hardware .hw-head h2 {
+  max-width: 16ch;
+  margin: 0;
+  font-family: var(--display-font-family);
+  font-size: clamp(40px, 5vw, 56px);
+  font-weight: 900;
+  line-height: 0.95;
+  text-transform: uppercase;
+  color: var(--counter-white);
+}
+
+.hardware .hw-head .actions {
+  margin-top: 24px;
+}
+
+.hardware .device-carousel {
+  margin-top: 48px;
+}
+
+.hardware .device-slide {
+  display: none;
+}
+
+.hardware .device-slide.active {
+  display: block;
+}
+
+.hardware .device-slide h3 {
+  margin: 0;
+  font-family: var(--body-font-family);
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--counter-white);
+}
+
+.hardware .device-slide .caption {
+  max-width: 44ch;
+  margin: 4px 0 0;
+  color: rgb(255 255 255 / 85%);
+}
+
+.hardware .device-rail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.hardware .device-thumb {
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  width: 96px;
+  border-radius: var(--radius);
+  padding: 8px;
+  background: rgb(255 255 255 / 10%);
+  font-size: var(--body-font-size-xs);
+  text-align: center;
+  cursor: pointer;
+}
+
+.hardware .device-thumb:has(input:checked) {
+  background: var(--counter-white);
+  color: var(--receipt-ink);
+}
+
+.hardware .device-thumb input {
+  position: absolute;
+  opacity: 0;
+}
+
+.hardware .device-thumb:has(input:focus-visible) {
+  outline: 2px solid var(--fresh-lime);
+  outline-offset: 2px;
+}
+

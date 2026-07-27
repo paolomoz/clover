@@ -1,0 +1,63 @@
+/* stats — signature lime stat band (home) */
+main .stats-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+main .section:has(.stats) {
+  background: var(--fresh-lime);
+}
+
+.stats {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--section-padding) 24px;
+  color: var(--receipt-ink);
+}
+
+.stats .stats-head h2 {
+  margin: 0 0 40px;
+  font-family: var(--display-font-family);
+  font-size: clamp(40px, 5vw, 56px);
+  font-weight: 900;
+  line-height: 0.95;
+  text-transform: uppercase;
+  color: var(--receipt-ink);
+}
+
+.stats ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (width >= 900px) {
+  .stats ul {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.stats .stat-value {
+  font-family: var(--display-font-family);
+  font-size: clamp(56px, 6vw, 92px);
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.stats h3 {
+  margin: 16px 0 8px;
+  font-family: var(--body-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--receipt-ink);
+}
+
+.stats p {
+  max-width: 36ch;
+  margin: 0;
+  font-size: var(--body-font-size-s);
+}

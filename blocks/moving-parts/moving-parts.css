@@ -1,0 +1,122 @@
+/* moving-parts — sticky stage media, alternating sides, edge-bleed */
+main .moving-parts-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.moving-parts .stage {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: start;
+  padding-block: 40px;
+}
+
+@media (width >= 900px) {
+  .moving-parts .stage {
+    grid-template-columns: minmax(0, 1fr) minmax(min(600px, 50%), 1fr);
+    gap: 48px;
+    padding-block: 48px;
+  }
+
+  .moving-parts .stage.media-left {
+    grid-template-columns: minmax(min(600px, 50%), 1fr) minmax(0, 1fr);
+  }
+
+  .moving-parts .stage.media-left .stage-copy {
+    order: 2;
+    padding-left: 0;
+    padding-right: var(--content-pad);
+  }
+
+  .moving-parts .stage-media {
+    position: sticky;
+    top: calc(var(--nav-height) + 16px);
+  }
+
+  .moving-parts .stage.media-left .stage-media {
+    order: 1;
+  }
+}
+
+.moving-parts .stage-copy {
+  padding-inline: 24px;
+}
+
+@media (width >= 900px) {
+  .moving-parts .stage-copy {
+    padding-left: var(--content-pad);
+    padding-right: 0;
+  }
+}
+
+.moving-parts .stage-copy h3 {
+  margin: 0 0 24px;
+  font-size: var(--heading-font-size-l);
+  color: var(--pine);
+}
+
+.moving-parts .stage-copy .feature-line {
+  max-width: 52ch;
+  margin: 0 0 16px;
+  font-size: var(--body-font-size-s);
+  color: var(--back-office);
+}
+
+.moving-parts .stage-copy ol li strong {
+  display: block;
+  font-size: var(--body-font-size-m);
+  font-weight: 500;
+  color: var(--receipt-ink);
+}
+
+.moving-parts .stage-copy ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+  display: grid;
+  gap: 24px;
+}
+
+.moving-parts .stage-copy ol li {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  counter-increment: step;
+  max-width: 52ch;
+  font-size: var(--body-font-size-s);
+  color: var(--back-office);
+}
+
+.moving-parts .stage-copy ol li::before {
+  content: '0' counter(step);
+  font-family: var(--heading-font-family);
+  font-size: 32px;
+  line-height: 1;
+  color: var(--clover-green);
+}
+
+.moving-parts .stage-copy .feature-line strong {
+  display: block;
+  font-size: var(--body-font-size-m);
+  font-weight: 500;
+  color: var(--receipt-ink);
+}
+
+.moving-parts .stage-media img {
+  width: 100%;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+@media (width >= 900px) {
+  .moving-parts .stage-media img {
+    border-radius: var(--radius) 0 0 var(--radius);
+  }
+
+  .moving-parts .stage.media-left .stage-media img {
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+}

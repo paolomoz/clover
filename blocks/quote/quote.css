@@ -1,0 +1,84 @@
+/* quote — video testimonial (home) */
+main .quote-wrapper {
+  max-width: none;
+  padding: 0;
+}
+
+.quote {
+  position: relative;
+  overflow: hidden;
+  background: var(--poster);
+  color: var(--counter-white);
+}
+
+.quote video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quote video {
+    display: none;
+  }
+}
+
+.quote .scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 40%));
+}
+
+.quote .quote-inner {
+  position: relative;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 128px 24px;
+}
+
+.quote blockquote {
+  max-width: 800px;
+  margin: 0;
+}
+
+.quote .quote-text {
+  margin: 0;
+  font-family: var(--display-font-family);
+  font-size: clamp(32px, 4.5vw, 56px);
+  font-weight: 900;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.quote footer {
+  margin-top: 32px;
+}
+
+.quote .merchant-chip {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.quote .merchant-chip img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote cite {
+  display: grid;
+  font-style: normal;
+}
+
+.quote .merchant-name {
+  font-weight: 500;
+}
+
+.quote .merchant-org {
+  font-size: var(--body-font-size-s);
+  color: rgb(255 255 255 / 80%);
+}

@@ -1,33 +1,173 @@
-.columns > div {
-  display: flex;
-  flex-direction: column;
+/* columns — split copy/media; media bleeds to the window edge (captured trait) */
+main .columns-wrapper {
+  max-width: none;
+  padding: 0;
 }
 
-.columns img {
+.columns .cols-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: center;
+  padding-block: 40px;
+}
+
+.columns .cols-row + .cols-row {
+  padding-top: 0;
+}
+
+.columns .cols-copy {
+  padding-inline: 24px;
+}
+
+.columns .cols-media img {
   width: 100%;
-}
-
-.columns > div > div {
-  order: 1;
-}
-
-.columns > div > .columns-img-col {
-  order: 0;
-}
-
-.columns > div > .columns-img-col img {
-  display: block;
+  border-radius: 0;
+  object-fit: cover;
 }
 
 @media (width >= 900px) {
-  .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+  .columns .cols-row {
+    grid-template-columns: minmax(0, 1fr) minmax(min(600px, 50%), 1fr);
+    gap: 48px;
+    padding-block: var(--section-padding);
   }
 
-  .columns > div > div {
-    flex: 1;
-    order: unset;
+  .columns .cols-copy {
+    padding-left: var(--content-pad);
+    padding-right: 0;
   }
+
+  .columns .cols-media img {
+    border-radius: var(--radius) 0 0 var(--radius);
+  }
+
+  .columns.media-left .cols-row {
+    grid-template-columns: minmax(min(600px, 50%), 1fr) minmax(0, 1fr);
+  }
+
+  .columns.media-left .cols-copy {
+    order: 2;
+    padding-left: 0;
+    padding-right: var(--content-pad);
+  }
+
+  .columns.media-left .cols-media {
+    order: 1;
+  }
+
+  .columns.media-left .cols-media img {
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+}
+
+.columns .cols-copy .eyebrow {
+  margin: 0 0 16px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--back-office);
+}
+
+.columns .cols-copy h2 {
+  max-width: 18ch;
+  margin: 0 0 16px;
+}
+
+.columns .cols-copy p:not(.eyebrow, .button-wrapper) {
+  max-width: 52ch;
+  color: var(--back-office);
+}
+
+.columns .cols-copy h3 {
+  margin: 24px 0 4px;
+  font-size: var(--heading-font-size-m);
+  color: var(--clover-green);
+}
+
+/* stacked: copy above, image full-bleed below (restaurant back-of-house) */
+.columns.stacked .cols-row {
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+
+.columns.stacked .cols-copy {
+  order: 0;
+  max-width: 640px;
+  padding-right: 24px;
+}
+
+@media (width >= 900px) {
+  .columns.stacked .cols-copy {
+    padding-left: var(--content-pad);
+  }
+}
+
+.columns.stacked .cols-media img {
+  border-radius: 0;
+}
+
+/* grounds — paint the whole section via the container (#full-bleed) */
+main .section:has(.columns.pale) {
+  background-color: var(--pale);
+}
+
+main .section:has(.columns.consult) {
+  background-color: var(--countertop-classic);
+}
+
+main .section:has(.columns.vt) {
+  background-color: var(--clover-green);
+}
+
+main .section:has(.columns.apps) {
+  background-color: var(--forest);
+}
+
+.columns.vt .cols-copy,
+.columns.apps .cols-copy {
+  color: var(--counter-white);
+}
+
+.columns.vt .cols-copy h2,
+.columns.apps .cols-copy h2 {
+  color: var(--counter-white);
+}
+
+.columns.vt .cols-copy p:not(.eyebrow, .button-wrapper),
+.columns.apps .cols-copy p:not(.eyebrow, .button-wrapper) {
+  color: var(--counter-white);
+}
+
+.columns.vt .cols-copy a.button.secondary,
+.columns.apps .cols-copy a.button.secondary {
+  border-color: var(--counter-white);
+  background-color: var(--counter-white);
+  color: var(--pine);
+}
+
+/* apps: text-only band */
+.columns.apps .cols-row {
+  grid-template-columns: 1fr;
+}
+
+.columns.apps .cols-copy {
+  max-width: 640px;
+}
+
+/* consult: big green phone number (captured) */
+.columns.consult .cols-copy a[href^='tel:'] {
+  display: inline-block;
+  margin: 8px 0;
+  font-family: var(--heading-font-family);
+  font-size: clamp(32px, 4vw, 40px);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--clover-green);
+}
+
+/* kiosk: media-left with green feature heads */
+.columns.kiosk .cols-copy h3 {
+  margin: 24px 0 4px;
 }

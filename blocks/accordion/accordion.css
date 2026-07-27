@@ -1,0 +1,67 @@
+/* accordion — captured classic: borderless rows, green circled +/− left */
+.accordion {
+  max-width: 46em;
+  padding-bottom: var(--section-padding);
+}
+
+.accordion details {
+  margin-bottom: 16px;
+}
+
+.accordion summary {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  min-height: 48px;
+  padding: 8px 0;
+  font-size: var(--body-font-size-lede);
+  font-weight: 500;
+  line-height: 1.3;
+  cursor: pointer;
+  list-style: none;
+}
+
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion summary::before {
+  content: '+';
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border: 1.5px solid var(--clover-green);
+  border-radius: 50%;
+  color: var(--clover-green);
+  font-size: 18px;
+  line-height: 1;
+}
+
+.accordion details[open] summary::before {
+  content: '−';
+}
+
+.accordion summary:hover {
+  color: var(--clover-green);
+}
+
+.accordion .accordion-answer {
+  max-width: 40em;
+  padding: 8px 0 16px 42px;
+  color: var(--back-office);
+}
+
+.accordion .accordion-answer p {
+  margin: 0 0 16px;
+}
+
+.accordion .accordion-answer p:last-child {
+  margin-bottom: 0;
+}
+
+.accordion .accordion-answer a:any-link {
+  color: var(--clover-green);
+}
