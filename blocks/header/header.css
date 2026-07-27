@@ -60,12 +60,9 @@ header nav a:hover {
 
 /* offer strip (interior pages) */
 header .nav-strip {
+  min-height: 36px;
   background-color: var(--clover-green);
   color: var(--counter-white);
-}
-
-header .nav-strip {
-  min-height: 36px;
 }
 
 header .nav-strip .default-content-wrapper {
