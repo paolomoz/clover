@@ -64,6 +64,10 @@ header .nav-strip {
   color: var(--counter-white);
 }
 
+header .nav-strip {
+  min-height: 36px;
+}
+
 header .nav-strip .default-content-wrapper {
   display: flex;
   flex-wrap: wrap;
