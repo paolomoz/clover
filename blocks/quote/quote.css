@@ -1,5 +1,5 @@
 /* quote — video testimonial (home) */
-main .quote-wrapper {
+main .section > .quote-wrapper {
   max-width: none;
   padding: 0;
 }

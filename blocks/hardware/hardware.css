@@ -1,5 +1,5 @@
 /* hardware — full-bleed device showcase with radio rail (home) */
-main .hardware-wrapper {
+main .section > .hardware-wrapper {
   max-width: none;
   padding: 0;
 }

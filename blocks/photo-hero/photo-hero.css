@@ -1,5 +1,5 @@
 /* photo-hero — full-bleed chef photo + opaque poster panel (Poster Rule) */
-main .photo-hero-wrapper {
+main .section > .photo-hero-wrapper {
   max-width: none;
   padding: 0;
 }

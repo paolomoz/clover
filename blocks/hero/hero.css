@@ -1,5 +1,5 @@
 /* hero — home ambient-video hero (new generation) */
-main .hero-wrapper {
+main .section > .hero-wrapper {
   max-width: none;
   padding: 0;
 }

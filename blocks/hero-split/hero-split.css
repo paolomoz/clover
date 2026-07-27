@@ -1,5 +1,5 @@
 /* hero-split — white ground, ink display heading, product photo bleeds right */
-main .hero-split-wrapper {
+main .section > .hero-split-wrapper {
   max-width: none;
   padding: 0;
 }

@@ -1,5 +1,5 @@
 /* columns — split copy/media; media bleeds to the window edge (captured trait) */
-main .columns-wrapper {
+main .section > .columns-wrapper {
   max-width: none;
   padding: 0;
 }

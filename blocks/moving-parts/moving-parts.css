@@ -1,5 +1,5 @@
 /* moving-parts — sticky stage media, alternating sides, edge-bleed */
-main .moving-parts-wrapper {
+main .section > .moving-parts-wrapper {
   max-width: none;
   padding: 0;
 }

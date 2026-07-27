@@ -1,5 +1,5 @@
 /* stats — signature lime stat band (home) */
-main .stats-wrapper {
+main .section > .stats-wrapper {
   max-width: none;
   padding: 0;
 }

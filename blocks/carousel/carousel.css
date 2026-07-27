@@ -1,5 +1,5 @@
 /* carousel — fine-border card rails, track bleeds right (captured trait) */
-main .carousel-wrapper {
+main .section > .carousel-wrapper {
   max-width: none;
   padding: 0;
 }
